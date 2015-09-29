@@ -1,30 +1,33 @@
 {
 :lang :yemsa
 :sgpref "yem"
+:datasource "Lamberti1993a"
+ :geodemoURL "http://www.ethnologue.com/language/jnj"
+:geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in "
 :schemata {
-:case [:Ablative, :Absolutive, :Comitative, :Dative, :Directive, :Exit, :Genitive, :Inessive, :Locative, :Object, :Subject]
-	  :conj2 [:O]
-	  :conj3 [:U]
-	  :conjClass [:Conj1, :Conj2, :Conj2a, :Conj3, :Conj3a, :Conj3b]
-	  :derived [:Causative, :Habitual, :Iterative, :Passive]
-	  :form [:V-fa, :_NULL, :vStem-proEncl]
-	  :gender [:Common, :Fem, :Honorific, :Masc]
-	  :mood [:Command, :Conditional, :Desiderative, :Gerund, :Indicative, :Non-finite, :Potential]
+           :case [:Ablative, :Absolutive, :Comitative, :Dative, :Directive, :Exit, :Genitive, :Inessive, :Locative, :Object, :Subject]
+           :conj2 [:O]
+           :conj3 [:U]
+           :conjClass [:Conj1, :Conj2, :Conj2a, :Conj3, :Conj3a, :Conj3b]
+           :derived [:Causative, :Habitual, :Iterative, :Passive]
+           :form [:V-fa, :_NULL, :vStem-proEncl]
+           :gender [:Common, :Fem, :Honorific, :Masc]
+           :mood [:Command, :Conditional, :Desiderative, :Gerund, :Indicative, :Non-finite, :Potential]
 	  :morphClass [:DervStem, :Monosyllablic]
-	  :number [:Common, :Plural, :Singular]
-	  :person [:Person1, :Person2, :Person3]
-	  :polarity [:Affirmative, :Negative]
-	  :pos [:Pronoun, :Verb]
-	  :proClass [:Independent, :PossAdj, :PossSuff, :Possessive]
-	  :tam [:Cond1, :Des1, :Des2, :Desiderative, :FutIngr, :FutPerf, :FutProgr, :FutPunct, :FutPunctSub, :Future, :GerPres, :GerPret, :Gerund, :Imperative, :Imperfect, :Infinitive, :Irrealis, :Jussive, :Perfect, :Potential, :PresHab, :PresIngr, :PresProgr, :PresPunct, :Present, :PretDubit, :PretEgr, :PretHab, :PretIngr, :PretProgr, :Preterite, :Subordinate, :VNoun, :cond2]
-	  :templ [:Monosyllabic]
+           :number [:Common, :Plural, :Singular]
+           :person [:Person1, :Person2, :Person3]
+           :polarity [:Affirmative, :Negative]
+           :pos [:Pronoun, :Verb]
+           :proClass [:Independent, :PossAdj, :PossSuff, :Possessive]
+           :tam [:Cond1, :Des1, :Des2, :Desiderative, :FutIngr, :FutPerf, :FutProgr, :FutPunct, :FutPunctSub, :Future, :GerPres, :GerPret, :Gerund, :Imperative, :Imperfect, :Infinitive, :Irrealis, :Jussive, :Perfect, :Potential, :PresHab, :PresIngr, :PresProgr, :PresPunct, :Present, :PretDubit, :PretEgr, :PretHab, :PretIngr, :PretProgr, :Preterite, :Subordinate, :VNoun, :cond2]
+           :templ [:Monosyllabic]
 	  }
-:morphemes {
-  :PROIND {:gloss "[x]", :lemma "[y]", }
-  :PROPOSS {:gloss "[x]", :lemma "[y]", }
-  :PROPOSSADJ {:gloss "[x]", :lemma "[y]", }
-  :PROPOSSSUFF {:gloss "[x]", :lemma "[y]", }
-  :PROVSUFF {:gloss "[x]", :lemma "[y]", }
+ :morphemes {
+             :PROIND {:gloss "[x]", :lemma "[y]", }
+             :PROPOSS {:gloss "[x]", :lemma "[y]", }
+             :PROPOSSADJ {:gloss "[x]", :lemma "[y]", }
+             :PROPOSSSUFF {:gloss "[x]", :lemma "[y]", }
+             :PROVSUFF {:gloss "[x]", :lemma "[y]", }
 }
 :lexemes {
   :am {:lemma "am-", :gloss "go", :conjClass :Conj1, :pos :Verb}
