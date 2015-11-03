@@ -60,7 +60,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr,
-	    :token-aux "jammarenár (etc.)",
+	    :token-note-aux "jammarenár (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["uù-k"]]
@@ -76,7 +76,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Desiderative,
-	    :token-aux "shol-[perf~imperf~futPunct"}
+	    :token-note-aux "shol-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k / am-a-ná-k"],
 	    [:Common, :Singular, :Person2, "amà-k / am-a-tà-k"],
@@ -101,7 +101,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -123,7 +123,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "fóò"],
@@ -142,7 +142,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Potential}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k / am-a-ná-k", "ʕim-a-naá-ttà ~ ánè ʕim-ú-t"],
 	    [:Common, :Singular, :Person2, "amà-k / am-a-tà-k", "ʕim-a-taà-ttà ~ ánè ʕim-è"],
 	    [:Honorific, :Singular, :Person2, "amà-k / am-o-ní-k", "ʕim-a-nií-ttà ~ ánè ʕim-a-ní"],
@@ -164,7 +164,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-e-fán"],
 	    [:Common, :Singular, :Person2, "shol-e-fát"],
@@ -187,7 +187,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "dii-faád"],
@@ -206,7 +206,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Gerund,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-nóy"],
 	    [:Common, :Singular, :Person2, "am-a-nóy"],
@@ -231,7 +231,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-fán", "(also forms with euphonic -ì- before -f"],
 	    [:Common, :Singular, :Person2, "am-fát", "_NULL"],
 	    [:Honorific, :Singular, :Person2, "am-fení", "_NULL"],
@@ -253,7 +253,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "yaa-faád"],
@@ -273,7 +273,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["bi-í-n-toŋwà"]]
@@ -285,7 +285,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Gerund,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-u-nóy"],
 	    [:Common, :Singular, :Person2, "zag-u-nóy"],
@@ -311,7 +311,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["shol-ò-bey-à"]]
     }
@@ -326,7 +326,7 @@
 	    :pos :Verb,
 	    :tam :Imperfect,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "maa-fán", "_NULL"],
 	    [:Masc, :Person3, "mee-fé", "(etc.)"]]
     }
@@ -337,7 +337,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-í-n"],
 	    [:Common, :Singular, :Person2, "zag-í-t"],
@@ -361,7 +361,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "dú"],
@@ -376,7 +376,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -397,7 +397,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "zag-i-faád"],
 	    [:Common, :Common, :Person2, "zag-i-faád"],
@@ -414,7 +414,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["zag-ù-bey-à"]]
     }
@@ -427,7 +427,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "muu-ná"],
@@ -445,7 +445,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Desiderative}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person2, "sholò-k / shol-o-ná-k", "shol-e-taà-ttà"],
 	    [:Honorific, :Singular, :Person2, "sholò-k / shol-o-tà-k", "shol-e-nií-ttà"],
 	    [:Masc, :Singular, :Person3, "sholò-k / shol-o-ní-k", "shol-eé-ttè"],
@@ -469,7 +469,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["yaán-toŋwà"]]
@@ -485,7 +485,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-difán-attà"],
 	    [:Common, :Singular, :Person2, "am-difát-attà"],
@@ -509,7 +509,7 @@
 	    :pos :Verb,
 	    :tam :FutPunct,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "yoo-ná", "_NULL"],
 	    [:Common, :Singular, :Person2, "yoo-tà", "_NULL"],
 	    [:Masc, :Singular, :Person3, "yoo-ná", "(etc.)"],
@@ -526,7 +526,7 @@
 	    :pos :Verb,
 	    :tam :Subordinate,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "ánè ffooyè (-wà)", "_NULL"],
 	    [:Common, :Singular, :Person2, "ánè ffooyè (-wà)", "_NULL"],
 	    [:Honorific, :Singular, :Person2, "ánè foowení (-wà)", "_NULL"],
@@ -548,7 +548,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "biy-a-ná"],
@@ -571,7 +571,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr,
-	    :token-aux "koys-í-n (etc.)",
+	    :token-note-aux "koys-í-n (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["diirá"]]
@@ -587,7 +587,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-í-n"],
 	    [:Common, :Singular, :Person2, "am-í-t"],
@@ -610,7 +610,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "sholò-k", "áfà jammaroná-zà"],
 	    [:Common, :Singular, :Person2, "sholò-k", "áfà jammarotà-zà"],
 	    [:Honorific, :Singular, :Person2, "sholò-k", "áfà jammaroní-zà"],
@@ -634,7 +634,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -660,7 +660,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr,
-	    :token-aux "jammarenár (etc.)",
+	    :token-note-aux "jammarenár (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biyà-k"]]
@@ -676,7 +676,7 @@
 	    :pos :Verb,
 	    :tam :Imperfect,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "ii-fán", "_NULL"],
 	    [:Masc, :Person3, "ii-fé", "(etc.)"]]
     }
@@ -689,7 +689,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-è-difán"],
 	    [:Common, :Singular, :Person2, "shol-è-difát"],
@@ -714,7 +714,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresHab,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -739,7 +739,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà am-fooná-zà"],
 	    [:Common, :Singular, :Person2, "áfà am-footà-zà"],
@@ -765,7 +765,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["uù"]]
@@ -777,7 +777,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-u-ná"],
 	    [:Masc, :Singular, :Person3, "zag-u-wó"],
@@ -799,7 +799,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr,
-	    :token-aux "jammarén (etc.)",
+	    :token-note-aux "jammarén (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["muù-k"]]
@@ -811,7 +811,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-ì-difán"],
 	    [:Common, :Singular, :Person2, "zag-ì-difát"],
@@ -836,7 +836,7 @@
 	    :pos :Verb,
 	    :tam :PretProgr,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "iì-faaná", "_NULL"],
 	    [:Masc, :Person3, "iì-feén", "(etc.)"]]
     }
@@ -849,7 +849,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-o-ná"],
 	    [:Common, :Singular, :Person2, "shol-o-tà"],
@@ -875,7 +875,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["d-uù"]]
@@ -887,7 +887,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà zagi-fooná-zà"],
 	    [:Common, :Singular, :Person2, "áfà zagi-footà-zà"],
@@ -912,7 +912,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Desiderative}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k / am-a-ná-k", "shol-e-naá-ttà"],
 	    [:Common, :Singular, :Person2, "amà-k / am-a-tà-k", "shol-e-taà-ttà"],
 	    [:Honorific, :Singular, :Person2, "amà-k / am-o-ní-k", "shol-e-nií-ttà"],
@@ -936,7 +936,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "am-m-á"],
 	    [:Common, :Common, :Person2, "am-m-á"],
@@ -954,7 +954,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretHab}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "ánè amà-", "shak-fán"],
 	    [:Common, :Singular, :Person2, "ánè amà-", "shak-fát"],
 	    [:Honorific, :Singular, :Person2, "ánè amà-", "shak-fení"],
@@ -975,7 +975,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "i-í-n"],
@@ -998,7 +998,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["uù-k"]]
@@ -1014,7 +1014,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "mú ~ múù"],
@@ -1029,7 +1029,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "dii-r-á"],
@@ -1048,7 +1048,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà am-a-ná-zà"],
 	    [:Common, :Singular, :Person2, "áfà am-a-tà-zà"],
@@ -1069,7 +1069,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretProgr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "(ánè) zagù-", "shak-faaná"],
 	    [:Common, :Singular, :Person2, "(ánè) zagù-", "shak-feèn"],
 	    [:Honorific, :Singular, :Person2, "(ánè) zagù-", "shak-feení"],
@@ -1096,7 +1096,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["am-à"]]
     }
@@ -1111,7 +1111,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-í-n-toŋwà"],
 	    [:Common, :Singular, :Person2, "am-í-t-toŋwà"],
@@ -1135,7 +1135,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["???"]]
@@ -1147,7 +1147,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-ì-faaná"],
 	    [:Common, :Singular, :Person2, "zag-ì-feèn"],
@@ -1168,7 +1168,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-i-naá-ttà"],
 	    [:Common, :Singular, :Person2, "zag-i-taà-ttà"],
@@ -1191,7 +1191,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maa-n-ár"],
@@ -1217,7 +1217,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-ná"],
 	    [:Masc, :Singular, :Person3, "am-ó"],
@@ -1238,7 +1238,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-naá-ttà"],
 	    [:Common, :Singular, :Person2, "am-a-taà-ttà"],
@@ -1261,7 +1261,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "bii-r-á"],
@@ -1276,7 +1276,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunctSub,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-u-taá-ttà"],
 	    [:Common, :Singular, :Person2, "zag-u-taà-ttà"],
@@ -1301,7 +1301,7 @@
 	    :pos :Verb,
 	    :tam :PretProgr,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "diì-faaná", "_NULL"],
 	    [:Masc, :Person3, "diì-feén", "(etc.)"]]
     }
@@ -1315,7 +1315,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "shol-ó"],
 	    [:Honorific, :Singular, "shol-o-ní"],
@@ -1329,7 +1329,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "foo-ná"],
@@ -1353,7 +1353,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "yaá-n"],
@@ -1379,7 +1379,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Cond1,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-fanaá-né"],
 	    [:Common, :Singular, :Person2, "am-fataà-né"],
@@ -1402,7 +1402,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-u-ná"],
 	    [:Masc, :Singular, :Person3, "shol-ow-ó"],
@@ -1421,7 +1421,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -1442,7 +1442,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-i-fán"],
 	    [:Common, :Singular, :Person2, "zag-i-fát"],
@@ -1463,7 +1463,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zagin-ár"],
 	    [:Common, :Singular, :Person2, "zagit-àr"],
@@ -1488,7 +1488,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Potential,
-	    :token-aux "ʕim-[perf~imperf~futPunct"}
+	    :token-note-aux "ʕim-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k/am-a-ná-k"],
 	    [:Common, :Singular, :Person2, "amà-k/am-a-tà-k"],
@@ -1513,7 +1513,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-fooná"],
 	    [:Common, :Singular, :Person2, "am-footà"],
@@ -1538,7 +1538,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-à(-sò-n)", "koys-í-n"],
 	    [:Common, :Singular, :Person2, "am-à(-sò-n)", "koys-í-t"],
 	    [:Honorific, :Singular, :Person2, "am-à(-sò-n)", "koys-i-ní"],
@@ -1563,7 +1563,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["yoò-k"]]
@@ -1580,7 +1580,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["di-í-n-toŋwà"]]
@@ -1592,7 +1592,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Desiderative,
-	    :token-aux "shol-[perf~imperf~futPunct"}
+	    :token-note-aux "shol-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zagù-k / zag-u-ná-k"],
 	    [:Common, :Singular, :Person2, "zagù-k / zag-u-tà-k"],
@@ -1615,7 +1615,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-è-faaná"],
 	    [:Common, :Singular, :Person2, "shol-è-feèn"],
@@ -1638,7 +1638,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "ii-faá"],
@@ -1657,7 +1657,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "am-faád"],
 	    [:Common, :Common, :Person2, "am-faád"],
@@ -1673,7 +1673,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "di-í-n"],
@@ -1698,7 +1698,7 @@
 	    :pos :Verb,
 	    :tam :Desiderative,
 	    :morphClass :Monosyllablic}
-    :terms [[:person, :token, :token-aux]  ;; schema
+    :terms [[:person, :token, :token-note-aux]  ;; schema
 	    [:Person1, "foò-k / fooná-k", "shol-[perf~imperf~futPunct"],
 	    [:Person2, "foò-k / footà-k", "shol-[perf~imperf~futPunct](etc.)"]]
     }
@@ -1713,7 +1713,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretProgr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-faaná", "(also forms with euphonic -ì- before -f"],
 	    [:Common, :Singular, :Person2, "am-feèn", "_NULL"],
 	    [:Honorific, :Singular, :Person2, "am-feení", "_NULL"],
@@ -1738,7 +1738,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr,
-	    :token-aux "koys-í-n (etc.)",
+	    :token-note-aux "koys-í-n (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["yaará"]]
@@ -1750,7 +1750,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "zag-i-rá"],
 	    [:Common, :Common, :Person2, "zag-i-rá"],
@@ -1764,7 +1764,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "fooná-tà"],
@@ -1784,7 +1784,7 @@
 	    :pos :Verb,
 	    :tam :FutPunct,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "duu-ná", "futPunct"],
 	    [:Common, :Singular, :Person2, "duu-tà", "futPunct"],
 	    [:Masc, :Singular, :Person3, "duu-ná", "futPunct"],
@@ -1805,7 +1805,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["m-uù"]]
@@ -1824,7 +1824,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["amà-k"]]
     }
@@ -1840,7 +1840,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr,
-	    :token-aux "koms-í-n (etc.)",
+	    :token-note-aux "koms-í-n (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["maará"]]
@@ -1854,7 +1854,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "shol-e-rá"],
 	    [:Common, :Common, :Person2, "shol-e-rá"],
@@ -1873,7 +1873,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biy-à"]]
@@ -1889,7 +1889,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k", "áfà jammaroná-zà"],
 	    [:Common, :Singular, :Person2, "amà-k", "áfà jammarotà-zà"],
 	    [:Honorific, :Singular, :Person2, "amà-k", "áfà jammaroní-zà"],
@@ -1914,7 +1914,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr,
-	    :token-aux "jammarenár (etc.)",
+	    :token-note-aux "jammarenár (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["muù-k"]]
@@ -1930,7 +1930,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-ná"],
 	    [:Common, :Singular, :Person2, "am-a-tà"],
@@ -1954,7 +1954,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["zag-ù"]]
     }
@@ -1965,7 +1965,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Cond1,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-i-fanaá-né"],
 	    [:Common, :Singular, :Person2, "zag-i-fataà-né"],
@@ -1991,7 +1991,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["shol-ò"]]
     }
@@ -2006,7 +2006,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL", "ánè jammarót"],
 	    [:Common, :Singular, :Person2, "_NULL", "ánè jammarowè"],
 	    [:Honorific, :Singular, :Person2, "_NULL", "ánè jammarowení"],
@@ -2031,7 +2031,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biy-à-k"]]
@@ -2045,7 +2045,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "bi-í-n"],
@@ -2071,7 +2071,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretProgr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "(ánè) amà-", "shak-faaná"],
 	    [:Common, :Singular, :Person2, "(ánè) amà-", "shak-feèn"],
 	    [:Honorific, :Singular, :Person2, "(ánè) amà-", "shak-feení"],
@@ -2091,7 +2091,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -2114,7 +2114,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "muu-ná"],
@@ -2137,7 +2137,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["shol-ò-k"]]
     }
@@ -2152,7 +2152,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k", "jammarenár"],
 	    [:Common, :Singular, :Person2, "amà-k", "jammaretàr"],
 	    [:Honorific, :Singular, :Person2, "amà-k", "jammarenír"],
@@ -2176,7 +2176,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Irrealis}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-à", "shak-faná sin-fanaà-né"],
 	    [:Common, :Singular, :Person2, "am-à", "shak-fatà sin-fanaà-né"],
 	    [:Honorific, :Singular, :Person2, "am-à", "shak-faní sin-fanaà-né"],
@@ -2198,7 +2198,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "uu-ná"],
@@ -2213,7 +2213,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "foo-ná"],
@@ -2231,7 +2231,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Potential,
-	    :token-aux "ʕim-[perf~imperf~futPunct"}
+	    :token-note-aux "ʕim-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zagù-k / zag-u-ná-k"],
 	    [:Common, :Singular, :Person2, "zagù-k / zag-u-tà-k"],
@@ -2254,7 +2254,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "yaa-r-á"],
@@ -2273,7 +2273,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k", "jammar-e-naá-ttà"],
 	    [:Common, :Singular, :Person2, "amà-k", "jammar-e-taà-ttà"],
 	    [:Honorific, :Singular, :Person2, "amà-k", "jammar-e-nií-ttà"],
@@ -2298,7 +2298,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :VNoun,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["y-oò"]]
@@ -2314,7 +2314,7 @@
 	    :pos :Verb,
 	    :tam :Imperfect,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "dii-fán", "_NULL"],
 	    [:Masc, :Person3, "dii-fé", "(etc.)"]]
     }
@@ -2330,7 +2330,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr,
-	    :token-aux "jammarenár (etc.)",
+	    :token-note-aux "jammarenár (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["yoò-k"]]
@@ -2346,7 +2346,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k", "jammarén"],
 	    [:Common, :Singular, :Person2, "amà-k", "jammarét"],
 	    [:Honorific, :Singular, :Person2, "amà-k", "jammarení"],
@@ -2368,7 +2368,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Cond1,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-e-fanaá-né"],
 	    [:Common, :Singular, :Person2, "shol-e-fataà-né"],
@@ -2391,7 +2391,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "maa-faád"],
@@ -2410,7 +2410,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-ná-tà"],
 	    [:Common, :Singular, :Person2, "am-a-tà-tà"],
@@ -2435,7 +2435,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutIngr}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "amà-k", "jammaroná"],
 	    [:Common, :Singular, :Person2, "amà-k", "jammarotà"],
 	    [:Honorific, :Singular, :Person2, "amà-k", "jammaroní"],
@@ -2455,7 +2455,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "aafoó-t"],
@@ -2479,7 +2479,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "yoo-ná"],
@@ -2499,7 +2499,7 @@
 	    :pos :Verb,
 	    :tam :PretProgr,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "maa-faaná", "_NULL"],
 	    [:Masc, :Person3, "mee-feén", "(etc.)"]]
     }
@@ -2514,7 +2514,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPerf,
-	    :token-aux "kabì"}
+	    :token-note-aux "kabì"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-ná"],
 	    [:Common, :Singular, :Person2, "am-a-tà"],
@@ -2537,7 +2537,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "maa-r-á"],
@@ -2552,7 +2552,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresHab,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "_NULL"],
 	    [:Common, :Singular, :Person2, "_NULL"],
@@ -2578,7 +2578,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr,
-	    :token-aux "jammarén (etc.)",
+	    :token-note-aux "jammarén (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biyà-k"]]
@@ -2594,7 +2594,7 @@
 	    :pos :Verb,
 	    :tam :Imperfect,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "yaa-fán", "_NULL"],
 	    [:Masc, :Person3, "yee-fé", "(etc.)"]]
     }
@@ -2610,7 +2610,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretProgr,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biì-faaná"]]
@@ -2625,7 +2625,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["foò-k"]]
@@ -2638,7 +2638,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Masc, :Singular, "feé-r"],
@@ -2655,7 +2655,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-è-fooná"],
 	    [:Common, :Singular, :Person2, "shol-è-footà"],
@@ -2678,7 +2678,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-o-ná-tà"],
 	    [:Common, :Singular, :Person2, "shol-o-tà-tà"],
@@ -2703,7 +2703,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Cond1}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-à", "shak-fanaá-né"],
 	    [:Common, :Singular, :Person2, "am-à", "shak-fataà-né"],
 	    [:Honorific, :Singular, :Person2, "am-à", "shak-fanií-né"],
@@ -2725,7 +2725,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-e-naá-ttà"],
 	    [:Common, :Singular, :Person2, "shol-e-taà-ttà"],
@@ -2748,7 +2748,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "duu-ná"],
@@ -2766,7 +2766,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["zag-ù-k"]]
     }
@@ -2781,7 +2781,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :cond2,
-	    :token-aux "sin-fanaà-né"}
+	    :token-note-aux "sin-fanaà-né"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-ná-k"],
 	    [:Common, :Singular, :Person2, "am-a-tà-k"],
@@ -2802,7 +2802,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà foo-ná-zà"],
@@ -2829,7 +2829,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr,
-	    :token-aux "jammarén (etc.)",
+	    :token-note-aux "jammarén (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["duù-k"]]
@@ -2843,7 +2843,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "maá-n"],
@@ -2865,7 +2865,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-u-ná-tà"],
 	    [:Common, :Singular, :Person2, "zag-u-tà-tà"],
@@ -2889,7 +2889,7 @@
 	    :pos :Verb,
 	    :tam :Potential,
 	    :morphClass :Monosyllablic}
-    :terms [[:person, :token, :token-aux]  ;; schema
+    :terms [[:person, :token, :token-note-aux]  ;; schema
 	    [:Person1, "foò-k / fooná-k", "ʕim-[perf~imperf~futPunct"],
 	    [:Person2, "foò-k / footà-k", "ʕim- [perf~imperf~futPunct](etc/)"]]
     }
@@ -2907,7 +2907,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:token]  ;; schema
 	    ["am-à-bey-à"]]
     }
@@ -2920,7 +2920,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà shol-o-ná-zà"],
 	    [:Common, :Singular, :Person2, "áfà shol-o-tà-zà"],
@@ -2944,7 +2944,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "yóò"],
@@ -2959,7 +2959,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-ì-fooná"],
 	    [:Common, :Singular, :Person2, "zag-ì-footà"],
@@ -2980,7 +2980,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Potential}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "zagù-k / zag-u-ná-k", "ʕim-u-naá-ttà ~ ánè ʕim-ú-t"],
 	    [:Common, :Singular, :Person2, "zagù-k / zag-u-tà-k", "ʕim-u-taà-ttà ~ ánè ʕim-è"],
 	    [:Honorific, :Singular, :Person2, "zagù-k / zag-u-ní-k", "ʕim-u-nií-ttà ~ ánè ʕim-u-ní"],
@@ -3002,7 +3002,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Desiderative,
-	    :token-aux "shol-[perf~imperf~futPunct"}
+	    :token-note-aux "shol-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sholò-k / shol-o-ná-k"],
 	    [:Common, :Singular, :Person2, "sholò-k / shol-o-tà-k"],
@@ -3028,7 +3028,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["i-í-n-toŋwà"]]
@@ -3043,7 +3043,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "bí ~ bíì"],
@@ -3063,7 +3063,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr,
-	    :token-aux "koys-í-n (etc.)",
+	    :token-note-aux "koys-í-n (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["biirá"]]
@@ -3077,7 +3077,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "shol-e-faád"],
 	    [:Common, :Common, :Person2, "shol-e-faád"],
@@ -3095,7 +3095,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :cond2}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "am-à", "shakun-ár sin-fanaà-né"],
 	    [:Common, :Singular, :Person2, "am-à", "shakut-àr sin-fanaà-né"],
 	    [:Honorific, :Singular, :Person2, "am-à", "shakuní-r sin-fanaà-né"],
@@ -3119,7 +3119,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresIngr,
-	    :token-aux "jammarenár (etc.)",
+	    :token-note-aux "jammarenár (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["duù-k"]]
@@ -3135,7 +3135,7 @@
 	    :pos :Verb,
 	    :tam :FutPunct,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "biy-a-ná", "_NULL"],
 	    [:Common, :Person2, "biy-a-tà", "_NULL"],
 	    [:Masc, :Person3, "biy-a-ná", "(etc.)"]]
@@ -3149,7 +3149,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Potential,
-	    :token-aux "ʕim-[perf~imperf~futPunct"}
+	    :token-note-aux "ʕim-[perf~imperf~futPunct"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sholò-k / shol-o-ná-k"],
 	    [:Common, :Singular, :Person2, "sholò-k / shol-o-tà-k"],
@@ -3175,7 +3175,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretDubit,
-	    :token-aux "(etc.)",
+	    :token-note-aux "(etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["maán-toŋwà"]]
@@ -3189,7 +3189,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPres,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "bii-faád"],
@@ -3206,7 +3206,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "yaa-n-ár"],
@@ -3232,7 +3232,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresProgr,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-difán"],
 	    [:Common, :Singular, :Person2, "am-difát"],
@@ -3255,7 +3255,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ii-n-ár"],
@@ -3277,7 +3277,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "ú"],
@@ -3295,7 +3295,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr,
-	    :token-aux "jammarén (etc.)",
+	    :token-note-aux "jammarén (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["uù-k"]]
@@ -3309,7 +3309,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sholen-ár"],
 	    [:Common, :Singular, :Person2, "sholet-àr"],
@@ -3333,7 +3333,7 @@
 	    :pos :Verb,
 	    :tam :FutPunct,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "uu-ná", "futPunct"],
 	    [:Common, :Singular, :Person2, "uu-tà", "futPunct"],
 	    [:Masc, :Singular, :Person3, "uu-ná", "futPunct"],
@@ -3353,7 +3353,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Irrealis,
-	    :token-aux "sin-fanaà-né"}
+	    :token-note-aux "sin-fanaà-né"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-faná"],
 	    [:Common, :Singular, :Person2, "am-fatà"],
@@ -3378,7 +3378,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPerf,
-	    :token-aux "kabì-tà"}
+	    :token-note-aux "kabì-tà"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "(áfà) am-a-ná"],
 	    [:Common, :Singular, :Person2, "(áfà) am-a-tà"],
@@ -3401,7 +3401,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Perfect,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "shol-é-n"],
 	    [:Common, :Singular, :Person2, "shol-é-t"],
@@ -3425,7 +3425,7 @@
 	    :pos :Verb,
 	    :tam :PresPunct,
 	    :morphClass :Monosyllablic}
-    :terms [[:person, :token, :token-aux]  ;; schema
+    :terms [[:person, :token, :token-note-aux]  ;; schema
 	    [:Person1, "fa-naá-ttà", "_NULL"],
 	    [:Person2, "fa-taà-ttà", "(etc.)"]]
     }
@@ -3436,7 +3436,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "zag-u-ná"],
 	    [:Common, :Singular, :Person2, "zag-u-tà"],
@@ -3462,7 +3462,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["muù-k"]]
@@ -3478,7 +3478,7 @@
 	    :pos :Verb,
 	    :tam :PretProgr,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "yaa-faaná", "_NULL"],
 	    [:Masc, :Person3, "yee-feén", "(etc.)"]]
     }
@@ -3491,7 +3491,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :GerPret,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Common, :Person1, "ii-r-á"],
@@ -3511,7 +3511,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Infinitive,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["duù-k"]]
@@ -3523,7 +3523,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperfect,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "faá-n"],
@@ -3546,7 +3546,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "zag-ú"],
 	    [:Honorific, :Singular, "zag-u-ní"],
@@ -3564,7 +3564,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am(a)n-ár"],
 	    [:Common, :Singular, :Person2, "amat-àr"],
@@ -3585,7 +3585,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :PretHab}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "ánè zagù-", "shak-fán"],
 	    [:Common, :Singular, :Person2, "ánè zagù-", "shak-fát"],
 	    [:Honorific, :Singular, :Person2, "ánè zagù-", "shak-fení"],
@@ -3609,7 +3609,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretEgr,
-	    :token-aux "koys-í-n (etc.)",
+	    :token-note-aux "koys-í-n (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["iirá"]]
@@ -3626,7 +3626,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PretIngr,
-	    :token-aux "jammarén (etc.)",
+	    :token-note-aux "jammarén (etc.)",
 	    :morphClass :Monosyllablic}
     :terms [[:token]  ;; schema
 	    ["yoò-k"]]
@@ -3642,7 +3642,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunctSub,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "am-a-taá-ttà"],
 	    [:Common, :Singular, :Person2, "am-a-taà-ttà"],
@@ -3668,7 +3668,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Imperative,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :token]  ;; schema
 	    [:Common, :Singular, "ám"],
 	    [:Honorific, :Singular, "am-o-ní"],
@@ -3684,7 +3684,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "bii-n-ár"],
@@ -3710,7 +3710,7 @@
 	    :pos :Verb,
 	    :tam :Imperfect,
 	    :morphClass :Monosyllablic}
-    :terms [[:gender, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Person1, "bii-fán", "_NULL"],
 	    [:Masc, :Person3, "bii-fé", "(etc.)"]]
     }
@@ -3721,7 +3721,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :FutPunct,
-	    :token-aux "_NULL"}
+	    :token-note-aux "_NULL"}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áfà zag-u-ná-zà"],
 	    [:Common, :Singular, :Person2, "áfà zag-u-tà-zà"],
@@ -3744,7 +3744,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :PresPunct,
-	    :token-aux "_NULL",
+	    :token-note-aux "_NULL",
 	    :morphClass :Monosyllablic}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dii-n-ár"],
