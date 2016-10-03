@@ -1,9 +1,10 @@
 {
 :lang :yemsa
 :sgpref "yem"
+:subfamily "Northern Omotic Gimojan"
 :datasource "Lamberti1993a"
  :geodemoURL "http://www.ethnologue.com/language/jnj"
-:geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in "
+:geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. Southwest'; approx 92,200 speakers."
 :schemata {
            :case [:Ablative, :Absolutive, :Comitative, :Dative, :Directive, :Exit, :Genitive, :Inessive, :Locative, :Object, :Subject]
            :conjClass [:Conj1, :Conj2, :Conj2a, :Conj3, :Conj3a, :Conj3b]
@@ -50,7 +51,7 @@
   :yoo {:gloss "[x]", :lemma "[y]", }
   :zag {:lemma "zag-", :gloss "make", :conjClass :Conj3, :pos :Verb}
 }
-x:lxterms [
+:lxterms [
     {:label "yemsa-VConj1AffCond1-am"
     :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
     :common {:conjClass :Conj1,
