@@ -5,20 +5,18 @@
 :datasource "Lamberti1993a"
 :geodemoURL "http://www.ethnologue.com/language/jnj"
 :geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. Southwest'; approx 92,200 speakers."
-:schemata{:templ [:Monosyllabic],
-          :gender [:Common :Fem :Honorific :Masc],
-          :polarity [:Affirmative :Negative],
-          :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
-          :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
-          :pdgmType [:Monosyllablic :DervStem :Finite :NA :ProSuff]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :morphClass [:DervStem :Monosyllablic],
-          :derived [:Causative :Habitual :Iterative :Passive],
-          :proClass [:Independent :PossAdj :PossSuff :Possessive],
-          :mood [:Command :Conditional :Desiderative :Gerund :Indicative :Non-finite :Potential],
-          :tam [:Cond1 :Cond2 :Des1 :Des2 :Desiderative :FutIngr :FutPerf :FutProgr :FutPunct :FutPunctSub :Future :GerPres :GerPret :Gerund :Imperative :Imperfect :Infinitive :Irrealis :Jussive :Perfect :Potential :PresHab :PresIngr :PresProgr :PresPunct :Present :PretDubit :PretEgr :PretHab :PretIngr :PretProgr :Preterite :Subordinate :VNoun],
-          :number [:Plural :Singular]}
+ :schemata { :pdgmSubClass [:Monosyllabic ],
+            :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
+            :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
+            :derived [:Causative :Habitual :Iterative :Passive],
+            :gender [:Common :Fem :Honorific :Masc],
+            :number [:Common :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :PossAdj :PossSuff :Possessive],
+            :tam [:Cond1 :Cond2 :Desiderative :FutIngr :FutPerf :FutProgr :FutPunct :FutPunctSub :Future :GerPres :GerPret :Gerund :Imperative :Imperfect :Infinitive :Irrealis :Jussive :Perfect :Potential :PresHab :PresIngr :PresProgr :PresPunct :PretDubit :PretEgr :PretHab :PretIngr :PretProgr :Preterite :Subordinate :VNoun]
+            :pdgmType [:DervStem :Finite :ProSuff :FinitePartialMonosyllabic :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
@@ -197,14 +195,14 @@
     }
     {:label "yemsa-VConj1AffFutPunctMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "biy-a-ná + _NULL"],
             [:Person2 :Common "biy-a-tà + _NULL"],
@@ -226,13 +224,13 @@
     }
     {:label "yemsa-VConj1AffGerPresMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPres,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "bii-faád"],
             [:Common :Person1 :Common "bii-faád"],
@@ -255,13 +253,13 @@
     }
     {:label "yemsa-VConj1AffGerPretMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPret,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "bii-r-á"],
             [:Common :Person1 :Common "bii-r-á"],
@@ -291,14 +289,14 @@
     }
     {:label "yemsa-VConj1AffImperfMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "bii-fán + _NULL"],
             [:Person3 :Masc "bii-fé + (etc.)"]]
@@ -320,14 +318,14 @@
     }
     {:label "yemsa-VConj1AffImprtvMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :gender :token],
             [:Singular :Honorific "kem-o-ní"],
             [:Singular :Common "bí ~ bíì"],
@@ -348,14 +346,14 @@
     }
     {:label "yemsa-VConj1AffInfinitiveMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :gender :Common,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["biy-à-k"]]
     }
@@ -400,13 +398,13 @@
     }
     {:label "yemsa-VConj1AffJussMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "biy-a-ná"],
             [:Singular :Person3 :Masc "biy-ó"],
@@ -439,13 +437,13 @@
     }
     {:label "yemsa-VConj1AffPerfMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "bi-í-n"],
             [:Singular :Person2 :Honorific "keme-ní"],
@@ -504,7 +502,7 @@
     }
     {:label "yemsa-VConj1AffPresIngrMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarenár (etc.)",
@@ -512,7 +510,7 @@
              :lexeme :bi,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PresIngr,
              :number :Singular}
     :terms [[:token],
@@ -562,13 +560,13 @@
     }
     {:label "yemsa-VConj1AffPresPunctMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "bii-n-ár"],
             [:Singular :Person2 :Honorific "bii-ní-r ~ kem-e-ní-r"],
@@ -605,7 +603,7 @@
     }
     {:label "yemsa-VConj1AffPretDubitMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -613,7 +611,7 @@
              :lexeme :bi,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretDubit,
              :number :Singular}
     :terms [[:token],
@@ -642,7 +640,7 @@
     }
     {:label "yemsa-VConj1AffPretEgrMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "koys-í-n (etc.)",
@@ -650,7 +648,7 @@
              :lexeme :bi,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretEgr,
              :number :Singular}
     :terms [[:token],
@@ -679,7 +677,7 @@
     }
     {:label "yemsa-VConj1AffPretIngrMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarén (etc.)",
@@ -687,7 +685,7 @@
              :lexeme :bi,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretIngr,
              :number :Singular}
     :terms [[:token],
@@ -716,7 +714,7 @@
     }
     {:label "yemsa-VConj1AffPretProgrMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -724,7 +722,7 @@
              :lexeme :bi,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretProgr,
              :number :Singular}
     :terms [[:token],
@@ -744,14 +742,14 @@
     }
     {:label "yemsa-VConj1AffVNounMonosyll-bi"
     :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj1,
              :gender :Common,
              :lexeme :bi,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["biy-à"]]
     }
@@ -1294,13 +1292,13 @@
     }
     {:label "yemsa-VConj2AffFutPunctMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :yoo,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yoo-ná + _NULL"],
             [:Singular :Person2 :Common "yoo-tà + _NULL"],
@@ -1326,13 +1324,13 @@
     }
     {:label "yemsa-VConj2AffGerPresMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPres,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "yaa-faád"],
             [:Common :Person1 :Common "yaa-faád"],
@@ -1355,13 +1353,13 @@
     }
     {:label "yemsa-VConj2AffGerPretMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPret,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "yaa-r-á"],
             [:Common :Person1 :Common "yaa-r-á"],
@@ -1391,14 +1389,14 @@
     }
     {:label "yemsa-VConj2AffImperfMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "yaa-fán + _NULL"],
             [:Person3 :Masc "yee-fé + (etc.)"]]
@@ -1420,14 +1418,14 @@
     }
     {:label "yemsa-VConj2AffImprtvMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :gender :token],
             [:Singular :Honorific "yoo-ní ~ of-o-ní"],
             [:Singular :Common "yóò"],
@@ -1448,14 +1446,14 @@
     }
     {:label "yemsa-VConj2AffInfinitiveMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :gender :Common,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["yoò-k"]]
     }
@@ -1478,13 +1476,13 @@
     }
     {:label "yemsa-VConj2AffJussMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yoo-ná"],
             [:Singular :Person3 :Masc "y-oó"],
@@ -1515,13 +1513,13 @@
     }
     {:label "yemsa-VConj2AffPerfMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yaá-n"],
             [:Singular :Person2 :Honorific "yaa-ní ~ of-e-ní"],
@@ -1559,7 +1557,7 @@
     }
     {:label "yemsa-VConj2AffPresIngrMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarenár (etc.)",
@@ -1567,7 +1565,7 @@
              :lexeme :ya,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PresIngr,
              :number :Singular}
     :terms [[:token],
@@ -1617,13 +1615,13 @@
     }
     {:label "yemsa-VConj2AffPresPunctMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "yaa-n-ár"],
             [:Singular :Person2 :Honorific "yaa-ní-r ~ of-e-ní-r"],
@@ -1639,7 +1637,7 @@
     }
     {:label "yemsa-VConj2AffPretDubitMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -1647,7 +1645,7 @@
              :lexeme :ya,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretDubit,
              :number :Singular}
     :terms [[:token],
@@ -1655,7 +1653,7 @@
     }
     {:label "yemsa-VConj2AffPretEgrMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "koys-í-n (etc.)",
@@ -1663,7 +1661,7 @@
              :lexeme :ya,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretEgr,
              :number :Singular}
     :terms [[:token],
@@ -1671,7 +1669,7 @@
     }
     {:label "yemsa-VConj2AffPretIngrMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarén (etc.)",
@@ -1679,7 +1677,7 @@
              :lexeme :ya,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretIngr,
              :number :Singular}
     :terms [[:token],
@@ -1708,14 +1706,14 @@
     }
     {:label "yemsa-VConj2AffPretProgrMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :lexeme :ya,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PretProgr,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "yaa-faaná + _NULL"],
             [:Person3 :Masc "yee-feén + (etc.)"]]
@@ -1734,14 +1732,14 @@
     }
     {:label "yemsa-VConj2AffVNounMonosyll-ya"
     :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2,
              :gender :Common,
              :lexeme :ya,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["y-oò"]]
     }
@@ -1884,7 +1882,7 @@
     }
     {:label "yemsa-VConj2aAffDesiderativeMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :gender :Common,
              :lexeme :fa,
@@ -1892,20 +1890,20 @@
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Desiderative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :token],
             [:Person1 "foò-k / fooná-k + shol-[perf~imperf~futPunct"],
             [:Person2 "foò-k / footà-k + shol-[perf~imperf~futPunct](etc.)"]]
     }
     {:label "yemsa-VConj2aAffFutPunctMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "foo-ná"],
             [:Singular :Person2 :Honorific "foo-ní"],
@@ -1921,13 +1919,13 @@
     }
     {:label "yemsa-VConj2aAffImperfMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "faá-n"],
             [:Singular :Person2 :Honorific "faa-ní"],
@@ -1943,14 +1941,14 @@
     }
     {:label "yemsa-VConj2aAffImprtvMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :gender :token],
             [:Singular :Honorific "foo-ní"],
             [:Singular :Common "fóò"],
@@ -1959,26 +1957,26 @@
     }
     {:label "yemsa-VConj2aAffInfinitiveMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :gender :Common,
              :lexeme :fa,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["foò-k"]]
     }
     {:label "yemsa-VConj2aAffJussMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "foo-ná"],
             [:Singular :Person3 :Masc "f-oó"],
@@ -1990,7 +1988,7 @@
     }
     {:label "yemsa-VConj2aAffPotentialMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :gender :Common,
              :lexeme :fa,
@@ -1998,21 +1996,21 @@
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Potential,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :token],
             [:Person1 "foò-k / fooná-k + ʕim-[perf~imperf~futPunct"],
             [:Person2 "foò-k / footà-k + ʕim- [perf~imperf~futPunct](etc/)"]]
     }
     {:label "yemsa-VConj2aAffPresPunctMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :person :Person3,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :gender :token],
             [:Singular :Masc "feé-r"],
             [:Singular :Fem "faà-r"],
@@ -2021,26 +2019,26 @@
     }
     {:label "yemsa-VConj2aAffVNounMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :gender :Common,
              :lexeme :fa,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["???"]]
     }
     {:label "yemsa-VConj2aNegFutPunctMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Negative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "áfà foo-ná-zà"],
             [:Singular :Person2 :Honorific "áfà foo-ní-zà"],
@@ -2056,13 +2054,13 @@
     }
     {:label "yemsa-VConj2aNegImperfMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Negative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "aafoó-t"],
             [:Singular :Person2 :Honorific "aafe-ní"],
@@ -2078,13 +2076,13 @@
     }
     {:label "yemsa-VConj2aNegJussMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Negative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "fooná-tà"],
             [:Singular :Person2 :Honorific "am-o-ní-tà"],
@@ -2095,7 +2093,7 @@
     }
     {:label "yemsa-VConj2aNegPresPunctMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :gender :Common,
              :lexeme :fa,
@@ -2103,20 +2101,20 @@
              :polarity :Negative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :token],
             [:Person1 "fa-naá-ttà + _NULL"],
             [:Person2 "fa-taà-ttà + (etc.)"]]
     }
     {:label "yemsa-VConj2aNegSubordinateMonosyll-fa"
     :note "Lamberti1993 p. 249-254."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj2a,
              :lexeme :fa,
              :polarity :Negative,
              :pos :Verb,
              :tam :Subordinate,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ánè ffooyè (-wà) + _NULL"],
             [:Singular :Person2 :Honorific "ánè foowení (-wà) + _NULL"],
@@ -2217,13 +2215,13 @@
     }
     {:label "yemsa-VConj3AffFutPunctMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "muu-ná"],
             [:Singular :Person2 :Common "muu-tà"],
@@ -2249,13 +2247,13 @@
     }
     {:label "yemsa-VConj3AffGerPresMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPres,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "maa-faád"],
             [:Common :Person1 :Common "maa-faád"],
@@ -2278,13 +2276,13 @@
     }
     {:label "yemsa-VConj3AffGerPretMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPret,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "maa-r-á"],
             [:Common :Person1 :Common "maa-r-á"],
@@ -2314,14 +2312,14 @@
     }
     {:label "yemsa-VConj3AffImperfMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "maa-fán + _NULL"],
             [:Person3 :Masc "mee-fé + (etc.)"]]
@@ -2343,7 +2341,7 @@
     }
     {:label "yemsa-VConj3AffImprtvMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :gender :Common,
              :lexeme :ma,
@@ -2351,7 +2349,7 @@
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :token],
             [:Singular "mú ~ múù"],
             [:Plural "muu-tì"]]
@@ -2370,14 +2368,14 @@
     }
     {:label "yemsa-VConj3AffInfinitiveMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :gender :Common,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["muù-k"]]
     }
@@ -2400,13 +2398,13 @@
     }
     {:label "yemsa-VConj3AffJussMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "muu-ná"],
             [:Singular :Person3 :Masc "muw-ó"],
@@ -2437,13 +2435,13 @@
     }
     {:label "yemsa-VConj3AffPerfMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "maá-n"],
             [:Singular :Person2 :Honorific "maa-ní ~ ta-ní"],
@@ -2481,7 +2479,7 @@
     }
     {:label "yemsa-VConj3AffPresIngrMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarenár (etc.)",
@@ -2489,7 +2487,7 @@
              :lexeme :ma,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PresIngr,
              :number :Singular}
     :terms [[:token],
@@ -2539,13 +2537,13 @@
     }
     {:label "yemsa-VConj3AffPresPunctMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "maa-n-ár"],
             [:Singular :Person2 :Honorific "maa-ní-r"],
@@ -2561,7 +2559,7 @@
     }
     {:label "yemsa-VConj3AffPretDubitMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -2569,7 +2567,7 @@
              :lexeme :ma,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretDubit,
              :number :Singular}
     :terms [[:token],
@@ -2577,7 +2575,7 @@
     }
     {:label "yemsa-VConj3AffPretEgrMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "koms-í-n (etc.)",
@@ -2585,7 +2583,7 @@
              :lexeme :ma,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretEgr,
              :number :Singular}
     :terms [[:token],
@@ -2593,7 +2591,7 @@
     }
     {:label "yemsa-VConj3AffPretIngrMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarén (etc.)",
@@ -2601,7 +2599,7 @@
              :lexeme :ma,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretIngr,
              :number :Singular}
     :terms [[:token],
@@ -2630,14 +2628,14 @@
     }
     {:label "yemsa-VConj3AffPretProgrMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :lexeme :ma,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PretProgr,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "maa-faaná + _NULL"],
             [:Person3 :Masc "mee-feén + (etc.)"]]
@@ -2656,14 +2654,14 @@
     }
     {:label "yemsa-VConj3AffVNounMonosyll-ma"
     :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3,
              :gender :Common,
              :lexeme :ma,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["m-uù"]]
     }
@@ -2932,13 +2930,13 @@
     }
     {:label "yemsa-VConj3aAffFutPunctMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "duu-ná + futPunct"],
             [:Singular :Person2 :Common "duu-tà + futPunct"],
@@ -2950,13 +2948,13 @@
     }
     {:label "yemsa-VConj3aAffGerPresMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPres,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "dii-faád"],
             [:Common :Person1 :Common "dii-faád"],
@@ -2965,13 +2963,13 @@
     }
     {:label "yemsa-VConj3aAffGerPretMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPret,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "dii-r-á"],
             [:Common :Person1 :Common "dii-r-á"],
@@ -2980,28 +2978,28 @@
     }
     {:label "yemsa-VConj3aAffImperfMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "dii-fán + _NULL"],
             [:Person3 :Masc "dii-fé + (etc.)"]]
     }
     {:label "yemsa-VConj3aAffImprtvMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :person :Person2,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :gender :token],
             [:Singular :Honorific "duu-ní ~ kow-ní(?)"],
             [:Singular :Common "dú"],
@@ -3010,26 +3008,26 @@
     }
     {:label "yemsa-VConj3aAffInfinitiveMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :gender :Common,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["duù-k"]]
     }
     {:label "yemsa-VConj3aAffJussMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "duu-ná"],
             [:Singular :Person3 :Masc "duw-ó"],
@@ -3038,13 +3036,13 @@
     }
     {:label "yemsa-VConj3aAffPerfMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "di-í-n"],
             [:Singular :Person2 :Honorific "dii-ní ~ key-ní"],
@@ -3060,7 +3058,7 @@
     }
     {:label "yemsa-VConj3aAffPresIngrMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarenár (etc.)",
@@ -3068,7 +3066,7 @@
              :lexeme :di,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PresIngr,
              :number :Singular}
     :terms [[:token],
@@ -3076,13 +3074,13 @@
     }
     {:label "yemsa-VConj3aAffPresPunctMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "dii-n-ár"],
             [:Singular :Person2 :Honorific "dii-ní-r ~ key-ní-r"],
@@ -3098,7 +3096,7 @@
     }
     {:label "yemsa-VConj3aAffPretDubitMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -3106,7 +3104,7 @@
              :lexeme :di,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretDubit,
              :number :Singular}
     :terms [[:token],
@@ -3114,7 +3112,7 @@
     }
     {:label "yemsa-VConj3aAffPretEgrMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "koys-í-n (etc.)",
@@ -3122,7 +3120,7 @@
              :lexeme :di,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretEgr,
              :number :Singular}
     :terms [[:token],
@@ -3130,7 +3128,7 @@
     }
     {:label "yemsa-VConj3aAffPretIngrMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarén (etc.)",
@@ -3138,7 +3136,7 @@
              :lexeme :di,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretIngr,
              :number :Singular}
     :terms [[:token],
@@ -3146,40 +3144,40 @@
     }
     {:label "yemsa-VConj3aAffPretProgrMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :lexeme :di,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PretProgr,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "diì-faaná + _NULL"],
             [:Person3 :Masc "diì-feén + (etc.)"]]
     }
     {:label "yemsa-VConj3aAffVNounMonosyll-di"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3a,
              :gender :Common,
              :lexeme :di,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["d-uù"]]
     }
     {:label "yemsa-VConj3bAffFutPunctMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :FutPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "uu-ná + futPunct"],
             [:Singular :Person2 :Common "uu-tà + futPunct"],
@@ -3191,13 +3189,13 @@
     }
     {:label "yemsa-VConj3bAffGerPresMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPres,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "ii-faá"],
             [:Common :Person1 :Common "ii-faá"],
@@ -3206,13 +3204,13 @@
     }
     {:label "yemsa-VConj3bAffGerPretMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :GerPret,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person3 :Fem "ii-r-á"],
             [:Common :Person1 :Common "ii-r-á"],
@@ -3221,21 +3219,21 @@
     }
     {:label "yemsa-VConj3bAffImperfMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "ii-fán + _NULL"],
             [:Person3 :Masc "ii-fé + (etc.)"]]
     }
     {:label "yemsa-VConj3bAffImprtvMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :gender :Common,
              :lexeme :i,
@@ -3243,33 +3241,33 @@
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Imperative,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :token],
             [:Singular "ú"],
             [:Plural "uu-tì"]]
     }
     {:label "yemsa-VConj3bAffInfinitiveMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :gender :Common,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Infinitive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["uù-k"]]
     }
     {:label "yemsa-VConj3bAffJussMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "uu-ná"],
             [:Singular :Person3 :Masc "uw-ó"],
@@ -3278,13 +3276,13 @@
     }
     {:label "yemsa-VConj3bAffPerfMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Perfect,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "i-í-n"],
             [:Singular :Person2 :Common "i-í-t"],
@@ -3296,7 +3294,7 @@
     }
     {:label "yemsa-VConj3bAffPresIngrMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarenár (etc.)",
@@ -3304,7 +3302,7 @@
              :lexeme :i,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PresIngr,
              :number :Singular}
     :terms [[:token],
@@ -3312,13 +3310,13 @@
     }
     {:label "yemsa-VConj3bAffPresPunctMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PresPunct,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ii-n-ár"],
             [:Singular :Person2 :Common "ii-t-àr"],
@@ -3330,7 +3328,7 @@
     }
     {:label "yemsa-VConj3bAffPretDubitMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "(etc.)",
@@ -3338,7 +3336,7 @@
              :lexeme :i,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretDubit,
              :number :Singular}
     :terms [[:token],
@@ -3346,7 +3344,7 @@
     }
     {:label "yemsa-VConj3bAffPretEgrMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "koys-í-n (etc.)",
@@ -3354,7 +3352,7 @@
              :lexeme :i,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretEgr,
              :number :Singular}
     :terms [[:token],
@@ -3362,7 +3360,7 @@
     }
     {:label "yemsa-VConj3bAffPretIngrMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:gender :Common,
              :polarity :Affirmative,
              :token-note-aux "jammarén (etc.)",
@@ -3370,7 +3368,7 @@
              :lexeme :i,
              :pos :Verb,
              :person :Person1,
-             :morphClass :Monosyllablic,
+             :pdgmSubClass :Monosyllabic,
              :tam :PretIngr,
              :number :Singular}
     :terms [[:token],
@@ -3378,28 +3376,28 @@
     }
     {:label "yemsa-VConj3bAffPretProgrMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :lexeme :i,
              :number :Singular,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :PretProgr,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:person :gender :token],
             [:Person1 :Common "iì-faaná + _NULL"],
             [:Person3 :Masc "iì-feén + (etc.)"]]
     }
     {:label "yemsa-VConj3bAffVNounMonosyll-i"
     :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
-    :pdgmType :Monosyllablic
+    :pdgmType :FinitePartialMonosyllabic
     :common {:conjClass :Conj3b,
              :gender :Common,
              :lexeme :i,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :VNoun,
-             :morphClass :Monosyllablic}
+             :pdgmSubClass :Monosyllabic}
     :terms [[:token],
             ["uù"]]
     }
@@ -3407,9 +3405,8 @@
 :muterms [
     {:label "yemsa-PIndep"
     :note "Lamberti1993 pp. 104-115"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Ablative :Singular :Person1 :Common "taá-kìn"],
@@ -3496,9 +3493,8 @@
     }
     {:label "yemsa-PPoss"
     :note "Lamberti1993 p. 100f"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSS,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Possessive}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "taá-r"],
@@ -3513,9 +3509,8 @@
     }
     {:label "yemsa-PPossAdj"
     :note "Lamberti1993 p. 95"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSADJ,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossAdj}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tà"],
@@ -3530,9 +3525,8 @@
     }
     {:label "yemsa-PPossSuff"
     :note "Lamberti1993 p. 96f"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-ná ~ -tà-"],
@@ -3548,9 +3542,7 @@
     {:label "yemsa-VDervStem"
     :note "Lamberti1993 p.165-173."
     :pdgmType :DervStem
-    :common {:morpheme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+    :common {:pos :Verb}
     :terms [[:derived :token],
             [:Causative "-s-"],
             [:Habitual "reduplication"],
@@ -3560,9 +3552,7 @@
     {:label "yemsa-VProSuff"
     :note "Lamberti1993 pp. 115f"
     :pdgmType :ProSuff
-    :common {:morpheme :PROVSUFF,
-             :pos :Verb,
-             :morphClass :ProSuff}
+    :common {:pos :Verb}
     :terms [[:tam :number :person :gender :token],
             [:Future :Singular :Person1 :Common "-na"],
             [:Future :Singular :Person2 :Honorific "-ni"],
