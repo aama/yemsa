@@ -5,18 +5,19 @@
 :datasource "Lamberti1993a"
 :geodemoURL "http://www.ethnologue.com/language/jnj"
 :geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. Southwest'; approx 92,200 speakers."
- :schemata { :pdgmSubClass [:Monosyllabic ],
+ :schemata {:vmorphClass [:DervStem  :ProSuff],
             :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
             :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
             :derived [:Causative :Habitual :Iterative :Passive],
             :gender [:Common :Fem :Honorific :Masc],
             :number [:Common :Plural :Singular],
+            :pdgmSubClass [:Monosyllabic],
             :person [:Person1 :Person2 :Person3],
             :polarity [:Affirmative :Negative],
             :pos [:Pronoun :Verb],
             :proClass [:Independent :PossAdj :PossSuff :Possessive],
             :tam [:Cond1 :Cond2 :Desiderative :FutIngr :FutPerf :FutProgr :FutPunct :FutPunctSub :Future :GerPres :GerPret :Gerund :Imperative :Imperfect :Infinitive :Irrealis :Jussive :Perfect :Potential :PresHab :PresIngr :PresProgr :PresPunct :PretDubit :PretEgr :PretHab :PretIngr :PretProgr :Preterite :Subordinate :VNoun]
-            :pdgmType [:DervStem :Finite :ProSuff :FinitePartialMonosyllabic :PRO]}
+            :pdgmType [:Finite :FinitePartialMonosyllabic :PRO :Vother]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
@@ -3541,8 +3542,9 @@
     }
     {:label "yemsa-VDervStem"
     :note "Lamberti1993 p.165-173."
-    :pdgmType :DervStem
-    :common {:pos :Verb}
+    :pdgmType :Vother
+    :common {:vmorphClass :DervStem
+             :pos :Verb}
     :terms [[:derived :token],
             [:Causative "-s-"],
             [:Habitual "reduplication"],
@@ -3551,8 +3553,9 @@
     }
     {:label "yemsa-VProSuff"
     :note "Lamberti1993 pp. 115f"
-    :pdgmType :ProSuff
-    :common {:pos :Verb}
+    :pdgmType :Vother
+    :common {:vmorphClass :ProSuff
+             :pos :Verb}
     :terms [[:tam :number :person :gender :token],
             [:Future :Singular :Person1 :Common "-na"],
             [:Future :Singular :Person2 :Honorific "-ni"],
