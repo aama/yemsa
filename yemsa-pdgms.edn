@@ -5,8 +5,7 @@
  :datasource "Lamberti1993a"
  :geodemoURL "http://www.ethnologue.com/language/jnj"
  :geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. Southwest'; approx 92,200 speakers."
- :schemata {:lexeme [:am  :bi :di :fa :i :ma :shol :ya :yoo :zag],
- :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
+ :schemata { :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
  :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
  :derived [:Causative :Habitual :Iterative :Passive],
  :gender [:Common :Fem :Honorific :Masc],
@@ -23,22 +22,23 @@
           :synsemClass [:case :derivedStem :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
           :otherClass []}
- :lexemes{:tar {:lemma "tar- ~ ta-", :gloss "eat (honorific forms", :conjClass :Conj1, :pos :Verb},
-          :shol {:lemma "shol-", :gloss "want", :conjClass :Conj2, :pos :Verb},
-          :bey {:lemma "bey-", :gloss "fail to do", :conjClass :Conj1, :pos :Verb},
-          :am {:lemma "am-", :gloss "go", :conjClass :Conj1, :pos :Verb},
-          :ma {:lemma "ma-", :gloss "eat (non-honorific forms)", :conjClass :Conj3, :pos :Verb, :templ :Monosyllabic},
-          :et {:lemma "et-", :gloss "cook", :conjClass :Conj3, :pos :Verb},
-          :bi {:lemma "bi-", :gloss "see (non-honorific forms)", :conjClass :Conj1, :pos :Verb, :templ :Monosyllabic},
-          :key {:lemma "key-", :gloss "sit", :conjClass :Conj3, :pos :Verb},
-          :ya {:lemma "ya-", :gloss "come (non-honorific forms)", :conjClass :Conj2, :pos :Verb, :templ :Monosyllabic},
-          :of {:lemma "of-", :gloss "come (honorific forms)", :conjClass :Conj2, :pos :Verb},
-          :i {:lemma "i-", :gloss "say", :conjClass :Conj3, :pos :Verb, :templ :Monosyllabic},
-          :fa {:lemma "fa-", :gloss "be", :conjClass :Conj2, :pos :Verb},
-          :kem {:lemma "kem-", :gloss "see (honorific forms)", :conjClass :Conj2, :pos :Verb},
-          :di {:lemma "di-", :gloss "sit", :conjClass :Conj3, :pos :Verb, :templ :Monosyllabic},
-          :zag {:lemma "zag-", :gloss "make", :conjClass :Conj3, :pos :Verb},
-          :yoo {:gloss "[x]", :lemma "[y]"}}
+ :lexemes {
+:am   {:pos :Verb, :lemma "am-", :gloss "go", :conjClass :Conj1},
+:bey   {:pos :Verb, :lemma "bey-", :gloss "fail to do", :conjClass :Conj1},
+:bi   {:pos :Verb, :lemma "bi-", :gloss "see (non-honorific forms)", :conjClass :Conj1, :templ :Monosyllabic},
+:di   {:pos :Verb, :lemma "di-", :gloss "sit", :conjClass :Conj3, :templ :Monosyllabic},
+:et   {:pos :Verb, :lemma "et-", :gloss "cook", :conjClass :Conj3},
+:fa   {:pos :Verb, :lemma "fa-", :gloss "be", :conjClass :Conj2},
+:i   {:pos :Verb, :lemma "i-", :gloss "say", :conjClass :Conj3, :templ :Monosyllabic},
+:kem   {:pos :Verb, :lemma "kem-", :gloss "see (honorific forms)", :conjClass :Conj2},
+:key   {:pos :Verb, :lemma "key-", :gloss "sit", :conjClass :Conj3},
+:ma   {:pos :Verb, :lemma "ma-", :gloss "eat (non-honorific forms)", :conjClass :Conj3, :templ :Monosyllabic},
+:of   {:pos :Verb, :lemma "of-", :gloss "come (honorific forms)", :conjClass :Conj2},
+:shol   {:pos :Verb, :lemma "shol-", :gloss "want", :conjClass :Conj2},
+:tar   {:pos :Verb, :lemma "tar- ~ ta-", :gloss "eat (honorific forms", :conjClass :Conj1},
+:ya   {:pos :Verb, :lemma "ya-", :gloss "come (non-honorific forms)", :conjClass :Conj2, :templ :Monosyllabic},
+:zag   {:pos :Verb, :lemma "zag-", :gloss "make", :conjClass :Conj3},
+}
  :termclusters [
                 {:label "yemsa-VConj1AffCond1-am"
                  :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
@@ -1275,7 +1275,7 @@
                 {:label "yemsa-VConj2AffFutPunctMonosyll-ya"
                  :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
-                          :lexeme :yoo,
+                          :lexeme :ya,
                           :polarity :Affirmative,
                           :pos :Verb,
                           :tam :FutPunct,
