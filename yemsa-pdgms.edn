@@ -2,46 +2,46 @@
  :lang :yemsa
  :subfamily "Northern Omotic Gimojan"
  :sgpref "yem"
- :datasource "Lamberti1993a"
+ :datasource "Lamberti1993a; abbrev. La93"
  :geodemoURL "http://www.ethnologue.com/language/jnj"
  :geodemoTXT "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. Southwest'; approx 92,200 speakers."
  :schemata { :case [:Ablative :Absolutive :Comitative :Dative :Directive :Exit :Genitive :Inessive :Locative :Object :Subject],
- :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
- :derived [:Causative :Habitual :Iterative :Passive],
- :gender [:Common :Fem :Honorific :Masc],
- :number [:Common :Plural :Singular],
- :pdgmSubClass [:Monosyllabic],
- :person [:Person1 :Person2 :Person3],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:Independent :PossAdj :PossSuff :Possessive],
- :tam [:Cond1 :Cond2 :Desiderative :FutIngr :FutPerf :FutProgr :FutPunct :FutPunctSub :Future :GerPres :GerPret :Gerund :Imperative :Imperfect :Infinitive :Irrealis :Jussive :Perfect :Potential :PresHab :PresIngr :PresProgr :PresPunct :PretDubit :PretEgr :PretHab :PretIngr :PretProgr :Preterite :Subordinate :VNoun],
- :vmorphClass [:DervStem :Finite :FinitePartialMonosyllabic :ProSuff]
- }
+            :conjClass [:Conj1 :Conj2 :Conj2a :Conj3 :Conj3a :Conj3b],
+            :derived [:Causative :Habitual :Iterative :Passive],
+            :gender [:Common :Fem :Honorific :Masc],
+            :number [:Common :Plural :Singular],
+            :pdgmSubClass [:Monosyllabic],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:Independent :PossAdj :PossSuff :Possessive],
+            :tam [:Cond1 :Cond2 :Desiderative :FutIngr :FutPerf :FutProgr :FutPunct :FutPunctSub :Future :GerPres :GerPret :Gerund :Imperative :Imperfect :Infinitive :Irrealis :Jussive :Perfect :Potential :PresHab :PresIngr :PresProgr :PresPunct :PretDubit :PretEgr :PretHab :PretIngr :PretProgr :Preterite :Subordinate :VNoun],
+            :vmorphClass [:DervStem :Finite :FinitePartialMonosyllabic :ProSuff]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :derivedStem :mood :polarity :pos :proClass :tamb],
           :inflClass [:conjClass],
           :otherClass []}
  :lexemes {
-:am   {:pos :Verb, :lemma "am-", :gloss "go", :conjClass :Conj1},
-:bey   {:pos :Verb, :lemma "bey-", :gloss "fail to do", :conjClass :Conj1},
-:bi   {:pos :Verb, :lemma "bi-", :gloss "see (non-honorific forms)", :conjClass :Conj1, :templ :Monosyllabic},
-:di   {:pos :Verb, :lemma "di-", :gloss "sit", :conjClass :Conj3, :templ :Monosyllabic},
-:et   {:pos :Verb, :lemma "et-", :gloss "cook", :conjClass :Conj3},
-:fa   {:pos :Verb, :lemma "fa-", :gloss "be", :conjClass :Conj2},
-:i   {:pos :Verb, :lemma "i-", :gloss "say", :conjClass :Conj3, :templ :Monosyllabic},
-:kem   {:pos :Verb, :lemma "kem-", :gloss "see (honorific forms)", :conjClass :Conj2},
-:key   {:pos :Verb, :lemma "key-", :gloss "sit", :conjClass :Conj3},
-:ma   {:pos :Verb, :lemma "ma-", :gloss "eat (non-honorific forms)", :conjClass :Conj3, :templ :Monosyllabic},
-:of   {:pos :Verb, :lemma "of-", :gloss "come (honorific forms)", :conjClass :Conj2},
-:shol   {:pos :Verb, :lemma "shol-", :gloss "want", :conjClass :Conj2},
-:tar   {:pos :Verb, :lemma "tar- ~ ta-", :gloss "eat (honorific forms", :conjClass :Conj1},
-:ya   {:pos :Verb, :lemma "ya-", :gloss "come (non-honorific forms)", :conjClass :Conj2, :templ :Monosyllabic},
-:zag   {:pos :Verb, :lemma "zag-", :gloss "make", :conjClass :Conj3},
-}
+           :am   {:pos :Verb, :lemma "am-", :gloss "go", :conjClass :Conj1},
+           :bey   {:pos :Verb, :lemma "bey-", :gloss "fail to do", :conjClass :Conj1},
+           :bi   {:pos :Verb, :lemma "bi-", :gloss "see (non-honorific forms)", :conjClass :Conj1, :templ :Monosyllabic},
+           :di   {:pos :Verb, :lemma "di-", :gloss "sit", :conjClass :Conj3, :templ :Monosyllabic},
+           :et   {:pos :Verb, :lemma "et-", :gloss "cook", :conjClass :Conj3},
+           :fa   {:pos :Verb, :lemma "fa-", :gloss "be", :conjClass :Conj2},
+           :i   {:pos :Verb, :lemma "i-", :gloss "say", :conjClass :Conj3, :templ :Monosyllabic},
+           :kem   {:pos :Verb, :lemma "kem-", :gloss "see (honorific forms)", :conjClass :Conj2},
+           :key   {:pos :Verb, :lemma "key-", :gloss "sit", :conjClass :Conj3},
+           :ma   {:pos :Verb, :lemma "ma-", :gloss "eat (non-honorific forms)", :conjClass :Conj3, :templ :Monosyllabic},
+           :of   {:pos :Verb, :lemma "of-", :gloss "come (honorific forms)", :conjClass :Conj2},
+           :shol   {:pos :Verb, :lemma "shol-", :gloss "want", :conjClass :Conj2},
+           :tar   {:pos :Verb, :lemma "tar- ~ ta-", :gloss "eat (honorific forms", :conjClass :Conj1},
+           :ya   {:pos :Verb, :lemma "ya-", :gloss "come (non-honorific forms)", :conjClass :Conj2, :templ :Monosyllabic},
+           :zag   {:pos :Verb, :lemma "zag-", :gloss "make", :conjClass :Conj3},
+           }
  :termclusters [
                 {:label "yemsa-VConj1AffCond1-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -62,7 +62,7 @@
                          [:Plural :Person3 :Common "am-fateé-né"]]
                  }
                 {:label "yemsa-VConj1AffCond2-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -84,7 +84,7 @@
                          [:Plural :Person3 :Common "am-soné-k + sin-fanaà-né"]]
                  }
                 {:label "yemsa-VConj1AffDesiderative-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -106,7 +106,7 @@
                          [:Plural :Person3 :Common "amà-k / am-soné-k + shol-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj1AffFutIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -127,7 +127,7 @@
                          [:Plural :Person3 :Common "amà-k + jammarsoné"]]
                  }
                 {:label "yemsa-VConj1AffFutPerf-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -149,7 +149,7 @@
                          [:Plural :Person3 :Common "am-(s)oné + kabì"]]
                  }
                 {:label "yemsa-VConj1AffFutProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -170,7 +170,7 @@
                          [:Plural :Person3 :Common "am-fooné"]]
                  }
                 {:label "yemsa-VConj1AffFutPunct-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -191,7 +191,7 @@
                          [:Plural :Person3 :Common "am-(s)oné"]]
                  }
                 {:label "yemsa-VConj1AffFutPunctMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :number :Singular,
@@ -205,7 +205,7 @@
                          [:Person3 :Masc "biy-a-ná + (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffGerPres-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -219,7 +219,7 @@
                          [:Common :Person3 :Common "am-feéd"]]
                  }
                 {:label "yemsa-VConj1AffGerPresMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :polarity :Affirmative,
@@ -233,7 +233,7 @@
                          [:Common :Person3 :Common "bii-feéd"]]
                  }
                 {:label "yemsa-VConj1AffGerPret-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -247,7 +247,7 @@
                          [:Common :Person3 :Common "am-m-é"]]
                  }
                 {:label "yemsa-VConj1AffGerPretMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :polarity :Affirmative,
@@ -261,7 +261,7 @@
                          [:Common :Person3 :Common "bii-r-é"]]
                  }
                 {:label "yemsa-VConj1AffImperf-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -282,7 +282,7 @@
                          [:Plural :Person3 :Common "am-sefé + _NULL"]]
                  }
                 {:label "yemsa-VConj1AffImperfMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :number :Singular,
@@ -295,7 +295,7 @@
                          [:Person3 :Masc "bii-fé + (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffImprtv-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -310,7 +310,7 @@
                          [:Plural :Common "am-(o)tì"]]
                  }
                 {:label "yemsa-VConj1AffImprtvMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :person :Person2,
@@ -325,7 +325,7 @@
                          [:Plural :Common "bi-tì"]]
                  }
                 {:label "yemsa-VConj1AffInfinitive-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -337,7 +337,7 @@
                          ["amà-k"]]
                  }
                 {:label "yemsa-VConj1AffInfinitiveMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :gender :Common,
                           :lexeme :bi,
@@ -349,7 +349,7 @@
                          ["biy-à-k"]]
                  }
                 {:label "yemsa-VConj1AffIrreal-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -371,7 +371,7 @@
                          [:Plural :Person3 :Common "am-faté + sin-fanaà-né"]]
                  }
                 {:label "yemsa-VConj1AffJuss-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -388,7 +388,7 @@
                          [:Plural :Person3 :Common "am-(so)tó ~ am-o-tó"]]
                  }
                 {:label "yemsa-VConj1AffJussMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :polarity :Affirmative,
@@ -405,7 +405,7 @@
                          [:Plural :Person3 :Common "bi-so-tó"]]
                  }
                 {:label "yemsa-VConj1AffPerf-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -426,7 +426,7 @@
                          [:Plural :Person3 :Common "am-(s)eté"]]
                  }
                 {:label "yemsa-VConj1AffPerfMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :polarity :Affirmative,
@@ -447,7 +447,7 @@
                          [:Plural :Person3 :Common "bii-té"]]
                  }
                 {:label "yemsa-VConj1AffPotential-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -469,7 +469,7 @@
                          [:Plural :Person3 :Common "amà-k/am-soné-k + ʕim-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj1AffPresIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -490,7 +490,7 @@
                          [:Plural :Person3 :Common "amà-k + jammare(se)tér"]]
                  }
                 {:label "yemsa-VConj1AffPresIngrMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarenár (etc.)",
@@ -505,7 +505,7 @@
                          ["biyà-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffPresProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -526,7 +526,7 @@
                          [:Plural :Person3 :Common "am-difé"]]
                  }
                 {:label "yemsa-VConj1AffPresPunct-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -547,7 +547,7 @@
                          [:Plural :Person3 :Common "am(se)té-r"]]
                  }
                 {:label "yemsa-VConj1AffPresPunctMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :lexeme :bi,
                           :polarity :Affirmative,
@@ -568,7 +568,7 @@
                          [:Plural :Person3 :Common "biye-té-r"]]
                  }
                 {:label "yemsa-VConj1AffPretDubit-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -589,7 +589,7 @@
                          [:Plural :Person3 :Common "am-(s)eté-toŋwà"]]
                  }
                 {:label "yemsa-VConj1AffPretDubitMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -604,7 +604,7 @@
                          ["bi-í-n-toŋwà + (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffPretEgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -625,7 +625,7 @@
                          [:Plural :Person3 :Common "am-à(-sò-n) + koys-i-té ~ koys-(e-)seté"]]
                  }
                 {:label "yemsa-VConj1AffPretEgrMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "koys-í-n (etc.)",
@@ -640,7 +640,7 @@
                          ["biirá + koys-í-n (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffPretIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -661,7 +661,7 @@
                          [:Plural :Person3 :Common "amà-k + jammareté"]]
                  }
                 {:label "yemsa-VConj1AffPretIngrMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarén (etc.)",
@@ -676,7 +676,7 @@
                          ["biyà-k + jammarén (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffPretProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -697,7 +697,7 @@
                          [:Plural :Person3 :Common "am-feén + _NULL"]]
                  }
                 {:label "yemsa-VConj1AffPretProgrMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -712,7 +712,7 @@
                          ["biì-faaná + (etc.)"]]
                  }
                 {:label "yemsa-VConj1AffVNoun-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -724,7 +724,7 @@
                          ["am-à"]]
                  }
                 {:label "yemsa-VConj1AffVNounMonosyll-bi"
-                 :note "Lamberti1993 pp. 208-210. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj1,
                           :gender :Common,
                           :lexeme :bi,
@@ -736,7 +736,7 @@
                          ["biy-à"]]
                  }
                 {:label "yemsa-VConj1NegCond1-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -757,7 +757,7 @@
                          [:Plural :Person3 :Common "am-à + shak-fateé-né"]]
                  }
                 {:label "yemsa-VConj1NegCond2-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -777,7 +777,7 @@
                          [:Plural :Person3 :Common "am-à + shaku(se)té-r sin-fanaà-né"]]
                  }
                 {:label "yemsa-VConj1NegDesiderative-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -798,7 +798,7 @@
                          [:Plural :Person3 :Common "amà-k / am-soné-k + shol-e-teé-ttà"]]
                  }
                 {:label "yemsa-VConj1NegFutIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -819,7 +819,7 @@
                          [:Plural :Person3 :Common "amà-k + áfà jammarsoné-zà"]]
                  }
                 {:label "yemsa-VConj1NegFutPerf-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -841,7 +841,7 @@
                          [:Plural :Person3 :Common "(áfà) am-(s)oné + kabì-tà"]]
                  }
                 {:label "yemsa-VConj1NegFutProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -862,7 +862,7 @@
                          [:Plural :Person3 :Common "áfà am-fooné-zà"]]
                  }
                 {:label "yemsa-VConj1NegFutPunct-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -883,7 +883,7 @@
                          [:Plural :Person3 :Common "áfà am-oné-zà"]]
                  }
                 {:label "yemsa-VConj1NegFutPunctSub-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -904,7 +904,7 @@
                          [:Plural :Person3 :Common "am-so-neé-ttà"]]
                  }
                 {:label "yemsa-VConj1NegGerund-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -925,7 +925,7 @@
                          [:Plural :Person3 :Common "am-a-nóy"]]
                  }
                 {:label "yemsa-VConj1NegInfinitive-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -937,7 +937,7 @@
                          ["am-à-bey-à"]]
                  }
                 {:label "yemsa-VConj1NegIrreal-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -958,7 +958,7 @@
                          [:Plural :Person3 :Common "am-à + shak-faté sin-fanaà-né"]]
                  }
                 {:label "yemsa-VConj1NegJuss-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -979,7 +979,7 @@
                          [:Plural :Person3 :Common "am-oné-tà"]]
                  }
                 {:label "yemsa-VConj1NegPerf-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1000,7 +1000,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj1NegPotential-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1021,7 +1021,7 @@
                          [:Plural :Person3 :Common "amà-k / am-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-awe-té"]]
                  }
                 {:label "yemsa-VConj1NegPresHab-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1042,7 +1042,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj1NegPresIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1063,7 +1063,7 @@
                          [:Plural :Person3 :Common "amà-k + jammar-e-teé-ttà"]]
                  }
                 {:label "yemsa-VConj1NegPresProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1084,7 +1084,7 @@
                          [:Plural :Person3 :Common "am-difeé-ttà"]]
                  }
                 {:label "yemsa-VConj1NegPresPunct-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1105,7 +1105,7 @@
                          [:Plural :Person3 :Common "am-o-neé-ttà"]]
                  }
                 {:label "yemsa-VConj1NegPretDubit-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1126,7 +1126,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj1NegPretHab-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1146,7 +1146,7 @@
                          [:Plural :Person3 :Common "ánè amà- + shak-fé"]]
                  }
                 {:label "yemsa-VConj1NegPretIngr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1167,7 +1167,7 @@
                          [:Plural :Person3 :Common "_NULL + ánè jammarosoté"]]
                  }
                 {:label "yemsa-VConj1NegPretProgr-am"
-                 :note "Lamberti1993 p. 177-259. aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
+                 :note "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1188,7 +1188,7 @@
                          [:Plural :Person3 :Common "(ánè) amà- + shak-feén"]]
                  }
                 {:label "yemsa-VConj2AffCond1"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1209,7 +1209,7 @@
                          [:Plural :Person3 :Common "shol-e-fateé-né"]]
                  }
                 {:label "yemsa-VConj2AffDesiderative"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1231,7 +1231,7 @@
                          [:Plural :Person3 :Common "sholò-k / shol-(s)oné-k + shol-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj2AffFutProgr"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1252,7 +1252,7 @@
                          [:Plural :Person3 :Common "shol-è-fooné"]]
                  }
                 {:label "yemsa-VConj2AffFutPunct"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1273,7 +1273,7 @@
                          [:Plural :Person3 :Common "shol-soné"]]
                  }
                 {:label "yemsa-VConj2AffFutPunctMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1290,7 +1290,7 @@
                          [:Plural :Person3 :Common "yoo-té (??) + _NULL"]]
                  }
                 {:label "yemsa-VConj2AffGerPres"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1304,7 +1304,7 @@
                          [:Common :Person3 :Common "shol-e-feéd"]]
                  }
                 {:label "yemsa-VConj2AffGerPresMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1318,7 +1318,7 @@
                          [:Common :Person3 :Common "yee-feéd"]]
                  }
                 {:label "yemsa-VConj2AffGerPret"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1332,7 +1332,7 @@
                          [:Common :Person3 :Common "shol-e-ré"]]
                  }
                 {:label "yemsa-VConj2AffGerPretMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1346,7 +1346,7 @@
                          [:Common :Person3 :Common "yee-r-é"]]
                  }
                 {:label "yemsa-VConj2AffImperf"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- work conjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- work conjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1367,7 +1367,7 @@
                          [:Plural :Person3 :Common "shol-e-sefé"]]
                  }
                 {:label "yemsa-VConj2AffImperfMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :number :Singular,
@@ -1380,7 +1380,7 @@
                          [:Person3 :Masc "yee-fé + (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffImprtv"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1395,7 +1395,7 @@
                          [:Plural :Common "shol-o-tì"]]
                  }
                 {:label "yemsa-VConj2AffImprtvMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :person :Person2,
@@ -1410,7 +1410,7 @@
                          [:Plural :Common "yoo-tì"]]
                  }
                 {:label "yemsa-VConj2AffInfinitive"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1422,7 +1422,7 @@
                          ["shol-ò-k"]]
                  }
                 {:label "yemsa-VConj2AffInfinitiveMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :gender :Common,
                           :lexeme :ya,
@@ -1434,7 +1434,7 @@
                          ["yoò-k"]]
                  }
                 {:label "yemsa-VConj2AffJuss"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1451,7 +1451,7 @@
                          [:Plural :Person3 :Common "shol-o-(so)tó"]]
                  }
                 {:label "yemsa-VConj2AffJussMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1466,7 +1466,7 @@
                          [:Plural :Person1 :Common "yoo-nì"]]
                  }
                 {:label "yemsa-VConj2AffPerf"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1487,7 +1487,7 @@
                          [:Plural :Person3 :Common "shol-e-té"]]
                  }
                 {:label "yemsa-VConj2AffPerfMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1508,7 +1508,7 @@
                          [:Plural :Person3 :Common "yee-seté"]]
                  }
                 {:label "yemsa-VConj2AffPotential"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1530,7 +1530,7 @@
                          [:Plural :Person3 :Common "sholò-k / shol-(s)oné-k + ʕim-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj2AffPresIngrMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarenár (etc.)",
@@ -1545,7 +1545,7 @@
                          ["yoò-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffPresProgr"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1566,7 +1566,7 @@
                          [:Plural :Person3 :Common "shol-è-difé"]]
                  }
                 {:label "yemsa-VConj2AffPresPunct"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1587,7 +1587,7 @@
                          [:Plural :Person3 :Common "shole(se)té-r"]]
                  }
                 {:label "yemsa-VConj2AffPresPunctMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :polarity :Affirmative,
@@ -1608,7 +1608,7 @@
                          [:Plural :Person3 :Common "yee-seté-r"]]
                  }
                 {:label "yemsa-VConj2AffPretDubitMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -1623,7 +1623,7 @@
                          ["yaán-toŋwà + (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffPretEgrMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "koys-í-n (etc.)",
@@ -1638,7 +1638,7 @@
                          ["yaará + koys-í-n (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffPretIngrMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarén (etc.)",
@@ -1653,7 +1653,7 @@
                          ["yoò-k jammarén (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffPretProgr"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1674,7 +1674,7 @@
                          [:Plural :Person3 :Common "shol-è-feén"]]
                  }
                 {:label "yemsa-VConj2AffPretProgrMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :lexeme :ya,
                           :number :Singular,
@@ -1687,7 +1687,7 @@
                          [:Person3 :Masc "yee-feén + (etc.)"]]
                  }
                 {:label "yemsa-VConj2AffVNoun"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1699,7 +1699,7 @@
                          ["shol-ò"]]
                  }
                 {:label "yemsa-VConj2AffVNounMonosyll-ya"
-                 :note "Lamberti1993 pp. 210-212. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj2,
                           :gender :Common,
                           :lexeme :ya,
@@ -1711,7 +1711,7 @@
                          ["y-oò"]]
                  }
                 {:label "yemsa-VConj2NegDesiderative"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1731,7 +1731,7 @@
                          [:Plural :Person3 :Common "sholò-k / shol-soní-k + shol-e-teé-ttà"]]
                  }
                 {:label "yemsa-VConj2NegFutIngr"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1752,7 +1752,7 @@
                          [:Plural :Person3 :Common "sholò-k + áfà jammarsoné-zà"]]
                  }
                 {:label "yemsa-VConj2NegFutPunct"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1773,7 +1773,7 @@
                          [:Plural :Person3 :Common "áfà shol-oné-zà"]]
                  }
                 {:label "yemsa-VConj2NegInfinitive"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1785,7 +1785,7 @@
                          ["shol-ò-bey-à"]]
                  }
                 {:label "yemsa-VConj2NegJuss"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1806,7 +1806,7 @@
                          [:Plural :Person3 :Common "shol-soné-tà"]]
                  }
                 {:label "yemsa-VConj2NegPerf"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1827,7 +1827,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj2NegPresPunct"
-                 :note "Lamberti1993 p. 177-259. aff juss,imprtv:Lamberti uses mak- say conjClass:conj2. aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
+                 :note "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2."
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :lexeme :shol,
@@ -1848,7 +1848,7 @@
                          [:Plural :Person3 :Common "shol-e-teé-ttà"]]
                  }
                 {:label "yemsa-VConj2aAffDesiderativeMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :gender :Common,
                           :lexeme :fa,
@@ -1862,7 +1862,7 @@
                          [:Person2 "foò-k / footà-k + shol-[perf~imperf~futPunct](etc.)"]]
                  }
                 {:label "yemsa-VConj2aAffFutPunctMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Affirmative,
@@ -1883,7 +1883,7 @@
                          [:Plural :Person3 :Common "foo-né"]]
                  }
                 {:label "yemsa-VConj2aAffImperfMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Affirmative,
@@ -1904,7 +1904,7 @@
                          [:Plural :Person3 :Common "fe-seté"]]
                  }
                 {:label "yemsa-VConj2aAffImprtvMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :person :Person2,
@@ -1919,7 +1919,7 @@
                          [:Plural :Common "foo-tì"]]
                  }
                 {:label "yemsa-VConj2aAffInfinitiveMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :gender :Common,
                           :lexeme :fa,
@@ -1931,7 +1931,7 @@
                          ["foò-k"]]
                  }
                 {:label "yemsa-VConj2aAffJussMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Affirmative,
@@ -1948,7 +1948,7 @@
                          [:Plural :Person3 :Common "foo-so-né"]]
                  }
                 {:label "yemsa-VConj2aAffPotentialMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :gender :Common,
                           :lexeme :fa,
@@ -1962,7 +1962,7 @@
                          [:Person2 "foò-k / footà-k + ʕim- [perf~imperf~futPunct](etc/)"]]
                  }
                 {:label "yemsa-VConj2aAffPresPunctMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :person :Person3,
@@ -1977,7 +1977,7 @@
                          [:Plural :Fem "faà-r"]]
                  }
                 {:label "yemsa-VConj2aAffVNounMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :gender :Common,
                           :lexeme :fa,
@@ -1989,7 +1989,7 @@
                          ["???"]]
                  }
                 {:label "yemsa-VConj2aNegFutPunctMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Negative,
@@ -2010,7 +2010,7 @@
                          [:Plural :Person3 :Common "áfà foo-(so)né-zà"]]
                  }
                 {:label "yemsa-VConj2aNegImperfMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Negative,
@@ -2031,7 +2031,7 @@
                          [:Plural :Person3 :Common "aaf-sotó"]]
                  }
                 {:label "yemsa-VConj2aNegJussMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Negative,
@@ -2047,7 +2047,7 @@
                          [:Plural :Person2 :Common "footí-tà(etc.)"]]
                  }
                 {:label "yemsa-VConj2aNegPresPunctMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :gender :Common,
                           :lexeme :fa,
@@ -2061,7 +2061,7 @@
                          [:Person2 "fa-taà-ttà + (etc.)"]]
                  }
                 {:label "yemsa-VConj2aNegSubordinateMonosyll-fa"
-                 :note "Lamberti1993 p. 249-254."
+                 :note "La93p.249-254"
                  :common {:conjClass :Conj2a,
                           :lexeme :fa,
                           :polarity :Negative,
@@ -2082,7 +2082,7 @@
                          [:Plural :Person3 :Common "ánè fesotó + _NULL"]]
                  }
                 {:label "yemsa-VConj3AffCond1"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2103,7 +2103,7 @@
                          [:Plural :Person3 :Common "zag-i-fateé-né"]]
                  }
                 {:label "yemsa-VConj3AffDesiderative"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2125,7 +2125,7 @@
                          [:Plural :Person3 :Common "zagù-k / zag-(s)oné-k + shol-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj3AffFutProgr"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2146,7 +2146,7 @@
                          [:Plural :Person3 :Common "zag-ì-fooné"]]
                  }
                 {:label "yemsa-VConj3AffFutPunct"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2167,7 +2167,7 @@
                          [:Plural :Person3 :Common "zag-soné"]]
                  }
                 {:label "yemsa-VConj3AffFutPunctMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs"
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2184,7 +2184,7 @@
                          [:Plural :Person3 :Common "muu-té"]]
                  }
                 {:label "yemsa-VConj3AffGerPres"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2198,7 +2198,7 @@
                          [:Common :Person3 :Common "zag-i-feéd"]]
                  }
                 {:label "yemsa-VConj3AffGerPresMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2212,7 +2212,7 @@
                          [:Common :Person3 :Common "mee-feéd"]]
                  }
                 {:label "yemsa-VConj3AffGerPret"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2226,7 +2226,7 @@
                          [:Common :Person3 :Common "zag-i-ré"]]
                  }
                 {:label "yemsa-VConj3AffGerPretMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2240,7 +2240,7 @@
                          [:Common :Person3 :Common "mee-r-é"]]
                  }
                 {:label "yemsa-VConj3AffImperf"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2261,7 +2261,7 @@
                          [:Plural :Person3 :Common "zag-i-sefé"]]
                  }
                 {:label "yemsa-VConj3AffImperfMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :number :Singular,
@@ -2274,7 +2274,7 @@
                          [:Person3 :Masc "mee-fé + (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffImprtv"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2289,7 +2289,7 @@
                          [:Plural :Common "zag-u-tì"]]
                  }
                 {:label "yemsa-VConj3AffImprtvMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :gender :Common,
                           :lexeme :ma,
@@ -2303,7 +2303,7 @@
                          [:Plural "muu-tì"]]
                  }
                 {:label "yemsa-VConj3AffInfinitive"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2315,7 +2315,7 @@
                          ["zag-ù-k"]]
                  }
                 {:label "yemsa-VConj3AffInfinitiveMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :gender :Common,
                           :lexeme :ma,
@@ -2327,7 +2327,7 @@
                          ["muù-k"]]
                  }
                 {:label "yemsa-VConj3AffJuss"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2344,7 +2344,7 @@
                          [:Plural :Person3 :Common "zag-u-(so)tó"]]
                  }
                 {:label "yemsa-VConj3AffJussMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2359,7 +2359,7 @@
                          [:Plural :Person1 :Common "muu-nì"]]
                  }
                 {:label "yemsa-VConj3AffPerf"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2380,7 +2380,7 @@
                          [:Plural :Person3 :Common "zag-i-té"]]
                  }
                 {:label "yemsa-VConj3AffPerfMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2401,7 +2401,7 @@
                          [:Plural :Person3 :Common "mee-(se)té"]]
                  }
                 {:label "yemsa-VConj3AffPotential"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2423,7 +2423,7 @@
                          [:Plural :Person3 :Common "zagù-k / zag-(s)oné-k + ʕim-[perf~imperf~futPunct"]]
                  }
                 {:label "yemsa-VConj3AffPresIngrMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarenár (etc.)",
@@ -2438,7 +2438,7 @@
                          ["muù-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffPresProgr"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2459,7 +2459,7 @@
                          [:Plural :Person3 :Common "zag-ì-difé"]]
                  }
                 {:label "yemsa-VConj3AffPresPunct"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2480,7 +2480,7 @@
                          [:Plural :Person3 :Common "zagi(se)té-r"]]
                  }
                 {:label "yemsa-VConj3AffPresPunctMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :polarity :Affirmative,
@@ -2501,7 +2501,7 @@
                          [:Plural :Person3 :Common "mee-(se)té-r"]]
                  }
                 {:label "yemsa-VConj3AffPretDubitMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -2516,7 +2516,7 @@
                          ["maán-toŋwà + (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffPretEgrMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "koms-í-n (etc.)",
@@ -2531,7 +2531,7 @@
                          ["maará + koms-í-n (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffPretIngrMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarén (etc.)",
@@ -2546,7 +2546,7 @@
                          ["muù-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffPretProgr"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2567,7 +2567,7 @@
                          [:Plural :Person3 :Common "zag-ì-feén"]]
                  }
                 {:label "yemsa-VConj3AffPretProgrMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :lexeme :ma,
                           :number :Singular,
@@ -2580,7 +2580,7 @@
                          [:Person3 :Masc "mee-feén + (etc.)"]]
                  }
                 {:label "yemsa-VConj3AffVNoun"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2592,7 +2592,7 @@
                          ["zag-ù"]]
                  }
                 {:label "yemsa-VConj3AffVNounMonosyll-ma"
-                 :note "Lamberti1993 pp. 212-214. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3,
                           :gender :Common,
                           :lexeme :ma,
@@ -2604,7 +2604,7 @@
                          ["m-uù"]]
                  }
                 {:label "yemsa-VConj3NegFutProgr"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2625,7 +2625,7 @@
                          [:Plural :Person3 :Common "áfà zagi-fooné-zà"]]
                  }
                 {:label "yemsa-VConj3NegFutPunct"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2646,7 +2646,7 @@
                          [:Plural :Person3 :Common "áfà zag-soné-zà"]]
                  }
                 {:label "yemsa-VConj3NegFutPunctSub"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2667,7 +2667,7 @@
                          [:Plural :Person3 :Common "zag-so-neé-ttà"]]
                  }
                 {:label "yemsa-VConj3NegGerund"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2688,7 +2688,7 @@
                          [:Plural :Person3 :Common "zag-u-nóy"]]
                  }
                 {:label "yemsa-VConj3NegInfinitive"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2700,7 +2700,7 @@
                          ["zag-ù-bey-à"]]
                  }
                 {:label "yemsa-VConj3NegJuss"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2721,7 +2721,7 @@
                          [:Plural :Person3 :Common "zag-soné-tà"]]
                  }
                 {:label "yemsa-VConj3NegPerf"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2742,7 +2742,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj3NegPotential"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2763,7 +2763,7 @@
                          [:Plural :Person3 :Common "zagù-k / zag-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-awe-té"]]
                  }
                 {:label "yemsa-VConj3NegPresHab"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2784,7 +2784,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj3NegPresPunct"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2805,7 +2805,7 @@
                          [:Plural :Person3 :Common "zag-i-teé-ttà ~ zag-seteé-ttà"]]
                  }
                 {:label "yemsa-VConj3NegPretDubit"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2826,7 +2826,7 @@
                          [:Plural :Person3 :Common "_NULL"]]
                  }
                 {:label "yemsa-VConj3NegPretHab"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2846,7 +2846,7 @@
                          [:Plural :Person3 :Common "ánè zagù- + shak-fé"]]
                  }
                 {:label "yemsa-VConj3NegPretProgr"
-                 :note "Lamberti1993 p. 177-259."
+                 :note "La93p.177-259"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :zag,
@@ -2867,7 +2867,7 @@
                          [:Plural :Person3 :Common "(ánè) zagù- + shak-feén"]]
                  }
                 {:label "yemsa-VConj3aAffFutPunctMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -2884,7 +2884,7 @@
                          [:Plural :Person3 :Common "duu-téfutPunct + _NULL"]]
                  }
                 {:label "yemsa-VConj3aAffGerPresMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -2898,7 +2898,7 @@
                          [:Common :Person3 :Common "dii-feéd"]]
                  }
                 {:label "yemsa-VConj3aAffGerPretMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -2912,7 +2912,7 @@
                          [:Common :Person3 :Common "dii-r-é"]]
                  }
                 {:label "yemsa-VConj3aAffImperfMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :number :Singular,
@@ -2925,7 +2925,7 @@
                          [:Person3 :Masc "dii-fé + (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffImprtvMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :person :Person2,
@@ -2940,7 +2940,7 @@
                          [:Plural :Common "duu-tì"]]
                  }
                 {:label "yemsa-VConj3aAffInfinitiveMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :gender :Common,
                           :lexeme :di,
@@ -2952,7 +2952,7 @@
                          ["duù-k"]]
                  }
                 {:label "yemsa-VConj3aAffJussMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -2966,7 +2966,7 @@
                          [:Plural :Person1 :Common "duu-nì"]]
                  }
                 {:label "yemsa-VConj3aAffPerfMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -2987,7 +2987,7 @@
                          [:Plural :Person3 :Common "dii-té"]]
                  }
                 {:label "yemsa-VConj3aAffPresIngrMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarenár (etc.)",
@@ -3002,7 +3002,7 @@
                          ["duù-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffPresPunctMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :polarity :Affirmative,
@@ -3023,7 +3023,7 @@
                          [:Plural :Person3 :Common "dii-seté-r"]]
                  }
                 {:label "yemsa-VConj3aAffPretDubitMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -3038,7 +3038,7 @@
                          ["di-í-n-toŋwà + (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffPretEgrMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "koys-í-n (etc.)",
@@ -3053,7 +3053,7 @@
                          ["diirá + koys-í-n (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffPretIngrMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarén (etc.)",
@@ -3068,7 +3068,7 @@
                          ["duù-k + jammarén (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffPretProgrMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :lexeme :di,
                           :number :Singular,
@@ -3081,7 +3081,7 @@
                          [:Person3 :Masc "diì-feén + (etc.)"]]
                  }
                 {:label "yemsa-VConj3aAffVNounMonosyll-di"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3a,
                           :gender :Common,
                           :lexeme :di,
@@ -3093,7 +3093,7 @@
                          ["d-uù"]]
                  }
                 {:label "yemsa-VConj3bAffFutPunctMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3110,7 +3110,7 @@
                          [:Plural :Person3 :Common "uu-téfutPunct + _NULL"]]
                  }
                 {:label "yemsa-VConj3bAffGerPresMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3124,7 +3124,7 @@
                          [:Common :Person3 :Common "ii-feé"]]
                  }
                 {:label "yemsa-VConj3bAffGerPretMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3138,7 +3138,7 @@
                          [:Common :Person3 :Common "ii-r-é"]]
                  }
                 {:label "yemsa-VConj3bAffImperfMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :number :Singular,
@@ -3151,7 +3151,7 @@
                          [:Person3 :Masc "ii-fé + (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffImprtvMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :gender :Common,
                           :lexeme :i,
@@ -3165,7 +3165,7 @@
                          [:Plural "uu-tì"]]
                  }
                 {:label "yemsa-VConj3bAffInfinitiveMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :gender :Common,
                           :lexeme :i,
@@ -3177,7 +3177,7 @@
                          ["uù-k"]]
                  }
                 {:label "yemsa-VConj3bAffJussMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3191,7 +3191,7 @@
                          [:Plural :Person1 :Common "uu-nì"]]
                  }
                 {:label "yemsa-VConj3bAffPerfMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3208,7 +3208,7 @@
                          [:Plural :Person3 :Common "ii-té"]]
                  }
                 {:label "yemsa-VConj3bAffPresIngrMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarenár (etc.)",
@@ -3223,7 +3223,7 @@
                          ["uù-k + jammarenár (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffPresPunctMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :polarity :Affirmative,
@@ -3240,7 +3240,7 @@
                          [:Plural :Person3 :Common "ii-seté-r"]]
                  }
                 {:label "yemsa-VConj3bAffPretDubitMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "(etc.)",
@@ -3255,7 +3255,7 @@
                          ["i-í-n-toŋwà + (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffPretEgrMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "koys-í-n (etc.)",
@@ -3270,7 +3270,7 @@
                          ["iirá + koys-í-n (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffPretIngrMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:gender :Common,
                           :polarity :Affirmative,
                           :token-note-aux "jammarén (etc.)",
@@ -3285,7 +3285,7 @@
                          ["uù-k + jammarén (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffPretProgrMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :lexeme :i,
                           :number :Singular,
@@ -3298,7 +3298,7 @@
                          [:Person3 :Masc "iì-feén + (etc.)"]]
                  }
                 {:label "yemsa-VConj3bAffVNounMonosyll-i"
-                 :note "Lamberti1993 pp. 215-217. (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
+                 :note "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs."
                  :common {:conjClass :Conj3b,
                           :gender :Common,
                           :lexeme :i,
@@ -3310,7 +3310,7 @@
                          ["uù"]]
                  }
                 {:label "yemsa-PIndep"
-                 :note "Lamberti1993 pp. 104-115"
+                 :note "La93pp.104-115"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -3397,7 +3397,7 @@
                          [:Subject :Plural :Person3 :Common "bassó"]]
                  }
                 {:label "yemsa-PPoss"
-                 :note "Lamberti1993 p. 100f"
+                 :note "La93p.100f"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Possessive}
                  :terms [[:number :person :gender :token],
@@ -3412,7 +3412,7 @@
                          [:Plural :Person3 :Common "bassoó-r"]]
                  }
                 {:label "yemsa-PPossAdj"
-                 :note "Lamberti1993 p. 95"
+                 :note "La93p.95"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossAdj}
                  :terms [[:number :person :gender :token],
@@ -3427,7 +3427,7 @@
                          [:Plural :Person3 :Common "bassò"]]
                  }
                 {:label "yemsa-PPossSuff"
-                 :note "Lamberti1993 p. 96f"
+                 :note "La93p.96f"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
                  :terms [[:number :person :gender :token],
@@ -3442,7 +3442,7 @@
                          [:Plural :Person3 :Common "-bessí-"]]
                  }
                 {:label "yemsa-VDervStem"
-                 :note "Lamberti1993 p.165-173."
+                 :note "La93p.165-173"
                  :common {             :pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derived :token],
@@ -3452,7 +3452,7 @@
                          [:Passive "-t ~ -st-"]]
                  }
                 {:label "yemsa-VProSuff"
-                 :note "Lamberti1993 pp. 115f"
+                 :note "La93pp.115f"
                  :common {             :pos :Verb,
                           :vmorphClass :ProSuff}
                  :terms [[:tam :number :person :gender :token],
