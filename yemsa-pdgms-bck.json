@@ -1,0 +1,4382 @@
+{
+  "lang": "yemsa",
+  "subfamily": "Northern Omotic Gimojan",
+  "lgpref": "yem",
+  "datasource": "Lamberti, Marcello. 1993. Materialien zum Yemsa. Heidelberg: Carl Winter Universitätsverlag, Heidelberg. [La93]",
+  "datasourceNotes": "",
+  "geodemoURL": "http://www.ethnologue.com/language/jnj",
+  "geodemoTXT": "Varieties and subdialects of the Omotic language Yemsa, often referred to in the literature as Janjero, are spoken in Ethiopia, ZZSouthern Nations, Nationalities, and Peoples’ region: Yem zone; Oromia region: northeast of Jimma zone, Fofa (main village); mixed in Oromo villages; Saja, Deedoo, Sak’a, Jimma. SouthwestZZ; approx 92,200 speakers.",
+  "schemata": {
+  "case": [
+    "Ablative",
+    "Absolutive",
+    "Comitative",
+    "Dative",
+    "Directive",
+    "Exit",
+    "Genitive",
+    "Inessive",
+    "Locative",
+    "Object",
+    "Subject"
+  ],
+  "conjClass": [
+    "Conj1",
+    "Conj2",
+    "Conj2a",
+    "Conj3",
+    "Conj3a",
+    "Conj3b"
+  ],
+  "conjSubClass": [
+    "Monosyllabic",
+    "Monosyllablic"
+  ],
+  "derived": [
+    "Causative",
+    "Habitual",
+    "Iterative",
+    "Passive"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Honorific",
+    "Masc"
+  ],
+  "lexeme": [
+    "am",
+    "bi",
+    "di",
+    "fa",
+    "i",
+    "ma",
+    "shol",
+    "ya",
+    "zag"
+  ],
+  "morphClass": [
+    "DervStem",
+    "ProSuff"
+  ],
+  "number": [
+    "Common",
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person3",
+    "Singular"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Negative"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "Independent",
+    "PossAdj",
+    "PossSuff",
+    "Possessive"
+  ],
+  "tam": [
+    "Cond1",
+    "Cond2",
+    "Desiderative",
+    "FutIngr",
+    "FutPerf",
+    "FutProgr",
+    "FutPunct",
+    "FutPunctSub",
+    "Future",
+    "GerPres",
+    "GerPret",
+    "Gerund",
+    "Imperative",
+    "Imperfect",
+    "Infinitive",
+    "Irrealis",
+    "Jussive",
+    "Perfect",
+    "Potential",
+    "PresHab",
+    "PresIngr",
+    "PresProgr",
+    "PresPunct",
+    "PretDubit",
+    "PretEgr",
+    "PretHab",
+    "PretIngr",
+    "PretProgr",
+    "Preterite",
+    "Subordinate",
+    "VNoun"
+  ]
+},
+  "lexemes": {
+  "am": {
+    "pos": "Verb",
+    "lemma": "am-",
+    "gloss": "go",
+    "conjClass": "Conj1"
+  },
+  "bey": {
+    "pos": "Verb",
+    "lemma": "bey-",
+    "gloss": "fail to do",
+    "conjClass": "Conj1"
+  },
+  "bi": {
+    "pos": "Verb",
+    "lemma": "bi-",
+    "gloss": "see (non-honorific forms)",
+    "conjClass": "Conj1",
+    "templ": "Monosyllabic"
+  },
+  "di": {
+    "pos": "Verb",
+    "lemma": "di-",
+    "gloss": "sit",
+    "conjClass": "Conj3",
+    "templ": "Monosyllabic"
+  },
+  "et": {
+    "pos": "Verb",
+    "lemma": "et-",
+    "gloss": "cook",
+    "conjClass": "Conj3"
+  },
+  "fa": {
+    "pos": "Verb",
+    "lemma": "fa-",
+    "gloss": "be",
+    "conjClass": "Conj2"
+  },
+  "i": {
+    "pos": "Verb",
+    "lemma": "i-",
+    "gloss": "say",
+    "conjClass": "Conj3",
+    "templ": "Monosyllabic"
+  },
+  "kem": {
+    "pos": "Verb",
+    "lemma": "kem-",
+    "gloss": "see (honorific forms)",
+    "conjClass": "Conj2"
+  },
+  "key": {
+    "pos": "Verb",
+    "lemma": "key-",
+    "gloss": "sit",
+    "conjClass": "Conj3"
+  },
+  "ma": {
+    "pos": "Verb",
+    "lemma": "ma-",
+    "gloss": "eat (non-honorific forms)",
+    "conjClass": "Conj3",
+    "templ": "Monosyllabic"
+  },
+  "of": {
+    "pos": "Verb",
+    "lemma": "of-",
+    "gloss": "come (honorific forms)",
+    "conjClass": "Conj2"
+  },
+  "shol": {
+    "pos": "Verb",
+    "lemma": "shol-",
+    "gloss": "want",
+    "conjClass": "Conj2"
+  },
+  "tar": {
+    "pos": "Verb",
+    "lemma": "tar- ~ ta-",
+    "gloss": "eat (honorific forms)",
+    "conjClass": "Conj1"
+  },
+  "ya": {
+    "pos": "Verb",
+    "lemma": "ya-",
+    "gloss": "come (non-honorific forms)",
+    "conjClass": "Conj2",
+    "templ": "Monosyllabic"
+  },
+  "zag": {
+    "pos": "Verb",
+    "lemma": "zag-",
+    "gloss": "make",
+    "conjClass": "Conj3"
+  }
+},
+  "pdgmPropOrder": ["poa", "proClass", "morphClass", "conjClass", "conjSubClass", "lexeme", "tam", "polarity"],
+  "termclusters": [
+  {
+    "label": "yem-Conj1-am-Cond1Affirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Cond1"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-fanaá-né"],
+      ["Singular", "Person2", "Honorific", "am-fanií-né"],
+      ["Singular", "Person2", "Common", "am-fataà-né"],
+      ["Singular", "Person3", "Masc", "am-fanaá-né"],
+      ["Singular", "Person3", "Honorific", "am-fateé-né"],
+      ["Singular", "Person3", "Fem", "am-fanaà-né"],
+      ["Plural", "Person1", "Common", "am-faniì-né"],
+      ["Plural", "Person2", "Honorific", "am-fanií-né"],
+      ["Plural", "Person2", "Common", "am-fatií-né"],
+      ["Plural", "Person3", "Honorific", "am-fateé-né"],
+      ["Plural", "Person3", "Common", "am-fateé-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-Cond1Negative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Cond1"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-à + shak-fanaá-né"],
+      ["Singular", "Person2", "Honorific", "am-à + shak-fanií-né"],
+      ["Singular", "Person2", "Common", "am-à + shak-fataà-né"],
+      ["Singular", "Person3", "Masc", "am-à + shak-fanaá-né"],
+      ["Singular", "Person3", "Honorific", "am-à + shak-fateé-né"],
+      ["Singular", "Person3", "Fem", "am-à + shak-fanaà-né"],
+      ["Plural", "Person1", "Common", "am-à + shak-faniì-né"],
+      ["Plural", "Person2", "Honorific", "am-à + shak-fanií-né"],
+      ["Plural", "Person2", "Common", "am-à + shak-fatií-né"],
+      ["Plural", "Person3", "Honorific", "am-à + shak-fateé-né"],
+      ["Plural", "Person3", "Common", "am-à + shak-fateé-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-Cond2Affirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Cond2"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-ná-k + sin-fanaà-né"],
+      ["Singular", "Person2", "Honorific", "am-o-ní-k + sin-fanaà-né"],
+      ["Singular", "Person2", "Common", "am-a-tà-k + sin-fanaà-né"],
+      ["Singular", "Person3", "Masc", "am-a-ná-k + sin-fanaà-né"],
+      ["Singular", "Person3", "Honorific", "am-(s)o-né-k + sin-fanaà-né"],
+      ["Singular", "Person3", "Fem", "am-a-nà-k + sin-fanaà-né"],
+      ["Plural", "Person1", "Common", "am-a-nì-k + sin-fanaà-né"],
+      ["Plural", "Person2", "Honorific", "am-soní-k + sin-fanaà-né"],
+      ["Plural", "Person2", "Common", "am-a-tí-k + sin-fanaà-né"],
+      ["Plural", "Person3", "Honorific", "am-soné-k + sin-fanaà-né"],
+      ["Plural", "Person3", "Common", "am-soné-k + sin-fanaà-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-Cond2Negative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Cond2"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-à + shakun-ár sin-fanaà-né"],
+      ["Singular", "Person2", "Honorific", "am-à + shakuní-r sin-fanaà-né"],
+      ["Singular", "Person2", "Common", "am-à + shakut-àr sin-fanaà-né"],
+      ["Singular", "Person3", "Masc", "am-à + shakuná-r sin-fanaà-né"],
+      ["Singular", "Person3", "Fem", "am-à + sholunè-r sin-fanaà-néneg"],
+      ["Plural", "Person1", "Common", "am-à + shakuní-r sin-fanaà-né"],
+      ["Plural", "Person2", "Honorific", "am-à + shakuní-r sin-fanaà-né"],
+      ["Plural", "Person2", "Common", "am-à + shakutí-r sin-fanaà-né"],
+      ["Plural", "Person3", "Honorific", "am-à + shaku(se)té-r sin-fanaà-né"],
+      ["Plural", "Person3", "Common", "am-à + shaku(se)té-r sin-fanaà-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-DesiderativeAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Desiderative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k / am-a-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "amà-k / am-o-ní-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "amà-k / am-a-tà-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "amà-k / am-a-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "amà-k / am-(s)o-né-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "amà-k / am-a-nà-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "amà-k / am-a-nì-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "amà-k / am-soní-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "amà-k / am-a-tí-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "amà-k / am-soné-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "amà-k / am-soné-k + shol-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-DesiderativeNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Desiderative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k / am-a-ná-k + shol-e-naá-ttà"],
+      ["Singular", "Person2", "Honorific", "amà-k / am-o-ní-k + shol-e-nií-ttà"],
+      ["Singular", "Person2", "Common", "amà-k / am-a-tà-k + shol-e-taà-ttà"],
+      ["Singular", "Person3", "Masc", "amà-k / am-a-ná-k + shol-eé-ttè"],
+      ["Singular", "Person3", "Honorific", "amà-k / am-(s)o-né-k + shol-e-teé-ttà"],
+      ["Singular", "Person3", "Fem", "amà-k / am-a-nà-k + shol-eé-ttà"],
+      ["Plural", "Person1", "Common", "amà-k / am-a-nì-k + shol-e-niì-ttà"],
+      ["Plural", "Person2", "Honorific", "amà-k / am-soní-k + shol-e-nií-ttà"],
+      ["Plural", "Person2", "Common", "amà-k / am-a-tí-k + shol-e-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "amà-k / am-soné-k + shol-e-teé-ttà"],
+      ["Plural", "Person3", "Common", "amà-k / am-soné-k + shol-e-teé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutIngrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k + jammaroná"],
+      ["Singular", "Person2", "Honorific", "amà-k + jammaroní"],
+      ["Singular", "Person2", "Common", "amà-k + jammarotà"],
+      ["Singular", "Person3", "Masc", "amà-k + jammaroná"],
+      ["Singular", "Person3", "Honorific", "amà-k + jammaroné"],
+      ["Singular", "Person3", "Fem", "amà-k + jammaronà"],
+      ["Plural", "Person1", "Common", "amà-k + jammaronì"],
+      ["Plural", "Person2", "Honorific", "amà-k + jammaroní"],
+      ["Plural", "Person2", "Common", "amà-k + jammarotí"],
+      ["Plural", "Person3", "Honorific", "amà-k + jammarsoné"],
+      ["Plural", "Person3", "Common", "amà-k + jammarsoné"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutIngrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k + áfà jammaroná-zà"],
+      ["Singular", "Person2", "Honorific", "amà-k + áfà jammaroní-zà"],
+      ["Singular", "Person2", "Common", "amà-k + áfà jammarotà-zà"],
+      ["Singular", "Person3", "Masc", "amà-k + áfà jammaroná-zà"],
+      ["Singular", "Person3", "Honorific", "amà-k + áfà jammaroné-zà"],
+      ["Singular", "Person3", "Fem", "amà-k + áfà jammaronà-zà"],
+      ["Plural", "Person1", "Common", "amà-k + áfà jammaronì-zà"],
+      ["Plural", "Person2", "Honorific", "amà-k + áfà jammaroní-zà"],
+      ["Plural", "Person2", "Common", "amà-k + áfà jammarotí-zà"],
+      ["Plural", "Person3", "Honorific", "amà-k + áfà jammarsoné-zà"],
+      ["Plural", "Person3", "Common", "amà-k + áfà jammarsoné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutPerfAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPerf"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-ná + kabì"],
+      ["Singular", "Person2", "Honorific", "am-o-ní + kabì"],
+      ["Singular", "Person2", "Common", "am-a-tà + kabì"],
+      ["Singular", "Person3", "Masc", "am-a-ná + kabì"],
+      ["Singular", "Person3", "Honorific", "am-o-né + kabì"],
+      ["Singular", "Person3", "Fem", "am-a-nà + kabì"],
+      ["Plural", "Person1", "Common", "am-a-nì + kabì"],
+      ["Plural", "Person2", "Honorific", "am-soní + kabì"],
+      ["Plural", "Person2", "Common", "am-a-tí ~am-o-tí + kabì"],
+      ["Plural", "Person3", "Honorific", "am-(s)oné + kabì"],
+      ["Plural", "Person3", "Common", "am-(s)oné + kabì"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutPerfNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPerf"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "(áfà) am-a-ná + kabì-tà"],
+      ["Singular", "Person2", "Honorific", "(áfà) am-o-ní + kabì-tà"],
+      ["Singular", "Person2", "Common", "(áfà) am-a-tà + kabì-tà"],
+      ["Singular", "Person3", "Masc", "(áfà) am-a-ná + kabì-tà"],
+      ["Singular", "Person3", "Honorific", "(áfà) am-o-né + kabì-tà"],
+      ["Singular", "Person3", "Fem", "(áfà) am-a-nà + kabì-tà"],
+      ["Plural", "Person1", "Common", "(áfà) am-a-nì + kabì-tà"],
+      ["Plural", "Person2", "Honorific", "(áfà) am-soní + kabì-tà"],
+      ["Plural", "Person2", "Common", "(áfà) am-a-tí ~(áfà) am-o-tí + kabì-tà"],
+      ["Plural", "Person3", "Honorific", "(áfà) am-(s)oné + kabì-tà"],
+      ["Plural", "Person3", "Common", "(áfà) am-(s)oné + kabì-tà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutProgrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-fooná"],
+      ["Singular", "Person2", "Honorific", "am-fooní"],
+      ["Singular", "Person2", "Common", "am-footà"],
+      ["Singular", "Person3", "Masc", "am-fooná"],
+      ["Singular", "Person3", "Honorific", "am-fooné"],
+      ["Singular", "Person3", "Fem", "am-foonà"],
+      ["Plural", "Person1", "Common", "am-foonì"],
+      ["Plural", "Person2", "Honorific", "am-fooné"],
+      ["Plural", "Person2", "Common", "am-footi"],
+      ["Plural", "Person3", "Honorific", "am-fooné"],
+      ["Plural", "Person3", "Common", "am-fooné"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutProgrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà am-fooná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà am-fooní-zà"],
+      ["Singular", "Person2", "Common", "áfà am-footà-zà"],
+      ["Singular", "Person3", "Masc", "áfà am-fooná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà am-fooné-zà"],
+      ["Singular", "Person3", "Fem", "áfà am-foonà-zà"],
+      ["Plural", "Person1", "Common", "áfà am-foonì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà am-fooné-zà"],
+      ["Plural", "Person2", "Common", "áfà am-footi-zà"],
+      ["Plural", "Person3", "Honorific", "áfà am-fooné-zà"],
+      ["Plural", "Person3", "Common", "áfà am-fooné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutPunctAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-ná"],
+      ["Singular", "Person2", "Honorific", "am-o-ní"],
+      ["Singular", "Person2", "Common", "am-a-tà"],
+      ["Singular", "Person3", "Masc", "am-a-ná"],
+      ["Singular", "Person3", "Honorific", "am-o-né"],
+      ["Singular", "Person3", "Fem", "am-a-nà"],
+      ["Plural", "Person1", "Common", "am-a-nì"],
+      ["Plural", "Person2", "Honorific", "am-soní"],
+      ["Plural", "Person2", "Common", "am-a-tí ~am-o-tí"],
+      ["Plural", "Person3", "Honorific", "am-(s)oné"],
+      ["Plural", "Person3", "Common", "am-(s)oné"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutPunctNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà am-a-ná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà am-o-ní-zà"],
+      ["Singular", "Person2", "Common", "áfà am-a-tà-zà"],
+      ["Singular", "Person3", "Masc", "áfà am-a-ná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà am-o-né-zà"],
+      ["Singular", "Person3", "Fem", "áfà am-a-nà-zà"],
+      ["Plural", "Person1", "Common", "áfà am-a-nì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà am-oní-zà"],
+      ["Plural", "Person2", "Common", "áfà am-a-tí-zà ~ am-o-tí-zà"],
+      ["Plural", "Person3", "Honorific", "áfà am-oné-zà"],
+      ["Plural", "Person3", "Common", "áfà am-oné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-FutPunctSubNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunctSub"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-taá-ttà"],
+      ["Singular", "Person2", "Honorific", "am-a-nií-ttà"],
+      ["Singular", "Person2", "Common", "am-a-taà-ttà"],
+      ["Singular", "Person3", "Masc", "am-a-nií-ttè"],
+      ["Singular", "Person3", "Honorific", "am-neé-ttà"],
+      ["Singular", "Person3", "Fem", "am-niì-ttà"],
+      ["Plural", "Person1", "Common", "am-ay-ttà"],
+      ["Plural", "Person2", "Honorific", "am-a-nií-ttà"],
+      ["Plural", "Person2", "Common", "am-a-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "am-so-neé-ttà"],
+      ["Plural", "Person3", "Common", "am-so-neé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-GerPresAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "am-faád"],
+      ["Common", "Person1", "Common", "am-faád"],
+      ["Common", "Person2", "Common", "am-faád"],
+      ["Common", "Person3", "Common", "am-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-GerPretAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "am-m-á"],
+      ["Common", "Person1", "Common", "am-m-á"],
+      ["Common", "Person2", "Common", "am-m-á"],
+      ["Common", "Person3", "Common", "am-m-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-GerundNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Gerund"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-nóy"],
+      ["Singular", "Person2", "Honorific", "am-a-nóy"],
+      ["Singular", "Person2", "Common", "am-a-nóy"],
+      ["Singular", "Person3", "Masc", "am-a-nóy"],
+      ["Singular", "Person3", "Honorific", "am-a-nóy"],
+      ["Singular", "Person3", "Fem", "am-a-nóy"],
+      ["Plural", "Person1", "Common", "am-a-nóy"],
+      ["Plural", "Person2", "Honorific", "am-a-nóy"],
+      ["Plural", "Person2", "Common", "am-a-nóy"],
+      ["Plural", "Person3", "Honorific", "am-a-nóy"],
+      ["Plural", "Person3", "Common", "am-a-nóy"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-Imperative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "am-o-ní"],
+      ["Singular", "Person2", "Common", "ám"],
+      ["Plural", "Person2", "Honorific", "am-o-ní"],
+      ["Plural", "Person2", "Common", "am-(o)tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-ImperfectAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-fán + (also forms with euphonic -ì- before -f"],
+      ["Singular", "Person2", "Honorific", "am-fení + _NULL"],
+      ["Singular", "Person2", "Common", "am-fát + _NULL"],
+      ["Singular", "Person3", "Masc", "am-fé + _NULL"],
+      ["Singular", "Person3", "Honorific", "am-fé + _NULL"],
+      ["Singular", "Person3", "Fem", "am-fà + _NULL"],
+      ["Plural", "Person1", "Common", "am-fenì + _NULL"],
+      ["Plural", "Person2", "Honorific", "am-fení + _NULL"],
+      ["Plural", "Person2", "Common", "am-feti + _NULL"],
+      ["Plural", "Person3", "Honorific", "am-sefé + _NULL"],
+      ["Plural", "Person3", "Common", "am-sefé + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-InfinitiveAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "amà-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-InfinitiveNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "am-à-bey-à"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-IrrealisAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Irrealis"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-faná + sin-fanaà-né"],
+      ["Singular", "Person2", "Honorific", "am-faní + sin-fanaà-né"],
+      ["Singular", "Person2", "Common", "am-fatà + sin-fanaà-né"],
+      ["Singular", "Person3", "Masc", "am-faná + sin-fanaà-né"],
+      ["Singular", "Person3", "Honorific", "am-faté + sin-fanaà-né"],
+      ["Singular", "Person3", "Fem", "am-fanà + sin-fanaà-né"],
+      ["Plural", "Person1", "Common", "am-fanì + sin-fanaà-né"],
+      ["Plural", "Person2", "Honorific", "am-faní + sin-fanaà-né"],
+      ["Plural", "Person2", "Common", "am-fatí + sin-fanaà-né"],
+      ["Plural", "Person3", "Honorific", "am-faté + sin-fanaà-né"],
+      ["Plural", "Person3", "Common", "am-faté + sin-fanaà-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-IrrealisNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Irrealis"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-à + shak-faná sin-fanaà-né"],
+      ["Singular", "Person2", "Honorific", "am-à + shak-faní sin-fanaà-né"],
+      ["Singular", "Person2", "Common", "am-à + shak-fatà sin-fanaà-né"],
+      ["Singular", "Person3", "Masc", "am-à + shak-faná sin-fanaà-né"],
+      ["Singular", "Person3", "Honorific", "am-à + shak-faté sin-fanaà-né"],
+      ["Singular", "Person3", "Fem", "am-à + shak-fanà sin-fanaà-né"],
+      ["Plural", "Person1", "Common", "am-à + shak-fanì sin-fanaà-né"],
+      ["Plural", "Person2", "Honorific", "am-à + shak-faní sin-fanaà-né"],
+      ["Plural", "Person2", "Common", "am-à + shak-fatí sin-fanaà-né"],
+      ["Plural", "Person3", "Honorific", "am-à + shak-faté sin-fanaà-né"],
+      ["Plural", "Person3", "Common", "am-à + shak-faté sin-fanaà-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-JussiveAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-ná"],
+      ["Singular", "Person3", "Masc", "am-ó"],
+      ["Singular", "Person3", "Honorific", "am-(o-)tó"],
+      ["Singular", "Person3", "Fem", "am-òn"],
+      ["Plural", "Person1", "Common", "am-a-nì"],
+      ["Plural", "Person3", "Honorific", "am-(so)tó ~ am-o-tó"],
+      ["Plural", "Person3", "Common", "am-(so)tó ~ am-o-tó"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-JussiveNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-ná-tà"],
+      ["Singular", "Person2", "Honorific", "am-o-ní-tà"],
+      ["Singular", "Person2", "Common", "am-a-tà-tà"],
+      ["Singular", "Person3", "Masc", "am-a-ná-tà"],
+      ["Singular", "Person3", "Honorific", "am-o-né-tà"],
+      ["Singular", "Person3", "Fem", "am-a-nà-tà"],
+      ["Plural", "Person1", "Common", "am-a-nì-tà"],
+      ["Plural", "Person2", "Honorific", "am-soní-tà"],
+      ["Plural", "Person2", "Common", "am-a-tí-tà"],
+      ["Plural", "Person3", "Honorific", "am-oné-tà"],
+      ["Plural", "Person3", "Common", "am-oné-tà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PerfectAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-í-n"],
+      ["Singular", "Person2", "Honorific", "am-ní"],
+      ["Singular", "Person2", "Common", "am-í-t"],
+      ["Singular", "Person3", "Masc", "am-í"],
+      ["Singular", "Person3", "Honorific", "am-e-té ~ of-e-té"],
+      ["Singular", "Person3", "Fem", "am-ì"],
+      ["Plural", "Person1", "Common", "am-nì"],
+      ["Plural", "Person2", "Honorific", "am-(se)ní"],
+      ["Plural", "Person2", "Common", "am-tí"],
+      ["Plural", "Person3", "Honorific", "am-(s)e-té ~ of-e-(se)té"],
+      ["Plural", "Person3", "Common", "am-(s)eté"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PerfectNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PotentialAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Potential"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k/am-a-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "amà-k/am-o-ní-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "amà-k/am-a-tà-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "amà-k/am-a-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "amà-k/am-(s)o-né-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "amà-k/am-a-nà-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "amà-k/am-a-nì-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "amà-k/am-soní-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "amà-k/am-a-tí-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "amà-k/am-soné-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "amà-k/am-soné-k + ʕim-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PotentialNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Potential"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k / am-a-ná-k + ʕim-a-naá-ttà ~ ánè ʕim-ú-t"],
+      ["Singular", "Person2", "Honorific", "amà-k / am-o-ní-k + ʕim-a-nií-ttà ~ ánè ʕim-a-ní"],
+      ["Singular", "Person2", "Common", "amà-k / am-a-tà-k + ʕim-a-taà-ttà ~ ánè ʕim-è"],
+      ["Singular", "Person3", "Masc", "amà-k / am-a-ná-k + ʕim-a-ní-ttè ~ ánè ʕim-é"],
+      ["Singular", "Person3", "Honorific", "amà-k / am-(s)o-né-k + ʕim-neé-ttà ~ ánè ʕimoo-tó-"],
+      ["Singular", "Person3", "Fem", "amà-k / am-a-nà-k + ʕim-nì-ttà ~ ánè ʕim-à"],
+      ["Plural", "Person1", "Common", "amà-k / am-a-nì-k + ʕim-ay-ttà ~ ánè ʕim-a-nì"],
+      ["Plural", "Person2", "Honorific", "amà-k / am-soní-k + ʕim-a-nií-ttà ~ ánè ʕim-a-ní"],
+      ["Plural", "Person2", "Common", "amà-k / am-a-tí-k + ʕim-a-tií-ttà ~ ánè ʕim-awe-tí"],
+      ["Plural", "Person3", "Honorific", "amà-k / am-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-oo-tó"],
+      ["Plural", "Person3", "Common", "amà-k / am-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-awe-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresHabNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresHab"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresIngrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k + jammarenár"],
+      ["Singular", "Person2", "Honorific", "amà-k + jammarenír"],
+      ["Singular", "Person2", "Common", "amà-k + jammaretàr"],
+      ["Singular", "Person3", "Masc", "amà-k + jammarér"],
+      ["Singular", "Person3", "Honorific", "amà-k + jammaretér"],
+      ["Singular", "Person3", "Fem", "amà-k + jammarèr"],
+      ["Plural", "Person1", "Common", "amà-k + jammarenír"],
+      ["Plural", "Person2", "Honorific", "amà-k + jammarenír"],
+      ["Plural", "Person2", "Common", "amà-k + jammaretír"],
+      ["Plural", "Person3", "Honorific", "amà-k + jammare(se)tér"],
+      ["Plural", "Person3", "Common", "amà-k + jammare(se)tér"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresIngrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k + jammar-e-naá-ttà"],
+      ["Singular", "Person2", "Honorific", "amà-k + jammar-e-nií-ttà"],
+      ["Singular", "Person2", "Common", "amà-k + jammar-e-taà-ttà"],
+      ["Singular", "Person3", "Masc", "amà-k + jammar-eé-ttè"],
+      ["Singular", "Person3", "Honorific", "amà-k + jammar-e-teé-ttà"],
+      ["Singular", "Person3", "Fem", "amà-k + jammar-eé-ttà"],
+      ["Plural", "Person1", "Common", "amà-k + jammar-e-niì-ttà"],
+      ["Plural", "Person2", "Honorific", "amà-k + jammar-e-nií-ttà"],
+      ["Plural", "Person2", "Common", "amà-k + jammar-e-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "amà-k + jammar-e-teé-ttà"],
+      ["Plural", "Person3", "Common", "amà-k + jammar-e-teé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresProgrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-difán"],
+      ["Singular", "Person2", "Honorific", "am-difení"],
+      ["Singular", "Person2", "Common", "am-difát"],
+      ["Singular", "Person3", "Masc", "am-difé"],
+      ["Singular", "Person3", "Honorific", "am-difé"],
+      ["Singular", "Person3", "Fem", "am-difà"],
+      ["Plural", "Person1", "Common", "am-difenì"],
+      ["Plural", "Person2", "Honorific", "am-difení"],
+      ["Plural", "Person2", "Common", "am-difetí"],
+      ["Plural", "Person3", "Honorific", "am-difé"],
+      ["Plural", "Person3", "Common", "am-difé"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresProgrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-difán-attà"],
+      ["Singular", "Person2", "Honorific", "am-difenií-ttà"],
+      ["Singular", "Person2", "Common", "am-difát-attà"],
+      ["Singular", "Person3", "Masc", "am-difeé-ttè"],
+      ["Singular", "Person3", "Honorific", "am-difeé-ttà"],
+      ["Singular", "Person3", "Fem", "am-difaà-ttà"],
+      ["Plural", "Person1", "Common", "am-difen1ì-ttà"],
+      ["Plural", "Person2", "Honorific", "am-difenií-ttà"],
+      ["Plural", "Person2", "Common", "am-difetií-ttà"],
+      ["Plural", "Person3", "Honorific", "am-difeé-ttà"],
+      ["Plural", "Person3", "Common", "am-difeé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresPunctAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am(a)n-ár"],
+      ["Singular", "Person2", "Honorific", "amní-r"],
+      ["Singular", "Person2", "Common", "amat-àr"],
+      ["Singular", "Person3", "Masc", "amá-r"],
+      ["Singular", "Person3", "Honorific", "amté-r"],
+      ["Singular", "Person3", "Fem", "amà-r"],
+      ["Plural", "Person1", "Common", "amnì-r"],
+      ["Plural", "Person2", "Honorific", "amní-r"],
+      ["Plural", "Person2", "Common", "amtí-r"],
+      ["Plural", "Person3", "Honorific", "am(se)té-r"],
+      ["Plural", "Person3", "Common", "am(se)té-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PresPunctNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-a-naá-ttà"],
+      ["Singular", "Person2", "Honorific", "am-a-nií-ttà"],
+      ["Singular", "Person2", "Common", "am-a-taà-ttà"],
+      ["Singular", "Person3", "Masc", "am-a-ní-ttè"],
+      ["Singular", "Person3", "Honorific", "am-neé-ttà"],
+      ["Singular", "Person3", "Fem", "am-nì-ttà"],
+      ["Plural", "Person1", "Common", "am-ay-ttà"],
+      ["Plural", "Person2", "Honorific", "am-a-nií-ttà"],
+      ["Plural", "Person2", "Common", "am-a-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "am-o-neé-ttà"],
+      ["Plural", "Person3", "Common", "am-o-neé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretDubitAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-í-n-toŋwà"],
+      ["Singular", "Person2", "Honorific", "am-ní-toŋwà"],
+      ["Singular", "Person2", "Common", "am-í-t-toŋwà"],
+      ["Singular", "Person3", "Masc", "am-í-toŋwà"],
+      ["Singular", "Person3", "Honorific", "am-e-té-toŋwà"],
+      ["Singular", "Person3", "Fem", "am-ì-toŋwà"],
+      ["Plural", "Person1", "Common", "am-nì-toŋwà"],
+      ["Plural", "Person2", "Honorific", "am-(se)ní-toŋwà"],
+      ["Plural", "Person2", "Common", "am-tí-toŋwà"],
+      ["Plural", "Person3", "Honorific", "am-(s)e-té-toŋwà"],
+      ["Plural", "Person3", "Common", "am-(s)eté-toŋwà"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretDubitNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretDubit"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretEgrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-à(-sò-n) + koys-í-n"],
+      ["Singular", "Person2", "Honorific", "am-à(-sò-n) + koys-i-ní"],
+      ["Singular", "Person2", "Common", "am-à(-sò-n) + koys-í-t"],
+      ["Singular", "Person3", "Masc", "am-à(-sò-n) + koys-í"],
+      ["Singular", "Person3", "Honorific", "am-à(-sò-n) + koys-i-té"],
+      ["Singular", "Person3", "Fem", "am-à(-sò-n) + koys-ì"],
+      ["Plural", "Person1", "Common", "am-à(-sò-n) + koys-i-nì"],
+      ["Plural", "Person2", "Honorific", "am-à(-sò-n) + koys-i-(se)ní"],
+      ["Plural", "Person2", "Common", "am-à(-sò-n) + koys-i-tí"],
+      ["Plural", "Person3", "Honorific", "am-à(-sò-n) + koys-i-té ~ koys-(e-)seté"],
+      ["Plural", "Person3", "Common", "am-à(-sò-n) + koys-i-té ~ koys-(e-)seté"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretHabNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretHab"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "ánè amà- + shak-fán"],
+      ["Singular", "Person2", "Honorific", "ánè amà- + shak-fení"],
+      ["Singular", "Person2", "Common", "ánè amà- + shak-fát"],
+      ["Singular", "Person3", "Masc", "ánè amà- + shak-fé"],
+      ["Singular", "Person3", "Fem", "ánè amà- + shak-fàneg"],
+      ["Plural", "Person1", "Common", "ánè amà- + shak-fenì"],
+      ["Plural", "Person2", "Honorific", "ánè amà- + shak-fení"],
+      ["Plural", "Person2", "Common", "ánè amà- + shak-feti"],
+      ["Plural", "Person3", "Honorific", "ánè amà- + shak-fé"],
+      ["Plural", "Person3", "Common", "ánè amà- + shak-fé"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretIngrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "amà-k + jammarén"],
+      ["Singular", "Person2", "Honorific", "amà-k + jammarení"],
+      ["Singular", "Person2", "Common", "amà-k + jammarét"],
+      ["Singular", "Person3", "Masc", "amà-k + jammaré"],
+      ["Singular", "Person3", "Honorific", "amà-k + jammareté"],
+      ["Singular", "Person3", "Fem", "amà-k + jammarè"],
+      ["Plural", "Person1", "Common", "amà-k + jammarenì"],
+      ["Plural", "Person2", "Honorific", "amà-k + jammarení"],
+      ["Plural", "Person2", "Common", "amà-k + jammaretí"],
+      ["Plural", "Person3", "Honorific", "amà-k + jammareté"],
+      ["Plural", "Person3", "Common", "amà-k + jammareté"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretIngrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL + ánè jammarót"],
+      ["Singular", "Person2", "Honorific", "_NULL + ánè jammarowení"],
+      ["Singular", "Person2", "Common", "_NULL + ánè jammarowè"],
+      ["Singular", "Person3", "Masc", "_NULL + ánè jammarowé"],
+      ["Singular", "Person3", "Honorific", "_NULL + ánè jammarooté"],
+      ["Singular", "Person3", "Fem", "_NULL + ánè jammarowà"],
+      ["Plural", "Person1", "Common", "_NULL + ánè jammarowenì"],
+      ["Plural", "Person2", "Honorific", "_NULL + ánè jammarowení"],
+      ["Plural", "Person2", "Common", "_NULL + ánè jammarowetí"],
+      ["Plural", "Person3", "Honorific", "_NULL + ánè jammarosoté"],
+      ["Plural", "Person3", "Common", "_NULL + ánè jammarosoté"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretProgrAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "am-faaná + (also forms with euphonic -ì- before -f"],
+      ["Singular", "Person2", "Honorific", "am-feení + _NULL"],
+      ["Singular", "Person2", "Common", "am-feèn + _NULL"],
+      ["Singular", "Person3", "Masc", "am-feén + _NULL"],
+      ["Singular", "Person3", "Honorific", "am-feén + _NULL"],
+      ["Singular", "Person3", "Fem", "am-feèn + _NULL"],
+      ["Plural", "Person1", "Common", "am-feenì + _NULL"],
+      ["Plural", "Person2", "Honorific", "am-feení + _NULL"],
+      ["Plural", "Person2", "Common", "am-feení + _NULL"],
+      ["Plural", "Person3", "Honorific", "am-feén + _NULL"],
+      ["Plural", "Person3", "Common", "am-feén + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-PretProgrNegative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "(ánè) amà- + shak-faaná"],
+      ["Singular", "Person2", "Honorific", "(ánè) amà- + shak-feení"],
+      ["Singular", "Person2", "Common", "(ánè) amà- + shak-feèn"],
+      ["Singular", "Person3", "Masc", "(ánè) amà- + shak-feén"],
+      ["Singular", "Person3", "Honorific", "(ánè) amà- + shak-feén"],
+      ["Singular", "Person3", "Fem", "(ánè) amà- + shak-feèn"],
+      ["Plural", "Person1", "Common", "(ánè) amà- + shak-feenì"],
+      ["Plural", "Person2", "Honorific", "(ánè) amà- + shak-feení"],
+      ["Plural", "Person2", "Common", "(ánè) amà- + shak-feení"],
+      ["Plural", "Person3", "Honorific", "(ánè) amà- + shak-feén"],
+      ["Plural", "Person3", "Common", "(ánè) amà- + shak-feén"]
+    ]
+  },
+  {
+    "label": "yem-Conj1-am-VNounAffirmative",
+    "note": "La93p.177-259 :: aff futProgr:Lamberti uses wost- workconjClass:conj2. neg perf:Lamberti uses kun- lay conjClass:conj1. neg pretHab,pretProgr,pretDub,presHab,futPunctSub,futProg,gerund,potential:Lamberti uses zag- doconjClass:conj3. neg cond1,cond2,irreal:Lamberti uses argas- help conjClass:conj3.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "am-à"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-GerPresAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "bii-faád"],
+      ["Common", "Person1", "Common", "bii-faád"],
+      ["Common", "Person2", "Common", "bii-faád"],
+      ["Common", "Person3", "Common", "bii-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-GerPretAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "bii-r-á"],
+      ["Common", "Person1", "Common", "bii-r-á"],
+      ["Common", "Person2", "Common", "bii-r-á"],
+      ["Common", "Person3", "Common", "bii-r-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-ImperativeAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "kem-o-ní"],
+      ["Singular", "Person2", "Common", "bí ~ bíì"],
+      ["Plural", "Person2", "Honorific", "kem-o-ní"],
+      ["Plural", "Person2", "Common", "bi-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-ImperfectAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "bii-fán + _NULL"],
+      ["Singular", "Person3", "Masc", "bii-fé + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-InfinitiveAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "biy-à-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-JussiveAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biy-a-ná"],
+      ["Singular", "Person3", "Masc", "biy-ó"],
+      ["Singular", "Person3", "Honorific", "kem-o-tó"],
+      ["Singular", "Person3", "Fem", "biy-òn"],
+      ["Plural", "Person1", "Common", "biy-a-nì"],
+      ["Plural", "Person3", "Honorific", "kem-o-sotó"],
+      ["Plural", "Person3", "Common", "bi-so-tó"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PerfectAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "bi-í-n"],
+      ["Singular", "Person2", "Honorific", "keme-ní"],
+      ["Singular", "Person2", "Common", "bi-í-t"],
+      ["Singular", "Person3", "Masc", "bi-í"],
+      ["Singular", "Person3", "Honorific", "keme-e-té"],
+      ["Singular", "Person3", "Fem", "bi-ì"],
+      ["Plural", "Person1", "Common", "bii-nì"],
+      ["Plural", "Person2", "Honorific", "keme -(se)ní"],
+      ["Plural", "Person2", "Common", "bii-tí"],
+      ["Plural", "Person3", "Honorific", "keme -(s)e-té"],
+      ["Plural", "Person3", "Common", "bii-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PresIngrAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biyà-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PresPunctAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "bii-n-ár"],
+      ["Singular", "Person2", "Honorific", "bii-ní-r ~ kem-e-ní-r"],
+      ["Singular", "Person2", "Common", "bii-t-àr"],
+      ["Singular", "Person3", "Masc", "biy-ár"],
+      ["Singular", "Person3", "Honorific", "kem-e-té-r"],
+      ["Singular", "Person3", "Fem", "biy-àr"],
+      ["Plural", "Person1", "Common", "bii-nì-r"],
+      ["Plural", "Person2", "Honorific", "bii-ní-r ~ kem-e-ní-r"],
+      ["Plural", "Person2", "Common", "bii-tí-r"],
+      ["Plural", "Person3", "Honorific", "kem-e-té-r"],
+      ["Plural", "Person3", "Common", "biye-té-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PretDubitAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "bi-í-n-toŋwà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PretEgrAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biirá + koys-í-n (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PretIngrAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biyà-k + jammarén (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-PretProgrAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biì-faaná + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllabic-bi-VNounAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "biy-à"]
+    ]
+  },
+  {
+    "label": "yem-Conj1Monosyllablic-bi-FutPunctAffirmative",
+    "note": "La93pp.208-210 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj1",
+      "lexeme": "bi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllablic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "biy-a-ná + _NULL"],
+      ["Singular", "Person2", "Common", "biy-a-tà + _NULL"],
+      ["Singular", "Person3", "Masc", "biy-a-ná + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-Cond1Affirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Cond1"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-e-fanaá-né"],
+      ["Singular", "Person2", "Honorific", "shol-e-fanií-né"],
+      ["Singular", "Person2", "Common", "shol-e-fataà-né"],
+      ["Singular", "Person3", "Masc", "shol-e-fanaá-né"],
+      ["Singular", "Person3", "Honorific", "shol-e-fateé-né"],
+      ["Singular", "Person3", "Fem", "shol-e-fanaà-né"],
+      ["Plural", "Person1", "Common", "shol-e-faniì-né"],
+      ["Plural", "Person2", "Honorific", "shol-e-fanií-né"],
+      ["Plural", "Person2", "Common", "shol-e-fatií-né"],
+      ["Plural", "Person3", "Honorific", "shol-e-fateé-né"],
+      ["Plural", "Person3", "Common", "shol-e-fateé-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-DesiderativeAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Desiderative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "sholò-k / shol-o-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "sholò-k / shol-o-ní-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "sholò-k / shol-o-tà-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "sholò-k / shol-o-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "sholò-k / shol-o-né-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "sholò-k / shol-o-nà-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "sholò-k / shol-o-nì-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "sholò-k / shol-soní-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "sholò-k / shol-o-tí-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "sholò-k / shol-(s)oné-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "sholò-k / shol-(s)oné-k + shol-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-DesiderativeNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Desiderative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "sholò-k / shol-o-tà-k + shol-e-nií-ttà"],
+      ["Singular", "Person2", "Common", "sholò-k / shol-o-ná-k + shol-e-taà-ttà"],
+      ["Singular", "Person3", "Masc", "sholò-k / shol-o-ní-k + shol-eé-ttè"],
+      ["Singular", "Person3", "Honorific", "sholò-k / shol-o-nà-k + shol-e-teé-ttà"],
+      ["Singular", "Person3", "Fem", "sholò-k / shol-o-ná-k + shol-eé-ttà"],
+      ["Plural", "Person1", "Common", "sholò-k / shol-o-né-k + shol-e-niì-ttà"],
+      ["Plural", "Person2", "Honorific", "sholò-k / shol-o-tí-k + shol-e-nií-ttà"],
+      ["Plural", "Person2", "Common", "sholò-k / shol-o-nì-k + shol-e-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "sholò-k / shol-(s)oné-k + shol-e-teé-ttà"],
+      ["Plural", "Person3", "Common", "sholò-k / shol-soní-k + shol-e-teé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-FutIngrNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutIngr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "sholò-k + áfà jammaroná-zà"],
+      ["Singular", "Person2", "Honorific", "sholò-k + áfà jammaroní-zà"],
+      ["Singular", "Person2", "Common", "sholò-k + áfà jammarotà-zà"],
+      ["Singular", "Person3", "Masc", "sholò-k + áfà jammaroná-zà"],
+      ["Singular", "Person3", "Honorific", "sholò-k + áfà jammaroné-zà"],
+      ["Singular", "Person3", "Fem", "sholò-k + áfà jammaronà-zà"],
+      ["Plural", "Person1", "Common", "sholò-k + áfà jammaronì-zà"],
+      ["Plural", "Person2", "Honorific", "sholò-k + áfà jammaroní-zà"],
+      ["Plural", "Person2", "Common", "sholò-k + áfà jammarotí-zà"],
+      ["Plural", "Person3", "Honorific", "sholò-k + áfà jammarsoné-zà"],
+      ["Plural", "Person3", "Common", "sholò-k + áfà jammarsoné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-FutProgrAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-è-fooná"],
+      ["Singular", "Person2", "Honorific", "shol-è-fooní"],
+      ["Singular", "Person2", "Common", "shol-è-footà"],
+      ["Singular", "Person3", "Masc", "shol-è-fooná"],
+      ["Singular", "Person3", "Honorific", "shol-è-fooné"],
+      ["Singular", "Person3", "Fem", "shol-è-foonà"],
+      ["Plural", "Person1", "Common", "shol-è-foonì"],
+      ["Plural", "Person2", "Honorific", "shol-è-fooné"],
+      ["Plural", "Person2", "Common", "shol-è-footi"],
+      ["Plural", "Person3", "Honorific", "shol-è-fooné"],
+      ["Plural", "Person3", "Common", "shol-è-fooné"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-FutPunctAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-o-ná"],
+      ["Singular", "Person2", "Honorific", "shol-o-ní"],
+      ["Singular", "Person2", "Common", "shol-o-tà"],
+      ["Singular", "Person3", "Masc", "shol-o-ná"],
+      ["Singular", "Person3", "Honorific", "shol-o-né"],
+      ["Singular", "Person3", "Fem", "shol-o-nà"],
+      ["Plural", "Person1", "Common", "shol-o-nì"],
+      ["Plural", "Person2", "Honorific", "shol-oní"],
+      ["Plural", "Person2", "Common", "shol-o-tí"],
+      ["Plural", "Person3", "Honorific", "shol-soné"],
+      ["Plural", "Person3", "Common", "shol-soné"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-FutPunctNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà shol-o-ná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà shol-o-ní-zà"],
+      ["Singular", "Person2", "Common", "áfà shol-o-tà-zà"],
+      ["Singular", "Person3", "Masc", "áfà shol-o-ná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà shol-o-né-zà"],
+      ["Singular", "Person3", "Fem", "áfà shol-o-nà-zà"],
+      ["Plural", "Person1", "Common", "áfà shol-o-nì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà shol-oní-zà"],
+      ["Plural", "Person2", "Common", "áfà shol-o-tí-zà"],
+      ["Plural", "Person3", "Honorific", "áfà shol-oné-zà"],
+      ["Plural", "Person3", "Common", "áfà shol-oné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-GerPresAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "shol-e-faád"],
+      ["Common", "Person1", "Common", "shol-e-faád"],
+      ["Common", "Person2", "Common", "shol-e-faád"],
+      ["Common", "Person3", "Common", "shol-e-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-GerPretAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "shol-e-rá"],
+      ["Common", "Person1", "Common", "shol-e-rá"],
+      ["Common", "Person2", "Common", "shol-e-rá"],
+      ["Common", "Person3", "Common", "shol-e-ré"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-ImperativeAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "shol-o-ní"],
+      ["Singular", "Person2", "Common", "shol-ó"],
+      ["Plural", "Person2", "Honorific", "shol-o-ní"],
+      ["Plural", "Person2", "Common", "shol-o-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-ImperfectAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- work conjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-e-fán"],
+      ["Singular", "Person2", "Honorific", "shol-e-fení"],
+      ["Singular", "Person2", "Common", "shol-e-fát"],
+      ["Singular", "Person3", "Masc", "shol-e-fé"],
+      ["Singular", "Person3", "Honorific", "shol-e-fé"],
+      ["Singular", "Person3", "Fem", "shol-e-fà"],
+      ["Plural", "Person1", "Common", "shol-e-fenì"],
+      ["Plural", "Person2", "Honorific", "shol-e-fení"],
+      ["Plural", "Person2", "Common", "shol-e-feti"],
+      ["Plural", "Person3", "Honorific", "shol-e-sefé"],
+      ["Plural", "Person3", "Common", "shol-e-sefé"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-InfinitiveAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "shol-ò-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-InfinitiveNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "shol-ò-bey-à"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-JussiveAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-u-ná"],
+      ["Singular", "Person3", "Masc", "shol-ow-ó"],
+      ["Singular", "Person3", "Honorific", "shol-o-tó"],
+      ["Singular", "Person3", "Fem", "shol-òn ~ shol-ùn"],
+      ["Plural", "Person1", "Common", "shol-o-nì"],
+      ["Plural", "Person3", "Honorific", "shol-o-(so)tó"],
+      ["Plural", "Person3", "Common", "shol-o-(so)tó"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-JussiveNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-o-ná-tà"],
+      ["Singular", "Person2", "Honorific", "shol-o-ní-tà"],
+      ["Singular", "Person2", "Common", "shol-o-tà-tà"],
+      ["Singular", "Person3", "Masc", "shol-o-ná-tà"],
+      ["Singular", "Person3", "Honorific", "shol-o-né-tà"],
+      ["Singular", "Person3", "Fem", "shol-o-nà-tà"],
+      ["Plural", "Person1", "Common", "shol-o-nì-tà"],
+      ["Plural", "Person2", "Honorific", "shol-oní-tà"],
+      ["Plural", "Person2", "Common", "shol-o-tí-tà"],
+      ["Plural", "Person3", "Honorific", "shol-soné-tà"],
+      ["Plural", "Person3", "Common", "shol-soné-tà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PerfectAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-é-n"],
+      ["Singular", "Person2", "Honorific", "shol-e-ní"],
+      ["Singular", "Person2", "Common", "shol-é-t"],
+      ["Singular", "Person3", "Masc", "shol-é"],
+      ["Singular", "Person3", "Honorific", "shol-e-té"],
+      ["Singular", "Person3", "Fem", "shol-è"],
+      ["Plural", "Person1", "Common", "shol-e-nì"],
+      ["Plural", "Person2", "Honorific", "shol-e-ní"],
+      ["Plural", "Person2", "Common", "shol-e-tí"],
+      ["Plural", "Person3", "Honorific", "shol-e-té"],
+      ["Plural", "Person3", "Common", "shol-e-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PerfectNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PotentialAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Potential"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "sholò-k / shol-o-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "sholò-k / shol-o-ní-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "sholò-k / shol-o-tà-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "sholò-k / shol-o-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "sholò-k / shol-o-né-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "sholò-k / shol-o-nà-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "sholò-k / shol-o-nì-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "sholò-k / shol-soní-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "sholò-k / shol-o-tí-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "sholò-k / shol-(s)oné-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "sholò-k / shol-(s)oné-k + ʕim-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PresProgrAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-è-difán"],
+      ["Singular", "Person2", "Honorific", "shol-è-difení"],
+      ["Singular", "Person2", "Common", "shol-è-difát"],
+      ["Singular", "Person3", "Masc", "shol-è-difé"],
+      ["Singular", "Person3", "Honorific", "shol-è-difé"],
+      ["Singular", "Person3", "Fem", "shol-è-difà"],
+      ["Plural", "Person1", "Common", "shol-è-difenì"],
+      ["Plural", "Person2", "Honorific", "shol-è-difení"],
+      ["Plural", "Person2", "Common", "shol-è-difetí"],
+      ["Plural", "Person3", "Honorific", "shol-è-difé"],
+      ["Plural", "Person3", "Common", "shol-è-difé"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PresPunctAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "sholen-ár"],
+      ["Singular", "Person2", "Honorific", "shole-ní-r"],
+      ["Singular", "Person2", "Common", "sholet-àr"],
+      ["Singular", "Person3", "Masc", "sholé-r"],
+      ["Singular", "Person3", "Honorific", "sholeté-r"],
+      ["Singular", "Person3", "Fem", "sholè-r"],
+      ["Plural", "Person1", "Common", "sholenì-r"],
+      ["Plural", "Person2", "Honorific", "sholení-r"],
+      ["Plural", "Person2", "Common", "sholetí-r"],
+      ["Plural", "Person3", "Honorific", "shole(se)té-r"],
+      ["Plural", "Person3", "Common", "shole(se)té-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PresPunctNegative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-e-naá-ttà"],
+      ["Singular", "Person2", "Honorific", "shol-e-nií-ttà"],
+      ["Singular", "Person2", "Common", "shol-e-taà-ttà"],
+      ["Singular", "Person3", "Masc", "shol-eé-ttè"],
+      ["Singular", "Person3", "Honorific", "shol-e-teé-ttà"],
+      ["Singular", "Person3", "Fem", "shol-eé-ttà"],
+      ["Plural", "Person1", "Common", "shol-e-niì-ttà"],
+      ["Plural", "Person2", "Honorific", "shol-e-nií-ttà"],
+      ["Plural", "Person2", "Common", "shol-e-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "shol-e-teé-ttà"],
+      ["Plural", "Person3", "Common", "shol-e-teé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-PretProgrAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "shol-è-faaná"],
+      ["Singular", "Person2", "Honorific", "shol-è-feení"],
+      ["Singular", "Person2", "Common", "shol-è-feèn"],
+      ["Singular", "Person3", "Masc", "shol-è-feén"],
+      ["Singular", "Person3", "Honorific", "shol-è-feén"],
+      ["Singular", "Person3", "Fem", "shol-è-feèn"],
+      ["Plural", "Person1", "Common", "shol-è-feenì"],
+      ["Plural", "Person2", "Honorific", "shol-è-feení"],
+      ["Plural", "Person2", "Common", "shol-è-feení"],
+      ["Plural", "Person3", "Honorific", "shol-è-feén"],
+      ["Plural", "Person3", "Common", "shol-è-feén"]
+    ]
+  },
+  {
+    "label": "yem-Conj2-shol-VNounAffirmative",
+    "note": "La93p.177-259 :: aff juss,imprtv:Lamberti uses mak- say conjClass:conj2 :: aff potential,desiderative,neg desiderative,infinitive:Lamberti uses wost- workconjClass:conj2.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "shol",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "shol-ò"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-FutPunctAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yoo-ná + _NULL"],
+      ["Singular", "Person2", "Common", "yoo-tà + _NULL"],
+      ["Singular", "Person3", "Masc", "yoo-ná + (etc.)"],
+      ["Singular", "Person3", "Fem", "yoo-nà + _NULL"],
+      ["Plural", "Person1", "Common", "yoo-nì + _NULL"],
+      ["Plural", "Person2", "Common", "yoo-tí + _NULL"],
+      ["Plural", "Person3", "Common", "yoo-té (??) + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-GerPresAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "yaa-faád"],
+      ["Common", "Person1", "Common", "yaa-faád"],
+      ["Common", "Person2", "Common", "yaa-faád"],
+      ["Common", "Person3", "Common", "yee-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-GerPretAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "yaa-r-á"],
+      ["Common", "Person1", "Common", "yaa-r-á"],
+      ["Common", "Person2", "Common", "yaa-r-á"],
+      ["Common", "Person3", "Common", "yee-r-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-ImperativeAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "yoo-ní ~ of-o-ní"],
+      ["Singular", "Person2", "Common", "yóò"],
+      ["Plural", "Person2", "Honorific", "yoo-ní ~ of-o-ní"],
+      ["Plural", "Person2", "Common", "yoo-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-ImperfectAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaa-fán + _NULL"],
+      ["Singular", "Person3", "Masc", "yee-fé + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-InfinitiveAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "yoò-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-JussiveAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yoo-ná"],
+      ["Singular", "Person3", "Masc", "y-oó"],
+      ["Singular", "Person3", "Honorific", "of-o-tó"],
+      ["Singular", "Person3", "Fem", "y-oòn"],
+      ["Plural", "Person1", "Common", "yoo-nì"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PerfectAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaá-n"],
+      ["Singular", "Person2", "Honorific", "yaa-ní ~ of-e-ní"],
+      ["Singular", "Person2", "Common", "yaá-t"],
+      ["Singular", "Person3", "Masc", "yeé"],
+      ["Singular", "Person3", "Honorific", "yee-té ~ of-e-té"],
+      ["Singular", "Person3", "Fem", "yaà"],
+      ["Plural", "Person1", "Common", "yaa-nì"],
+      ["Plural", "Person2", "Honorific", "yaa-ní ~ of-e-ní"],
+      ["Plural", "Person2", "Common", "yaa-tí"],
+      ["Plural", "Person3", "Honorific", "yee-té ~ of-e-té"],
+      ["Plural", "Person3", "Common", "yee-seté"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PresIngrAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "yoò-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PresPunctAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaa-n-ár"],
+      ["Singular", "Person2", "Honorific", "yaa-ní-r ~ of-e-ní-r"],
+      ["Singular", "Person2", "Common", "yaa-t-àr"],
+      ["Singular", "Person3", "Masc", "yeé-r"],
+      ["Singular", "Person3", "Honorific", "yee-té-r ~ of-e-té-r"],
+      ["Singular", "Person3", "Fem", "yaà-r"],
+      ["Plural", "Person1", "Common", "yaa-nì-r"],
+      ["Plural", "Person2", "Honorific", "yaa-ní-r ~ of-e-ní-r"],
+      ["Plural", "Person2", "Common", "yaa-tí-r"],
+      ["Plural", "Person3", "Honorific", "yee-té-r ~ of-e-té-r"],
+      ["Plural", "Person3", "Common", "yee-seté-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PretDubitAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaán-toŋwà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PretEgrAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaará + koys-í-n (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PretIngrAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yoò-k jammarén (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-PretProgrAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "yaa-faaná + _NULL"],
+      ["Singular", "Person3", "Masc", "yee-feén + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2Monosyllabic-ya-VNounAffirmative",
+    "note": "La93pp.210-212 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj2",
+      "lexeme": "ya",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "y-oò"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-DesiderativeAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Desiderative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["person", "token"],
+      ["Singular", "Person1", "foò-k / fooná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "foò-k / footà-k + shol-[perf~imperf~futPunct](etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-FutPunctAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "foo-ná"],
+      ["Singular", "Person2", "Honorific", "foo-ní"],
+      ["Singular", "Person2", "Common", "foo-tà"],
+      ["Singular", "Person3", "Masc", "foo-ná"],
+      ["Singular", "Person3", "Honorific", "foo-né"],
+      ["Singular", "Person3", "Fem", "foo-nà"],
+      ["Plural", "Person1", "Common", "foo-nì"],
+      ["Plural", "Person2", "Honorific", "foo-soní"],
+      ["Plural", "Person2", "Common", "foo-tí ~foo-tí"],
+      ["Plural", "Person3", "Honorific", "foo-né"],
+      ["Plural", "Person3", "Common", "foo-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-FutPunctNegative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà foo-ná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà foo-ní-zà"],
+      ["Singular", "Person2", "Common", "áfà foo-tà-zà"],
+      ["Singular", "Person3", "Masc", "áfà foo-ná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà foo-né-zà"],
+      ["Singular", "Person3", "Fem", "áfà foo-nà-zà"],
+      ["Plural", "Person1", "Common", "áfà foo-nì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà foo-soní-zà"],
+      ["Plural", "Person2", "Common", "áfà foo-tí-zà"],
+      ["Plural", "Person3", "Honorific", "áfà foo-(so)né-zà"],
+      ["Plural", "Person3", "Common", "áfà foo-(so)né-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-ImperativeAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "foo-ní"],
+      ["Singular", "Person2", "Common", "fóò"],
+      ["Plural", "Person2", "Honorific", "foo-so-ní"],
+      ["Plural", "Person2", "Common", "foo-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-ImperfectAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "faá-n"],
+      ["Singular", "Person2", "Honorific", "faa-ní"],
+      ["Singular", "Person2", "Common", "faá-t"],
+      ["Singular", "Person3", "Masc", "fé"],
+      ["Singular", "Person3", "Honorific", "fee-té"],
+      ["Singular", "Person3", "Fem", "fà"],
+      ["Plural", "Person1", "Common", "faa-nì"],
+      ["Plural", "Person2", "Honorific", "faa-sení"],
+      ["Plural", "Person2", "Common", "faa-ti"],
+      ["Plural", "Person3", "Honorific", "fe-seté"],
+      ["Plural", "Person3", "Common", "fe-seté"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-ImperfectNegative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "aafoó-t"],
+      ["Singular", "Person2", "Honorific", "aafe-ní"],
+      ["Singular", "Person2", "Common", "aafè"],
+      ["Singular", "Person3", "Masc", "aafé"],
+      ["Singular", "Person3", "Honorific", "aafa-tó"],
+      ["Singular", "Person3", "Fem", "aafè"],
+      ["Plural", "Person1", "Common", "aafe-nì"],
+      ["Plural", "Person2", "Honorific", "aaf-soní"],
+      ["Plural", "Person2", "Common", "aafe-tí"],
+      ["Plural", "Person3", "Honorific", "aaf-sotó"],
+      ["Plural", "Person3", "Common", "aaf-sotó"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-InfinitiveAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "foò-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-JussiveAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "foo-ná"],
+      ["Singular", "Person3", "Masc", "f-oó"],
+      ["Singular", "Person3", "Honorific", "foo-né"],
+      ["Singular", "Person3", "Fem", "f-òn"],
+      ["Plural", "Person1", "Common", "foo-nì"],
+      ["Plural", "Person3", "Honorific", "foo-so-né"],
+      ["Plural", "Person3", "Common", "foo-so-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-JussiveNegative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "fooná-tà"],
+      ["Singular", "Person2", "Honorific", "am-o-ní-tà"],
+      ["Singular", "Person2", "Common", "footà-tà"],
+      ["Singular", "Person3", "Masc", "fooná-tà"],
+      ["Singular", "Person3", "Fem", "foonà-tà"],
+      ["Plural", "Person2", "Common", "footí-tà(etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-PotentialAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Potential",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["person", "token"],
+      ["Singular", "Person1", "foò-k / fooná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "foò-k / footà-k + ʕim- [perf~imperf~futPunct](etc/)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-PresPunctAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Masc", "feé-r"],
+      ["Singular", "Person3", "Fem", "faà-r"],
+      ["Plural", "Person3", "Masc", "fee-rín"],
+      ["Plural", "Person3", "Fem", "faà-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-PresPunctNegative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["person", "token"],
+      ["Singular", "Person1", "fa-naá-ttà + _NULL"],
+      ["Singular", "Person2", "fa-taà-ttà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-SubordinateNegative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Subordinate",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "ánè ffooyè (-wà) + _NULL"],
+      ["Singular", "Person2", "Honorific", "ánè foowení (-wà) + _NULL"],
+      ["Singular", "Person2", "Common", "ánè ffooyè (-wà) + _NULL"],
+      ["Singular", "Person3", "Masc", "ánè ffooyè(-wà) ~ footu-wà + [first form"],
+      ["Singular", "Person3", "Honorific", "ánè footó-wà + _NULL"],
+      ["Singular", "Person3", "Fem", "ánè foowà (-wà) + _NULL"],
+      ["Plural", "Person1", "Common", "ánè foowetí(-wà) + _NULL"],
+      ["Plural", "Person2", "Honorific", "ánè fesotó + _NULL"],
+      ["Plural", "Person2", "Common", "ánè foowetí(-wà) + _NULL"],
+      ["Plural", "Person3", "Honorific", "ánè foosowení (-wà) + _NULL"],
+      ["Plural", "Person3", "Common", "ánè fesotó + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj2aMonosyllabic-fa-VNounAffirmative",
+    "note": "La93p.249-254",
+    "common": {
+      "conjClass": "Conj2a",
+      "lexeme": "fa",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "???"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-Cond1Affirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Cond1"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-i-fanaá-né"],
+      ["Singular", "Person2", "Honorific", "zag-i-fanií-né"],
+      ["Singular", "Person2", "Common", "zag-i-fataà-né"],
+      ["Singular", "Person3", "Masc", "zag-i-fanaá-né"],
+      ["Singular", "Person3", "Honorific", "zag-i-fateé-né"],
+      ["Singular", "Person3", "Fem", "zag-i-fanaà-né"],
+      ["Plural", "Person1", "Common", "zag-i-faniì-né"],
+      ["Plural", "Person2", "Honorific", "zag-i-fanií-né"],
+      ["Plural", "Person2", "Common", "zag-i-fatií-né"],
+      ["Plural", "Person3", "Honorific", "zag-i-fateé-né"],
+      ["Plural", "Person3", "Common", "zag-i-fateé-né"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-DesiderativeAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Desiderative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zagù-k / zag-u-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "zagù-k / zag-u-ní-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "zagù-k / zag-u-tà-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "zagù-k / zag-u-ná-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "zagù-k / zag-u-né-k + shol-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "zagù-k / zag-u-nà-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "zagù-k / zag-u-nì-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "zagù-k / zag-soní-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "zagù-k / zag-u-tí-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "zagù-k / zag-(s)oné-k + shol-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "zagù-k / zag-(s)oné-k + shol-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-FutProgrAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-ì-fooná"],
+      ["Singular", "Person2", "Honorific", "zag-ì-fooní"],
+      ["Singular", "Person2", "Common", "zag-ì-footà"],
+      ["Singular", "Person3", "Masc", "zag-ì-fooná"],
+      ["Singular", "Person3", "Honorific", "zag-ì-fooné"],
+      ["Singular", "Person3", "Fem", "zag-ì-foonà"],
+      ["Plural", "Person1", "Common", "zag-ì-foonì"],
+      ["Plural", "Person2", "Honorific", "zag-ì-fooné"],
+      ["Plural", "Person2", "Common", "zag-ì-footi"],
+      ["Plural", "Person3", "Honorific", "zag-ì-fooné"],
+      ["Plural", "Person3", "Common", "zag-ì-fooné"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-FutProgrNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà zagi-fooná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà zagi-fooní-zà"],
+      ["Singular", "Person2", "Common", "áfà zagi-footà-zà"],
+      ["Singular", "Person3", "Masc", "áfà zagi-fooná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà zagi-fooné-zà"],
+      ["Singular", "Person3", "Fem", "áfà zagi-foonà-zà"],
+      ["Plural", "Person1", "Common", "áfà zagi-foonì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà zagi-fooné-zà"],
+      ["Plural", "Person2", "Common", "áfà zagi-footi-zà"],
+      ["Plural", "Person3", "Honorific", "áfà zagi-fooné-zà"],
+      ["Plural", "Person3", "Common", "áfà zagi-fooné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-FutPunctAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-u-ná"],
+      ["Singular", "Person2", "Honorific", "zag-u-ní"],
+      ["Singular", "Person2", "Common", "zag-u-tà"],
+      ["Singular", "Person3", "Masc", "zag-u-ná"],
+      ["Singular", "Person3", "Honorific", "zag-u-né"],
+      ["Singular", "Person3", "Fem", "zag-u-nà"],
+      ["Plural", "Person1", "Common", "zag-u-nì"],
+      ["Plural", "Person2", "Honorific", "zag-u-ní"],
+      ["Plural", "Person2", "Common", "zag-u-tí"],
+      ["Plural", "Person3", "Honorific", "zag-soné"],
+      ["Plural", "Person3", "Common", "zag-soné"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-FutPunctNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "áfà zag-u-ná-zà"],
+      ["Singular", "Person2", "Honorific", "áfà zag-u-ní-zà"],
+      ["Singular", "Person2", "Common", "áfà zag-u-tà-zà"],
+      ["Singular", "Person3", "Masc", "áfà zag-u-ná-zà"],
+      ["Singular", "Person3", "Honorific", "áfà zag-u-né-zà"],
+      ["Singular", "Person3", "Fem", "áfà zag-u-nà-zà"],
+      ["Plural", "Person1", "Common", "áfà zag-u-nì-zà"],
+      ["Plural", "Person2", "Honorific", "áfà zag-uní-zà"],
+      ["Plural", "Person2", "Common", "áfà zag-u-tí-zà"],
+      ["Plural", "Person3", "Honorific", "áfà zag-soné-zà"],
+      ["Plural", "Person3", "Common", "áfà zag-soné-zà"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-FutPunctSubNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "FutPunctSub"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-u-taá-ttà"],
+      ["Singular", "Person2", "Honorific", "zag-u-nií-ttà"],
+      ["Singular", "Person2", "Common", "zag-u-taà-ttà"],
+      ["Singular", "Person3", "Masc", "zag-u-nií-ttè"],
+      ["Singular", "Person3", "Honorific", "zag-u-neé-ttà"],
+      ["Singular", "Person3", "Fem", "zag-u-niì-ttà"],
+      ["Plural", "Person1", "Common", "zag-u-tií-ttà"],
+      ["Plural", "Person2", "Honorific", "zag-u-nií-ttà"],
+      ["Plural", "Person2", "Common", "zag-u-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "zag-so-neé-ttà"],
+      ["Plural", "Person3", "Common", "zag-so-neé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-GerPresAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "zag-i-faád"],
+      ["Common", "Person1", "Common", "zag-i-faád"],
+      ["Common", "Person2", "Common", "zag-i-faád"],
+      ["Common", "Person3", "Common", "zag-i-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-GerPretAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "zag-i-rá"],
+      ["Common", "Person1", "Common", "zag-i-rá"],
+      ["Common", "Person2", "Common", "zag-i-rá"],
+      ["Common", "Person3", "Common", "zag-i-ré"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-GerundNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Gerund"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-u-nóy"],
+      ["Singular", "Person2", "Honorific", "zag-u-nóy"],
+      ["Singular", "Person2", "Common", "zag-u-nóy"],
+      ["Singular", "Person3", "Masc", "zag-u-nóy"],
+      ["Singular", "Person3", "Honorific", "zag-u-nóy"],
+      ["Singular", "Person3", "Fem", "zag-u-nóy"],
+      ["Plural", "Person1", "Common", "zag-u-nóy"],
+      ["Plural", "Person2", "Honorific", "zag-u-nóy"],
+      ["Plural", "Person2", "Common", "zag-u-nóy"],
+      ["Plural", "Person3", "Honorific", "zag-u-nóy"],
+      ["Plural", "Person3", "Common", "zag-u-nóy"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-ImperativeAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "zag-u-ní"],
+      ["Singular", "Person2", "Common", "zag-ú"],
+      ["Plural", "Person2", "Honorific", "zag-u-ní"],
+      ["Plural", "Person2", "Common", "zag-u-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-ImperfectAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-i-fán"],
+      ["Singular", "Person2", "Honorific", "zag-i-fení"],
+      ["Singular", "Person2", "Common", "zag-i-fát"],
+      ["Singular", "Person3", "Masc", "zag-i-fé"],
+      ["Singular", "Person3", "Honorific", "zag-i-fé"],
+      ["Singular", "Person3", "Fem", "zag-i-fà"],
+      ["Plural", "Person1", "Common", "zag-i-fenì"],
+      ["Plural", "Person2", "Honorific", "zag-i-fení"],
+      ["Plural", "Person2", "Common", "zag-i-feti"],
+      ["Plural", "Person3", "Honorific", "zag-i-sefé"],
+      ["Plural", "Person3", "Common", "zag-i-sefé"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-InfinitiveAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "zag-ù-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-InfinitiveNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Infinitive"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "zag-ù-bey-à"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-JussiveAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-u-ná"],
+      ["Singular", "Person3", "Masc", "zag-u-wó"],
+      ["Singular", "Person3", "Honorific", "zag-u-tó"],
+      ["Singular", "Person3", "Fem", "zag-ùn"],
+      ["Plural", "Person1", "Common", "zag-u-nì"],
+      ["Plural", "Person3", "Honorific", "zag-u-(so)tó"],
+      ["Plural", "Person3", "Common", "zag-u-(so)tó"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-JussiveNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-u-ná-tà"],
+      ["Singular", "Person2", "Honorific", "zag-u-ní-tà"],
+      ["Singular", "Person2", "Common", "zag-u-tà-tà"],
+      ["Singular", "Person3", "Masc", "zag-u-ná-tà"],
+      ["Singular", "Person3", "Honorific", "zag-u-né-tà"],
+      ["Singular", "Person3", "Fem", "zag-u-nà-tà"],
+      ["Plural", "Person1", "Common", "zag-u-nì-tà"],
+      ["Plural", "Person2", "Honorific", "zag-u-ní-tà"],
+      ["Plural", "Person2", "Common", "zag-u-tí-tà"],
+      ["Plural", "Person3", "Honorific", "zag-soné-tà"],
+      ["Plural", "Person3", "Common", "zag-soné-tà"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PerfectAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-í-n"],
+      ["Singular", "Person2", "Honorific", "zag-i-ní"],
+      ["Singular", "Person2", "Common", "zag-í-t"],
+      ["Singular", "Person3", "Masc", "zag-í"],
+      ["Singular", "Person3", "Honorific", "zag-i-té"],
+      ["Singular", "Person3", "Fem", "zag-ì"],
+      ["Plural", "Person1", "Common", "zag-i-nì"],
+      ["Plural", "Person2", "Honorific", "zag-i-ní"],
+      ["Plural", "Person2", "Common", "zag-i-tí"],
+      ["Plural", "Person3", "Honorific", "zag-i-té"],
+      ["Plural", "Person3", "Common", "zag-i-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PerfectNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Perfect"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PotentialAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Potential"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zagù-k / zag-u-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Honorific", "zagù-k / zag-u-ní-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person2", "Common", "zagù-k / zag-u-tà-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Masc", "zagù-k / zag-u-ná-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Honorific", "zagù-k / zag-u-né-k + ʕim-[perf~imperf~futPunct"],
+      ["Singular", "Person3", "Fem", "zagù-k / zag-u-nà-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person1", "Common", "zagù-k / zag-u-nì-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Honorific", "zagù-k / zag-soní-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person2", "Common", "zagù-k / zag-u-tí-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Honorific", "zagù-k / zag-(s)oné-k + ʕim-[perf~imperf~futPunct"],
+      ["Plural", "Person3", "Common", "zagù-k / zag-(s)oné-k + ʕim-[perf~imperf~futPunct"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PotentialNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "Potential"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zagù-k / zag-u-ná-k + ʕim-u-naá-ttà ~ ánè ʕim-ú-t"],
+      ["Singular", "Person2", "Honorific", "zagù-k / zag-u-ní-k + ʕim-u-nií-ttà ~ ánè ʕim-u-ní"],
+      ["Singular", "Person2", "Common", "zagù-k / zag-u-tà-k + ʕim-u-taà-ttà ~ ánè ʕim-è"],
+      ["Singular", "Person3", "Masc", "zagù-k / zag-u-ná-k + ʕim-u-ní-ttè ~ ánè ʕim-é"],
+      ["Singular", "Person3", "Honorific", "zagù-k / zag-u-né-k + ʕim-neé-ttà ~ ánè ʕimoo-tó-"],
+      ["Singular", "Person3", "Fem", "zagù-k / zag-u-nà-k + ʕim-nì-ttà ~ ánè ʕim-à"],
+      ["Plural", "Person1", "Common", "zagù-k / zag-u-nì-k + ʕim-ay-ttà ~ ánè ʕim-u-nì"],
+      ["Plural", "Person2", "Honorific", "zagù-k / zag-uní-k + ʕim-u-nií-ttà ~ ánè ʕim-u-ní"],
+      ["Plural", "Person2", "Common", "zagù-k / zag-u-tí-k + ʕim-u-tií-ttà ~ ánè ʕim-awe-tí"],
+      ["Plural", "Person3", "Honorific", "zagù-k / zag-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-oo-tó"],
+      ["Plural", "Person3", "Common", "zagù-k / zag-soné-k + ʕim-o-neé-ttà ~ ánè ʕim-awe-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PresHabNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresHab"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PresProgrAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-ì-difán"],
+      ["Singular", "Person2", "Honorific", "zag-ì-difení"],
+      ["Singular", "Person2", "Common", "zag-ì-difát"],
+      ["Singular", "Person3", "Masc", "zag-ì-difé"],
+      ["Singular", "Person3", "Honorific", "zag-ì-difé"],
+      ["Singular", "Person3", "Fem", "zag-ì-difà"],
+      ["Plural", "Person1", "Common", "zag-ì-difenì"],
+      ["Plural", "Person2", "Honorific", "zag-ì-difení"],
+      ["Plural", "Person2", "Common", "zag-ì-difetí"],
+      ["Plural", "Person3", "Honorific", "zag-ì-difé"],
+      ["Plural", "Person3", "Common", "zag-ì-difé"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PresPunctAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zagin-ár"],
+      ["Singular", "Person2", "Honorific", "zagi-ní-r"],
+      ["Singular", "Person2", "Common", "zagit-àr"],
+      ["Singular", "Person3", "Masc", "zagí-r"],
+      ["Singular", "Person3", "Honorific", "zagité-r"],
+      ["Singular", "Person3", "Fem", "zagì-r"],
+      ["Plural", "Person1", "Common", "zaginì-r"],
+      ["Plural", "Person2", "Honorific", "zaginí-r"],
+      ["Plural", "Person2", "Common", "zagití-r"],
+      ["Plural", "Person3", "Honorific", "zagi(se)té-r"],
+      ["Plural", "Person3", "Common", "zagi(se)té-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PresPunctNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PresPunct"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-i-naá-ttà"],
+      ["Singular", "Person2", "Honorific", "zag-i-nií-ttà"],
+      ["Singular", "Person2", "Common", "zag-i-taà-ttà"],
+      ["Singular", "Person3", "Masc", "zag-ií-ttè"],
+      ["Singular", "Person3", "Honorific", "zag-i-teé-ttà"],
+      ["Singular", "Person3", "Fem", "zag-iì-ttà"],
+      ["Plural", "Person1", "Common", "zag-i-niì-ttà"],
+      ["Plural", "Person2", "Honorific", "zag-i-nií-ttà"],
+      ["Plural", "Person2", "Common", "zag-i-tií-ttà"],
+      ["Plural", "Person3", "Honorific", "zag-i-teé-ttà ~ zag-seteé-ttà"],
+      ["Plural", "Person3", "Common", "zag-i-teé-ttà ~ zag-seteé-ttà"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PretDubitNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretDubit"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "_NULL"],
+      ["Singular", "Person2", "Honorific", "_NULL"],
+      ["Singular", "Person2", "Common", "_NULL"],
+      ["Singular", "Person3", "Masc", "_NULL"],
+      ["Singular", "Person3", "Honorific", "_NULL"],
+      ["Singular", "Person3", "Fem", "_NULL"],
+      ["Plural", "Person1", "Common", "_NULL"],
+      ["Plural", "Person2", "Honorific", "_NULL"],
+      ["Plural", "Person2", "Common", "_NULL"],
+      ["Plural", "Person3", "Honorific", "_NULL"],
+      ["Plural", "Person3", "Common", "_NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PretHabNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretHab"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "ánè zagù- + shak-fán"],
+      ["Singular", "Person2", "Honorific", "ánè zagù- + shak-fení"],
+      ["Singular", "Person2", "Common", "ánè zagù- + shak-fát"],
+      ["Singular", "Person3", "Masc", "ánè zagù- + shak-fé"],
+      ["Singular", "Person3", "Fem", "ánè zagù- + shak-fàneg"],
+      ["Plural", "Person1", "Common", "ánè zagù- + shak-fenì"],
+      ["Plural", "Person2", "Honorific", "ánè zagù- + shak-fení"],
+      ["Plural", "Person2", "Common", "ánè zagù- + shak-feti"],
+      ["Plural", "Person3", "Honorific", "ánè zagù- + shak-fé"],
+      ["Plural", "Person3", "Common", "ánè zagù- + shak-fé"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PretProgrAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "zag-ì-faaná"],
+      ["Singular", "Person2", "Honorific", "zag-ì-feení"],
+      ["Singular", "Person2", "Common", "zag-ì-feèn"],
+      ["Singular", "Person3", "Masc", "zag-ì-feén"],
+      ["Singular", "Person3", "Honorific", "zag-ì-feén"],
+      ["Singular", "Person3", "Fem", "zag-ì-feèn"],
+      ["Plural", "Person1", "Common", "zag-ì-feenì"],
+      ["Plural", "Person2", "Honorific", "zag-ì-feení"],
+      ["Plural", "Person2", "Common", "zag-ì-feení"],
+      ["Plural", "Person3", "Honorific", "zag-ì -feén"],
+      ["Plural", "Person3", "Common", "zag-ì-feén"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-PretProgrNegative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "tam": "PretProgr"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "(ánè) zagù- + shak-faaná"],
+      ["Singular", "Person2", "Honorific", "(ánè) zagù- + shak-feení"],
+      ["Singular", "Person2", "Common", "(ánè) zagù- + shak-feèn"],
+      ["Singular", "Person3", "Masc", "(ánè) zagù- + shak-feén"],
+      ["Singular", "Person3", "Honorific", "(ánè) zagù- + shak-feén"],
+      ["Singular", "Person3", "Fem", "(ánè) zagù- + shak-feèn"],
+      ["Plural", "Person1", "Common", "(ánè) zagù- + shak-feenì"],
+      ["Plural", "Person2", "Honorific", "(ánè) zagù- + shak-feení"],
+      ["Plural", "Person2", "Common", "(ánè) zagù- + shak-feení"],
+      ["Plural", "Person3", "Honorific", "(ánè) zagù- + shak-feén"],
+      ["Plural", "Person3", "Common", "(ánè) zagù- + shak-feén"]
+    ]
+  },
+  {
+    "label": "yem-Conj3-zag-VNounAffirmative",
+    "note": "La93p.177-259",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "zag",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "zag-ù"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-FutPunctAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "muu-ná"],
+      ["Singular", "Person2", "Common", "muu-tà"],
+      ["Singular", "Person3", "Masc", "muu-ná"],
+      ["Singular", "Person3", "Fem", "muu-nà"],
+      ["Plural", "Person1", "Common", "muu-nì"],
+      ["Plural", "Person2", "Common", "muu-tí"],
+      ["Plural", "Person3", "Common", "muu-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-GerPresAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "maa-faád"],
+      ["Common", "Person1", "Common", "maa-faád"],
+      ["Common", "Person2", "Common", "maa-faád"],
+      ["Common", "Person3", "Common", "mee-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-GerPretAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "maa-r-á"],
+      ["Common", "Person1", "Common", "maa-r-á"],
+      ["Common", "Person2", "Common", "maa-r-á"],
+      ["Common", "Person3", "Common", "mee-r-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-ImperativeAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "token"],
+      ["Singular", "mú ~ múù"],
+      ["Plural", "muu-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-ImperfectAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maa-fán + _NULL"],
+      ["Singular", "Person3", "Masc", "mee-fé + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-InfinitiveAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "muù-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-JussiveAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "muu-ná"],
+      ["Singular", "Person3", "Masc", "muw-ó"],
+      ["Singular", "Person3", "Honorific", "muu-tó"],
+      ["Singular", "Person3", "Fem", "m-uùn"],
+      ["Plural", "Person1", "Common", "muu-nì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PerfectAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maá-n"],
+      ["Singular", "Person2", "Honorific", "maa-ní ~ ta-ní"],
+      ["Singular", "Person2", "Common", "maá-t"],
+      ["Singular", "Person3", "Masc", "meé"],
+      ["Singular", "Person3", "Honorific", "ta-té"],
+      ["Singular", "Person3", "Fem", "maà"],
+      ["Plural", "Person1", "Common", "maa-nì"],
+      ["Plural", "Person2", "Honorific", "maa-ní ~ ta-ní"],
+      ["Plural", "Person2", "Common", "maa-tí"],
+      ["Plural", "Person3", "Honorific", "ta-té"],
+      ["Plural", "Person3", "Common", "mee-(se)té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PresIngrAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "muù-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PresPunctAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maa-n-ár"],
+      ["Singular", "Person2", "Honorific", "maa-ní-r"],
+      ["Singular", "Person2", "Common", "maa-t-àr"],
+      ["Singular", "Person3", "Masc", "meé-r"],
+      ["Singular", "Person3", "Honorific", "ta-e-té-r"],
+      ["Singular", "Person3", "Fem", "maà-r"],
+      ["Plural", "Person1", "Common", "maa-nì-r"],
+      ["Plural", "Person2", "Honorific", "maa-ní-r"],
+      ["Plural", "Person2", "Common", "maa-tí-r"],
+      ["Plural", "Person3", "Honorific", "ta-e-té-r"],
+      ["Plural", "Person3", "Common", "mee-(se)té-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PretDubitAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maán-toŋwà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PretEgrAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maará + koms-í-n (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PretIngrAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "muù-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-PretProgrAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "maa-faaná + _NULL"],
+      ["Singular", "Person3", "Masc", "mee-feén + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3Monosyllabic-ma-VNounAffirmative",
+    "note": "La93pp.212-214 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3",
+      "lexeme": "ma",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "m-uù"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-FutPunctAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "duu-ná + futPunct"],
+      ["Singular", "Person2", "Common", "duu-tà + futPunct"],
+      ["Singular", "Person3", "Masc", "duu-ná + futPunct"],
+      ["Singular", "Person3", "Fem", "duu-nà + futPunct"],
+      ["Plural", "Person1", "Common", "duu-nì + futPunct"],
+      ["Plural", "Person2", "Common", "duu-tí + futPunct"],
+      ["Plural", "Person3", "Common", "duu-téfutPunct + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-GerPresAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "dii-faád"],
+      ["Common", "Person1", "Common", "dii-faád"],
+      ["Common", "Person2", "Common", "dii-faád"],
+      ["Common", "Person3", "Common", "dii-feéd"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-GerPretAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "dii-r-á"],
+      ["Common", "Person1", "Common", "dii-r-á"],
+      ["Common", "Person2", "Common", "dii-r-á"],
+      ["Common", "Person3", "Common", "dii-r-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-ImperativeAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person2", "Honorific", "duu-ní ~ kow-ní(?)"],
+      ["Singular", "Person2", "Common", "dú"],
+      ["Plural", "Person2", "Honorific", "duu-ní ~ kow-ní(?)"],
+      ["Plural", "Person2", "Common", "duu-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-ImperfectAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "dii-fán + _NULL"],
+      ["Singular", "Person3", "Masc", "dii-fé + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-InfinitiveAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "duù-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-JussiveAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "duu-ná"],
+      ["Singular", "Person3", "Masc", "duw-ó"],
+      ["Singular", "Person3", "Fem", "duw-òn"],
+      ["Plural", "Person1", "Common", "duu-nì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PerfectAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "di-í-n"],
+      ["Singular", "Person2", "Honorific", "dii-ní ~ key-ní"],
+      ["Singular", "Person2", "Common", "di-í-t"],
+      ["Singular", "Person3", "Masc", "di-í"],
+      ["Singular", "Person3", "Honorific", "dii-té ~ key-té"],
+      ["Singular", "Person3", "Fem", "di-ì"],
+      ["Plural", "Person1", "Common", "dii-nì"],
+      ["Plural", "Person2", "Honorific", "dii-ní ~ key-ní"],
+      ["Plural", "Person2", "Common", "dii-tí"],
+      ["Plural", "Person3", "Honorific", "dii-té ~ key-té"],
+      ["Plural", "Person3", "Common", "dii-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PresIngrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "duù-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PresPunctAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "dii-n-ár"],
+      ["Singular", "Person2", "Honorific", "dii-ní-r ~ key-ní-r"],
+      ["Singular", "Person2", "Common", "dii-t-àr"],
+      ["Singular", "Person3", "Masc", "dií-r"],
+      ["Singular", "Person3", "Honorific", "dii-té-r ~ key-té-r"],
+      ["Singular", "Person3", "Fem", "diì-r"],
+      ["Plural", "Person1", "Common", "dii-nì-r"],
+      ["Plural", "Person2", "Honorific", "dii-ní-r ~ key-ní-r"],
+      ["Plural", "Person2", "Common", "dii-tí-r"],
+      ["Plural", "Person3", "Honorific", "dii-té-r ~ key-té-r"],
+      ["Plural", "Person3", "Common", "dii-seté-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PretDubitAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "di-í-n-toŋwà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PretEgrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "diirá + koys-í-n (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PretIngrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "duù-k + jammarén (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-PretProgrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "diì-faaná + _NULL"],
+      ["Singular", "Person3", "Masc", "diì-feén + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3aMonosyllabic-di-VNounAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3a",
+      "lexeme": "di",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "d-uù"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-FutPunctAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "FutPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "uu-ná + futPunct"],
+      ["Singular", "Person2", "Common", "uu-tà + futPunct"],
+      ["Singular", "Person3", "Masc", "uu-ná + futPunct"],
+      ["Singular", "Person3", "Fem", "uu-nà + futPunct"],
+      ["Plural", "Person1", "Common", "uu-nì + futPunct"],
+      ["Plural", "Person2", "Common", "uu-tí + futPunct"],
+      ["Plural", "Person3", "Common", "uu-téfutPunct + _NULL"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-GerPresAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPres",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "ii-faá"],
+      ["Common", "Person1", "Common", "ii-faá"],
+      ["Common", "Person2", "Common", "ii-faá"],
+      ["Common", "Person3", "Common", "ii-feé"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-GerPretAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "GerPret",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person3", "Fem", "ii-r-á"],
+      ["Common", "Person1", "Common", "ii-r-á"],
+      ["Common", "Person2", "Common", "ii-r-á"],
+      ["Common", "Person3", "Common", "ii-r-é"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-ImperativeAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperative",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "token"],
+      ["Singular", "ú"],
+      ["Plural", "uu-tì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-ImperfectAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Imperfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "ii-fán + _NULL"],
+      ["Singular", "Person3", "Masc", "ii-fé + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-InfinitiveAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Infinitive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "uù-k"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-JussiveAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Jussive",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "uu-ná"],
+      ["Singular", "Person3", "Masc", "uw-ó"],
+      ["Singular", "Person3", "Fem", "uw-òn"],
+      ["Plural", "Person1", "Common", "uu-nì"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PerfectAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "Perfect",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "i-í-n"],
+      ["Singular", "Person2", "Common", "i-í-t"],
+      ["Singular", "Person3", "Masc", "i-í"],
+      ["Singular", "Person3", "Fem", "i-ì"],
+      ["Plural", "Person1", "Common", "ii-nì"],
+      ["Plural", "Person2", "Common", "ii-tí"],
+      ["Plural", "Person3", "Common", "ii-té"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PresIngrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "uù-k + jammarenár (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PresPunctAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PresPunct",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "ii-n-ár"],
+      ["Singular", "Person2", "Common", "ii-t-àr"],
+      ["Singular", "Person3", "Masc", "ií-r"],
+      ["Singular", "Person3", "Fem", "iì-r"],
+      ["Plural", "Person1", "Common", "ii-nì-r"],
+      ["Plural", "Person2", "Common", "ii-tí-r"],
+      ["Plural", "Person3", "Common", "ii-seté-r"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PretDubitAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretDubit",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "i-í-n-toŋwà + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PretEgrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretEgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "iirá + koys-í-n (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PretIngrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretIngr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "uù-k + jammarén (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-PretProgrAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "PretProgr",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "iì-faaná + _NULL"],
+      ["Singular", "Person3", "Masc", "iì-feén + (etc.)"]
+    ]
+  },
+  {
+    "label": "yem-Conj3bMonosyllabic-i-VNounAffirmative",
+    "note": "La93pp.215-217 :: (etc.) means that only the first one or two forms of the paradigm is given in Lamberti. Only aff forms are given for the monosyllabic verbs.",
+    "common": {
+      "conjClass": "Conj3b",
+      "lexeme": "i",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "tam": "VNoun",
+      "conjSubClass": "Monosyllabic"
+    },
+    "terms": [
+      ["gender", "token"],
+      ["Common", "uù"]
+    ]
+  },
+  {
+    "label": "yem-Independent",
+    "note": "La93pp.104-115",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent"
+    },
+    "terms": [
+      ["case", "number", "person", "gender", "token"],
+      ["Ablative", "Singular", "Person1", "Common", "taá-kìn"],
+      ["Ablative", "Singular", "Person2", "Common", "neé-kìn"],
+      ["Ablative", "Singular", "Person3", "Masc", "bár-kìn"],
+      ["Ablative", "Singular", "Person3", "Fem", "bàr-kìn"],
+      ["Ablative", "Plural", "Person1", "Common", "innò-kìn"],
+      ["Ablative", "Plural", "Person2", "Honorific", "niinò-kìn"],
+      ["Ablative", "Plural", "Person2", "Common", "nittò-kìn"],
+      ["Ablative", "Plural", "Person3", "Common", "bassó-kìn"],
+      ["Absolutive", "Singular", "Person1", "Common", "tá"],
+      ["Absolutive", "Singular", "Person2", "Honorific", "ní"],
+      ["Absolutive", "Singular", "Person2", "Common", "né"],
+      ["Absolutive", "Singular", "Person3", "Masc", "bár"],
+      ["Absolutive", "Singular", "Person3", "Honorific", "bás"],
+      ["Absolutive", "Singular", "Person3", "Fem", "bàr"],
+      ["Absolutive", "Plural", "Person1", "Common", "innò"],
+      ["Absolutive", "Plural", "Person2", "Honorific", "niinò"],
+      ["Absolutive", "Plural", "Person2", "Common", "nittò"],
+      ["Absolutive", "Plural", "Person3", "Common", "bassó"],
+      ["Comitative", "Singular", "Person1", "Common", "taá-nèn"],
+      ["Comitative", "Singular", "Person2", "Common", "neé-nèn"],
+      ["Comitative", "Singular", "Person3", "Masc", "bán-neèn"],
+      ["Comitative", "Singular", "Person3", "Fem", "bàn-neèn"],
+      ["Comitative", "Plural", "Person1", "Common", "innoò-neèn"],
+      ["Comitative", "Plural", "Person2", "Honorific", "niinoò-neèn"],
+      ["Comitative", "Plural", "Person2", "Common", "nittoò-neèn"],
+      ["Comitative", "Plural", "Person3", "Common", "bassoó-neèn"],
+      ["Dative", "Singular", "Person1", "Common", "taá-k"],
+      ["Dative", "Singular", "Person2", "Common", "neé-k"],
+      ["Dative", "Singular", "Person3", "Masc", "bár-ìk"],
+      ["Dative", "Singular", "Person3", "Fem", "bàr-ìk"],
+      ["Dative", "Plural", "Person1", "Common", "innoò-k"],
+      ["Dative", "Plural", "Person2", "Honorific", "niinoò-k"],
+      ["Dative", "Plural", "Person2", "Common", "nittoò-k"],
+      ["Dative", "Plural", "Person3", "Common", "bassoó-k"],
+      ["Directive", "Singular", "Person1", "Common", "taá-kì"],
+      ["Directive", "Singular", "Person2", "Common", "neé-kì"],
+      ["Directive", "Singular", "Person3", "Masc", "bár-kì"],
+      ["Directive", "Singular", "Person3", "Fem", "bàr-kì"],
+      ["Directive", "Plural", "Person1", "Common", "innò-kì"],
+      ["Directive", "Plural", "Person2", "Honorific", "niinò-kì"],
+      ["Directive", "Plural", "Person2", "Common", "nittò-kì"],
+      ["Directive", "Plural", "Person3", "Common", "bassó-kì"],
+      ["Exit", "Singular", "Person3", "Masc", "bá-ssìn"],
+      ["Genitive", "Singular", "Person1", "Common", "tà"],
+      ["Genitive", "Singular", "Person2", "Honorific", "ní"],
+      ["Genitive", "Singular", "Person2", "Common", "né"],
+      ["Genitive", "Singular", "Person3", "Masc", "bá-sà"],
+      ["Genitive", "Singular", "Person3", "Fem", "bar-ì"],
+      ["Genitive", "Plural", "Person1", "Common", "innò"],
+      ["Genitive", "Plural", "Person2", "Honorific", "niinò"],
+      ["Genitive", "Plural", "Person2", "Common", "nittò"],
+      ["Genitive", "Plural", "Person3", "Common", "bassó"],
+      ["Inessive", "Singular", "Person1", "Common", "taá-ssì"],
+      ["Inessive", "Singular", "Person2", "Common", "neé-ssì"],
+      ["Inessive", "Singular", "Person3", "Masc", "ba-saá-ssì"],
+      ["Inessive", "Singular", "Person3", "Fem", "bar-íssì"],
+      ["Inessive", "Plural", "Person1", "Common", "innoó-ssì"],
+      ["Inessive", "Plural", "Person2", "Honorific", "niinoó-ssì"],
+      ["Inessive", "Plural", "Person2", "Common", "nittoó-ssì"],
+      ["Inessive", "Plural", "Person3", "Common", "bassoó-ssì"],
+      ["Locative", "Singular", "Person3", "Masc", "bár-tà"],
+      ["Object", "Singular", "Person1", "Common", "taá-n"],
+      ["Object", "Singular", "Person2", "Honorific", "nií-n"],
+      ["Object", "Singular", "Person2", "Common", "neé-n"],
+      ["Object", "Singular", "Person3", "Masc", "bár-ìn"],
+      ["Object", "Singular", "Person3", "Honorific", "bás-ìn"],
+      ["Object", "Singular", "Person3", "Fem", "bár-òn"],
+      ["Object", "Plural", "Person1", "Common", "innoò-tìn"],
+      ["Object", "Plural", "Person2", "Honorific", "niinoò-tìn"],
+      ["Object", "Plural", "Person2", "Common", "nittoò-tìn"],
+      ["Object", "Plural", "Person3", "Common", "bassoó-tìn"],
+      ["Subject", "Singular", "Person1", "Common", "tá"],
+      ["Subject", "Singular", "Person2", "Honorific", "ní"],
+      ["Subject", "Singular", "Person2", "Common", "né"],
+      ["Subject", "Singular", "Person3", "Masc", "bár"],
+      ["Subject", "Singular", "Person3", "Honorific", "bás"],
+      ["Subject", "Singular", "Person3", "Fem", "bàr"],
+      ["Subject", "Plural", "Person1", "Common", "innò"],
+      ["Subject", "Plural", "Person2", "Honorific", "niinò"],
+      ["Subject", "Plural", "Person2", "Common", "nittò"],
+      ["Subject", "Plural", "Person3", "Common", "bassó"]
+    ]
+  },
+  {
+    "label": "yem-PossAdj",
+    "note": "La93p.95",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossAdj"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "tà"],
+      ["Singular", "Person2", "Honorific", "ní"],
+      ["Singular", "Person2", "Common", "né"],
+      ["Singular", "Person3", "Masc", "básà"],
+      ["Singular", "Person3", "Fem", "barì"],
+      ["Plural", "Person1", "Common", "innò"],
+      ["Plural", "Person2", "Honorific", "niinò"],
+      ["Plural", "Person2", "Common", "nittò"],
+      ["Plural", "Person3", "Common", "bassò"]
+    ]
+  },
+  {
+    "label": "yem-PossSuff",
+    "note": "La93p.96f",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossSuff"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "-ná ~ -tà-"],
+      ["Singular", "Person2", "Honorific", "-ní-"],
+      ["Singular", "Person2", "Common", "-né-"],
+      ["Singular", "Person3", "Masc", "-bá-"],
+      ["Singular", "Person3", "Fem", "-bà-"],
+      ["Plural", "Person1", "Common", "-nì-"],
+      ["Plural", "Person2", "Honorific", "-ní-"],
+      ["Plural", "Person2", "Common", "-nitì-"],
+      ["Plural", "Person3", "Common", "-bessí-"]
+    ]
+  },
+  {
+    "label": "yem-Possessive",
+    "note": "La93p.100f",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Possessive"
+    },
+    "terms": [
+      ["number", "person", "gender", "token"],
+      ["Singular", "Person1", "Common", "taá-r"],
+      ["Singular", "Person2", "Honorific", "nií-r"],
+      ["Singular", "Person2", "Common", "neé-r"],
+      ["Singular", "Person3", "Masc", "básaà-r"],
+      ["Singular", "Person3", "Fem", "bariì-r"],
+      ["Plural", "Person1", "Common", "innoò-r"],
+      ["Plural", "Person2", "Honorific", "niinoò-r"],
+      ["Plural", "Person2", "Common", "nittoò-r"],
+      ["Plural", "Person3", "Common", "bassoó-r"]
+    ]
+  },
+  {
+    "label": "yem-morph-DervStem-",
+    "note": "La93p.165-173",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "DervStem"
+    },
+    "terms": [
+      ["derived", "token"],
+      ["Causative", "-s-"],
+      ["Habitual", "reduplication"],
+      ["Iterative", "reduplication"],
+      ["Passive", "-t ~ -st-"]
+    ]
+  },
+  {
+    "label": "yem-morph-ProSuff-",
+    "note": "La93pp.115f",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "ProSuff"
+    },
+    "terms": [
+      ["tam", "number", "person", "gender", "token"],
+      ["Future", "Singular", "Person1", "Common", "-na"],
+      ["Future", "Singular", "Person2", "Honorific", "-ni"],
+      ["Future", "Singular", "Person2", "Common", "-ta"],
+      ["Future", "Singular", "Person3", "Masc", "-na"],
+      ["Future", "Singular", "Person3", "Honorific", "-ne"],
+      ["Future", "Singular", "Person3", "Fem", "-na"],
+      ["Future", "Plural", "Person1", "Common", "-ni"],
+      ["Future", "Plural", "Person2", "Honorific", "-(so)ni"],
+      ["Future", "Plural", "Person2", "Common", "-ti"],
+      ["Future", "Plural", "Person3", "Honorific", "-sone"],
+      ["Future", "Plural", "Person3", "Common", "-sone"],
+      ["Preterite", "Singular", "Person1", "Common", "-n"],
+      ["Preterite", "Singular", "Person2", "Honorific", "-ni"],
+      ["Preterite", "Singular", "Person2", "Common", "-t"],
+      ["Preterite", "Singular", "Person3", "Masc", "⊤"],
+      ["Preterite", "Singular", "Person3", "Honorific", "-te"],
+      ["Preterite", "Singular", "Person3", "Fem", "⊤"],
+      ["Preterite", "Plural", "Person1", "Common", "-ni"],
+      ["Preterite", "Plural", "Person2", "Honorific", "-(se)ni"],
+      ["Preterite", "Plural", "Person2", "Common", "-ti"],
+      ["Preterite", "Plural", "Person3", "Honorific", "-sete"],
+      ["Preterite", "Plural", "Person3", "Common", "-sete"]
+    ]
+  }
+]}
